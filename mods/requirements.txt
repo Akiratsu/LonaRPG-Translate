@@ -1,0 +1,2 @@
+Flask==2.3.3</content>
+<parameter name="filePath">f:\LonaRPG\Text\mods\requirements.txt

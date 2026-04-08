@@ -1,0 +1,3469 @@
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8119
+  DB3  sem tradução : 546  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 93.5%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR  (pasta criada)
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     ! 3 sem tradução
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 38 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        ! 3 sem tradução
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               ! 1 sem tradução
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8266
+  Fallback para ENG     : 466  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 82
+
+  Arquivos com entradas sem tradução:
+    TagMapHumanPrisonCave.txt                38 entradas
+    TagMapSaintMonastery.txt                 27 entradas
+    NFL_BridgeBunker.txt                     3 entradas
+    TagMapSouthFL.txt                        3 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    common.txt                               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (0 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  [DRY-RUN] Simulando geração sem gravar arquivos...
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  [DRY-RUN] Nenhum arquivo foi gravado.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 1
+  DB1  entradas     : 43
+       codigo       : 0  (copiados direto)
+       dialogo      : 43  (precisam de tradução)
+
+  DB3  com PT-BR    : 42
+  DB3  sem tradução : 1  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 97.7%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [100%] TagMapNorthFL.txt                        OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 1
+  Entradas totais       : 43
+  Com tradução PT-BR    : 42
+  Fallback para ENG     : 1  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8598
+  DB3  sem tradução : 67  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.0%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\ENG\Translate Lona\ramificação\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           ! 1 sem tradução
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            ! 1 sem tradução
+  [ 12%] DataItem.txt                             ! 2 sem tradução
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 21 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               ! 1 sem tradução
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            ! 2 sem tradução
+  [ 85%] debug.txt                                ! 1 sem tradução
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 ! 1 sem tradução
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8745
+  Fallback para ENG     : 11  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 58
+
+  Arquivos com entradas sem tradução:
+    TagMapSaintMonastery.txt                 27 entradas
+    TagMapHumanPrisonCave.txt                21 entradas
+    DataItem.txt                             2 entradas
+    commonNPC.txt                            2 entradas
+    CompCecily.txt                           1 entradas
+    DataInput.txt                            1 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    TagMapSaintMonasteryB1.txt               1 entradas
+    debug.txt                                1 entradas
+    menu.txt                                 1 entradas
+
+  Arquivos salvos em: F:\ENG\Translate Lona\ramificação\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 2  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 OK
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               OK
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8814
+  Fallback para ENG     : 0  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 0
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 7051
+  DB3  sem tradução : 1614  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 81.2%
+  ─────────────────────────────────────────────────
+
+  Destino: C:\Users\x-art\OneDrive\Área de Trabalho\Tradutor\Delwin\PT-BR  (pasta criada)
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     ! 3 sem tradução
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 38 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               ! 1 sem tradução
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8587
+  Fallback para ENG     : 157  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 70
+
+  Arquivos com entradas sem tradução:
+    TagMapHumanPrisonCave.txt                38 entradas
+    TagMapSaintMonastery.txt                 27 entradas
+    NFL_BridgeBunker.txt                     3 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    common.txt                               1 entradas
+
+  Arquivos salvos em: C:\Users\x-art\OneDrive\Área de Trabalho\Tradutor\Delwin\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 7051
+  DB3  sem tradução : 1614  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 81.2%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     ! 3 sem tradução
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                ! 38 sem tradução
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        ! 1 sem tradução
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+  [ 54%] TagMapNoerMobHouse.txt                   OK
+  [ 55%] TagMapNoerPrison.txt                     OK
+  [ 55%] TagMapNoerRecRoom.txt                    OK
+  [ 56%] TagMapNoerRelay.txt                      OK
+  [ 57%] TagMapNoerRelayOut.txt                   OK
+  [ 57%] TagMapNoerRing.txt                       OK
+  [ 58%] TagMapNoerTavern.txt                     OK
+  [ 59%] TagMapNoerTavernQuest.txt                OK
+  [ 60%] TagMapNoerTransHouse.txt                 OK
+  [ 60%] TagMapNorthFL.txt                        OK
+  [ 61%] TagMapNorthFL_Dock.txt                   OK
+  [ 62%] TagMapNorthFL_INN.txt                    OK
+  [ 62%] TagMapPB_FishCampA.txt                   OK
+  [ 63%] TagMapPB_GobForest.txt                   OK
+  [ 64%] TagMapPB_MassGrave.txt                   OK
+  [ 65%] TagMapPB_NorthCP.txt                     OK
+  [ 65%] TagMapPenisTribe.txt                     OK
+  [ 66%] TagMapPirateBane.txt                     OK
+  [ 67%] TagMapRabbitCave.txt                     OK
+  [ 67%] TagMapRandAbomHive.txt                   OK
+  [ 68%] TagMapRandFishkindCave.txt               OK
+  [ 69%] TagMapRandOrkindCave.txt                 OK
+  [ 70%] TagMapSMCloudVillage.txt                 OK
+  [ 70%] TagMapSMRefugeeCamp.txt                  OK
+  [ 71%] TagMapSaintMonastery.txt                 ! 27 sem tradução
+  [ 72%] TagMapSaintMonasteryB1.txt               OK
+  [ 72%] TagMapScoutCampOrkind.txt                OK
+  [ 73%] TagMapSouthFL.txt                        OK
+  [ 74%] TagMapSouthFL_Warfare.txt                OK
+  [ 75%] TagMapSpawnPoolE.txt                     OK
+  [ 75%] TagMapSpawnPoolR.txt                     OK
+  [ 76%] TagMapSwampRDK1.txt                      OK
+  [ 77%] TagMapSybBarn.txt                        OK
+  [ 77%] TagMapSybFDgate.txt                      OK
+  [ 78%] TagMapSyb_WarBossRoom.txt                OK
+  [ 79%] TagMapTribeForest.txt                    OK
+  [ 80%] TagMapTutorialOP.txt                     OK
+  [ 80%] common.txt                               ! 1 sem tradução
+  [ 81%] commonCommands.txt                       OK
+  [ 82%] commonComp.txt                           OK
+  [ 82%] commonEnding.txt                         OK
+  [ 83%] commonH.txt                              OK
+  [ 84%] commonNPC.txt                            OK
+  [ 85%] debug.txt                                OK
+  [ 85%] mail/DarkPot.txt                         OK
+  [ 86%] mail/DedSolderLog.txt                    OK
+  [ 87%] mail/DesertIsland1.txt                   OK
+  [ 87%] mail/DoomFarmA.txt                       OK
+  [ 88%] mail/DoomFortress.txt                    OK
+  [ 89%] mail/EliseResearch.txt                   OK
+  [ 90%] mail/FeiraSewerLog.txt                   OK
+  [ 90%] mail/GoblinCave.txt                      OK
+  [ 91%] mail/GodInfo.txt                         OK
+  [ 92%] mail/MiloInvite.txt                      OK
+  [ 92%] mail/NoerCatacombB1.txt                  OK
+  [ 93%] mail/NotrhFL.txt                         OK
+  [ 94%] mail/PenisTribe.txt                      OK
+  [ 95%] mail/PirateBaneMails.txt                 OK
+  [ 95%] mail/QuestMercenary.txt                  OK
+  [ 96%] mail/SMCloudVillage.txt                  OK
+  [ 97%] mail/SybMails.txt                        OK
+  [ 97%] mail/TextLog.txt                         OK
+  [ 98%] mail/Tutorial.txt                        OK
+  [ 99%] menu.txt                                 OK
+  [100%] menuMod.txt                              OK
+
+  ─────────────────────────────────────────────────
+  RESUMO
+  ─────────────────────────────────────────────────
+  Arquivos gerados      : 140
+  Entradas totais       : 8814
+  Com tradução PT-BR    : 8587
+  Fallback para ENG     : 157  (sem bloqueio, ENG usado)
+  Sem tradução (vazio)  : 70
+
+  Arquivos com entradas sem tradução:
+    TagMapHumanPrisonCave.txt                38 entradas
+    TagMapSaintMonastery.txt                 27 entradas
+    NFL_BridgeBunker.txt                     3 entradas
+    TagMapNoerBSS.txt                        1 entradas
+    common.txt                               1 entradas
+
+  Arquivos salvos em: F:\LonaRPG\Text\PT-BR
+  =====================================================
+  Concluído.
+
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK
+  [ 50%] TagMapNoerEliseGynecology.txt            OK
+  [ 51%] TagMapNoerGangBase.txt                   OK
+  [ 52%] TagMapNoerGarrisonIn.txt                 OK
+  [ 52%] TagMapNoerGoldenBar.txt                  OK
+  [ 53%] TagMapNoerMarket.txt                     OK
+
+  =====================================================
+   LonaRPG - Gerador de Arquivos Finais PT-BR
+  =====================================================
+
+  Carregando DB1 (estrutura)...
+  Carregando DB3 (traduções)...
+
+  ─────────────────────────────────────────────────
+  RELATÓRIO PRÉ-GERAÇÃO
+  ─────────────────────────────────────────────────
+  DB1  arquivos     : 140
+  DB1  entradas     : 8814
+       codigo       : 128  (copiados direto)
+       dialogo      : 8686  (precisam de tradução)
+
+  DB3  com PT-BR    : 8665
+  DB3  sem tradução : 0  (vão usar ENG ou ficam vazios)
+  DB3  tags ruins   : 0  (tradução existe mas tags alteradas)
+
+  Cobertura PT-BR   : 99.8%
+  ─────────────────────────────────────────────────
+
+  Destino: F:\LonaRPG\Text\PT-BR
+  Pasta já existe (140 arquivo(s)) — arquivos serão atualizados.
+  NOTA: PT-BRC\ não será tocada (fonte do patcher anterior)
+
+  [  0%] BossRushPicker.txt                       OK
+  [  1%] CompAdam.txt                             OK
+  [  2%] CompCecily.txt                           OK
+  [  2%] CompCocona.txt                           OK
+  [  3%] CompDavidBorn.txt                        OK
+  [  4%] CompDedOne.txt                           OK
+  [  5%] CompElise.txt                            OK
+  [  5%] CompGrayRat.txt                          OK
+  [  6%] CompLisa.txt                             OK
+  [  7%] CompMilo.txt                             OK
+  [  7%] CompPigBobo.txt                          OK
+  [  8%] CompSeaWitch.txt                         OK
+  [  9%] CompTeller.txt                           OK
+  [ 10%] DataACH.txt                              OK
+  [ 10%] DataEquip.txt                            OK
+  [ 11%] DataInput.txt                            OK
+  [ 12%] DataItem.txt                             OK
+  [ 12%] DataNpcName.txt                          OK
+  [ 13%] DataRelay.txt                            OK
+  [ 14%] DataSkill.txt                            OK
+  [ 15%] DataState.txt                            OK
+  [ 15%] DataTitle.txt                            OK
+  [ 16%] MainTownSewer.txt                        OK
+  [ 17%] NFL_BridgeBunker.txt                     OK
+  [ 17%] OvermapEvents.txt                        OK
+  [ 18%] OvermapNoer.txt                          OK
+  [ 19%] QuickMsg.txt                             OK
+  [ 20%] TagMapAbanHouse1.txt                     OK
+  [ 20%] TagMapAbanHouse2.txt                     OK
+  [ 21%] TagMapAbanHouse3.txt                     OK
+  [ 22%] TagMapAriseVillage.txt                   OK
+  [ 22%] TagMapB4CampOrkind.txt                   OK
+  [ 23%] TagMapBC2_SideQu.txt                     OK
+  [ 24%] TagMapBanditCamp1.txt                    OK
+  [ 25%] TagMapBanditCamp2.txt                    OK
+  [ 25%] TagMapBank.txt                           OK
+  [ 26%] TagMapBoardSwordCave.txt                 OK
+  [ 27%] TagMapCargoSaveCecily.txt                OK
+  [ 27%] TagMapCecilyHijack.txt                   OK
+  [ 28%] TagMapDesertIsland1.txt                  OK
+  [ 29%] TagMapDfRefugeeCamp.txt                  OK
+  [ 30%] TagMapDfWaterCave.txt                    OK
+  [ 30%] TagMapDoomArmory.txt                     OK
+  [ 31%] TagMapDoomFarmA.txt                      OK
+  [ 32%] TagMapDoomFortEastCP.txt                 OK
+  [ 32%] TagMapDoomFortress.txt                   OK
+  [ 33%] TagMapFishBeach.txt                      OK
+  [ 34%] TagMapFishCeramic.txt                    OK
+  [ 35%] TagMapFishEscPT.txt                      OK
+  [ 35%] TagMapFishEscSlave.txt                   OK
+  [ 36%] TagMapFishTempleOut.txt                  OK
+  [ 37%] TagMapFishTown.txt                       OK
+  [ 37%] TagMapFishTownInn.txt                    OK
+  [ 38%] TagMapFishTownLeather.txt                OK
+  [ 39%] TagMapFishTownT.txt                      OK
+  [ 40%] TagMapFishkindCave1B2.txt                OK
+  [ 40%] TagMapHumanPrisonCave.txt                OK
+  [ 41%] TagMapMT_crunch.txt                      OK
+  [ 42%] TagMapNFL_BatHive.txt                    OK
+  [ 42%] TagMapNFL_MerCamp.txt                    OK
+  [ 43%] TagMapNFL_OrkCamp2.txt                   OK
+  [ 44%] TagMapNoerArena.txt                      OK
+  [ 45%] TagMapNoerArenaB1.txt                    OK
+  [ 45%] TagMapNoerBSS.txt                        OK
+  [ 46%] TagMapNoerBackStreet.txt                 OK
+  [ 47%] TagMapNoerCatacomb.txt                   OK
+  [ 47%] TagMapNoerCatacombB1.txt                 OK
+  [ 48%] TagMapNoerDock.txt                       OK
+  [ 49%] TagMapNoerDockC1.txt                     OK
+  [ 50%] TagMapNoerEastCp.txt                     OK

@@ -1,0 +1,2907 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>LonaRPG · Translator PT-BR</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAEAAQADASIAAhEBAxEB/8QAGgABAQEBAQEBAAAAAAAAAAAAAAcGBQQICf/EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAbAQACAwEBAQAAAAAAAAAAAAAAAwIEBQEGB//EAC8RAQABAQYDCQACAgMAAAAAAAARAgEDBBITYQUUIRUiQUJigaHB4QZRIzEzQ3H/2gAMAwEAAhEDEQA/APjIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSwnRRmTQUsdhPS3B7RDOsZXidd5XXLvKphGro8Tyuu6KNFoptZcahznbaodtrh4nIaR4nKK4QstlyE0WJyDqasyNdGZNBYhDU2R0t0dFLDoGlumgDhIAAAAAAAAAAAKW2rFNqjeLljVgKKIAAAAMo5zoucdWKh0XOdEUCll3qeV6k6jKh7Xie0u0u10QDUxq2Uasq88EbUfAXQmgCKoAAAAAClhOijMDSBOvsfLotWwbol22Z3f9gBiQAAAAA5zoo2Wy5ZbIAk61YygVp7ow1aWNQJ0U5UrOjnAFFOiAea1YygVp7owxSaKWmi5aVe+AA4SAAClpopbth114tIAopDouc6KdCVIAYm5zouc6JdCFIAYmy7UMu1AtdtAA4AAAAAAA5zouc6JdCFIAYmxSaKWmh9pF74ADhIAApbSM22pd7ZMLcSDnBOdzMOiy7UJWUwllgASdc50WXahGymHMsDLtQxRlNkuzALaEc5s2OyPX8fqJC2g5zYdkev4/WHGKFnTY0tqMU2qNVMAARdc50XOdEuhCkHOBnGZ0WKbVili7StE0UtNE7Sb3wAHCVLbVim1RvFyxzhyAjTGmNQxTam1WQ7Mg5wTnQzOQ1DLuunVbCddsOixTSM2ndWzKMytoDLezAAESFtF3nNmN2R6/j9RJtW4RIy7vNaekQpYvCctHWZbUYoN01OWkdFznRV6EaXOAQRdFimkZtZurZlOZE0UtNDbSr3wAHCVLbVimkLvbYhbmHIAcNeJtWKbVO8Lsc4BULZtpBmz/wDl2hL/AG0jNi2o116G8ruDwfMZu9EADPenAAAAAAARIW0Xec2Y3ZHr+P1Ux8fq+8Rjf45yuX/JMz4frUp/k0/9Xz+JaA968s67Nva8Tt1TEl5YE0UtNDbSb3wAHCVLaRm3tLvaZhcyyDrhWoNRm21YoWaqZDSDNhOhujDSM2LajXXobyu4PB8xm70QiS2gq319qR0beDwfLT1mQAlcAAAAAAAAAESV97lTZPH+I6en3f78f/NlHC8B1Z/yRG36+TAHqXnx4nteJ26qmU7+6046iaKWmhtqle+AA4SpbSM20hN/4LVrogBNiltRJpycbbGVr8JtjP7fajCPhOluvc3ssAj4NLcc3ssAj6wIV0ZTrq91J6ACBwAAAj6dFGYm9vdOOiwCPieluTzeywCPg0txzeywIk06jO3V7pT0mUcVheajrEIkA03mn1K+Z30w+Z3neHeb2+3pMR4CTqwk7aufFh8R8vv9ABzMUtpGbaQm/wDBatdEAJsU07MKYp8SvMmXp/f01OF1Rn9vtgB+j4VzOyOvs/OAU8Znbfo+fxV7Q9Pz+JgsDnOis4fG81PdiN2rwzEa2bpER9gCy1AAAR9YHOVsRjeVjuzO7L4niNHL0mZ+kwFPFbtv0fP4yu0PT8/iYD9Hxp8zsta+z8+lGZ5oSbq+1Z6Nu7tmUSAb7yD6lfM6wI+xMJc6U9XpsTZECTqwk7TufFg8R8vv9ABzMUt7Xie1GtepdcBUJdFim1YpbuzLX6eAEkvh8B8/QHRc50Wxwnz+323uCef2+24AQa4AAw7nOi5yfFvJ7/TI435Pf6AGOwX3AA+gJvjABnvcI+AtscSdWEnPufFmcR8vv9ABzMAABS00AnRXlUse0J19mtyfqeJ9Svmd9MMnitebJ7/S/gbnSzdf6aUBnNVEVJaUV7rD6c9Wfg8Dy2bvTOzNDSs0nbZC5bZAA44AAANK7ZZLtlks0my3CF7h9SOqnjMDzOXvRGwAsNBmgfM6eGw2vPWIVry8yR0AG6opOAuvMgAAAAAAAACsAKT0z6YAeZaQAAAAJMA9CkAAKyA88iAAAAD5nAemZqTgLrzIAAAAAAAAAAAAACsCThOju0+0fT8/isPph8HqwpYzB6kdV7BY3Uzd19MD5nFLs71fH6vcxs34wDtL9XQ27vc89GlGacUU9ReXuSOj6YHzOKHZ3q+P0rmNn0w+ZxJ13B4PTnqo43G6eXuqwJOLujuo9o+n5/AA5mAAAAAAAAAAAAAAAAAAAKwk4hXRmWsNidCekyrAk4ho7rPaPp+fxWHaQ0Rqw8+Jt3xXJPc+fxcnFScFOHjxF5xXPHc+fxWBJxLR3K7R9Pz+Kwk4J0UZVbE4nXjpEACaqAAAAAAAAAP/2Q=="/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  html,body,#root{height:100%;width:100%;overflow:hidden;}
+  body{background:#060c12;color:#e2e8f0;font-family:'Sora','Segoe UI',sans-serif;}
+  ::-webkit-scrollbar{width:6px;height:6px;}
+  ::-webkit-scrollbar-track{background:#060c12;}
+  ::-webkit-scrollbar-thumb{background:#1e2d3d;border-radius:3px;}
+  ::-webkit-scrollbar-thumb:hover{background:#334155;}
+  select option{background:#0f1923;}
+  button{transition:filter 0.1s;}
+  button:hover{filter:brightness(1.2);}
+  input::placeholder{color:#334155;}
+  textarea:focus,input:focus{outline:none;}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useRef, useMemo, useCallback } = React;
+
+// ══════════════════════════════════════════════════════════════
+// GERADOR DE ~8440 ENTRADAS MOCK
+// ══════════════════════════════════════════════════════════════
+function gerarEntradas() {
+  const arquivos = [
+    "common.txt","commonH.txt","commonCommands.txt","menu.txt","DataItem.txt",
+    "DataSkill.txt","DataEquip.txt","DataState.txt","DataTitle.txt",
+    "CompElise.txt","CompCecily.txt","CompMilo.txt","CompAdam.txt","CompLisa.txt",
+    "CompCocona.txt","CompTeller.txt","CompSeaWitch.txt","CompGrayRat.txt",
+    "TagMapNoerArena.txt","TagMapNoerTavern.txt","TagMapNoerMarket.txt",
+    "TagMapNoerDock.txt","TagMapNoerPrison.txt","TagMapNoerGangBase.txt",
+    "TagMapBanditCamp1.txt","TagMapBanditCamp2.txt","TagMapFishTown.txt",
+    "TagMapFishTempleOut.txt","TagMapDoomFortress.txt","TagMapDoomFarmA.txt",
+    "TagMapSaintMonastery.txt","TagMapSybBarn.txt","TagMapDesertIsland1.txt",
+    "TagMapRabbitCave.txt","TagMapNorthFL.txt","TagMapSouthFL.txt",
+    "TagMapPirateBane.txt","TagMapNoerCatacomb.txt","TagMapNFL_BatHive.txt",
+    "TagMapNFL_MerCamp.txt","TagMapBC2_SideQu.txt","TagMapSyb_WarBossRoom.txt",
+    "TagMapHumanPrisonCave.txt","TagMapSwampRDK1.txt","TagMapDfWaterCave.txt",
+    "TagMapNoerBackStreet.txt","TagMapNoerEliseGynecology.txt",
+    "Tutorial.txt","GoblinCave.txt","PenisTribe.txt","SMCloudVillage.txt",
+    "OvermapEvents.txt","OvermapNoer.txt","QuestMercenary.txt",
+    "MainTownSewer.txt","GodInfo.txt","DarkPot.txt","EliseResearch.txt",
+  ];
+  const nsMap = {
+    "common.txt":["Sys","UI","Battle","Status","Map"],
+    "commonH.txt":["Lona","H_state","H_event","H_reaction"],
+    "commonCommands.txt":["Cmd","Skills","Buff","Debuff"],
+    "menu.txt":["Menu","Config","Save","Load"],
+    "DataItem.txt":["Item","Consumable","KeyItem","Material"],
+    "DataSkill.txt":["Skill","Passive","Active"],
+    "DataEquip.txt":["Weapon","Armor","Acc"],
+    "CompElise.txt":["Elise","OrkindResearch1","FishResearch1","RecQuestElise2","RecQuestElise5"],
+    "CompCecily.txt":["Cecily","RecQuestCocona24to25","RecQuestCecily"],
+    "CompMilo.txt":["Milo","MiloQuest","MiloShop"],
+    "TagMapBanditCamp1.txt":["beginEvent","Trans","DavidBorn","GangBoss","HevWhore","HevGang","HevDoggy"],
+    "TagMapNoerArena.txt":["ArenaEntry","PlayerMatch","MatchResult","Champion"],
+    "TagMapFishTown.txt":["FishTownEnter","FishKing","FishMarket","FishTemple"],
+  };
+  const eng = [
+    (ns)=>`\\c[6]Lona：\\c[0]    *sigh*... another day in this world.`,
+    (ns)=>`\\board[${ns}]\\nGoal：Find the item.\\nReward：unknown\\nClient：${ns}`,
+    (ns)=>`\\m[confused]Are you sure?\\optB[No,Yes]`,
+    (ns)=>`\\SETpl[MobHuman]\\Lshake\\prf\\C[4]NPC：\\C[0]    Wait right there!`,
+    (ns)=>`\\narr The area is quiet... too quiet.`,
+    (ns)=>`\\c[4]Guard：\\c[0]    Halt! Who goes there?`,
+    (ns)=>`\\c[2]${ns}\\c[0]`,
+    (ns)=>`A useful item found in the wilderness near Noer.`,
+    (ns)=>`\\m[happy]\\c[6]Lona：\\c[0]    I did it!\\optB[Continue,Rest]`,
+    (ns)=>`\\CBct[8]\\m[shocked]\\PRF\\c[6]Lona：\\c[0]    "...what?"`,
+    (ns)=>`\\c[4]Merchant：\\c[0]    Looking to buy or sell?`,
+    (ns)=>`\\narr The door creaks open slowly.`,
+    (ns)=>`\\board[Quest]\\nGoal：Explore ${ns}.\\nReward：Experience`,
+    (ns)=>`\\c[6]Lona：\\c[0]    This place gives me chills...`,
+    (ns)=>`\\optD[Attack<r=A>,Flee<r=B>,Talk<r=C>]`,
+    (ns)=>`\\m[sad]\\c[6]Lona：\\c[0]    There's no turning back now.`,
+    (ns)=>`\\SndLib[door_open]\\narr You step inside carefully.`,
+    (ns)=>`\\c[4]Elder：\\c[0]    You've come far, traveler.`,
+    (ns)=>`Passive skill that increases defense when HP is low.`,
+    (ns)=>`\\CamMP[npc1]\\BonMP[npc1,10]\\c[4]NPC：\\c[0]    Thank you for your help!`,
+  ];
+  const pt = [
+    (ns)=>`\\c[6]Lona：\\c[0]    *suspiro*... mais um dia neste mundo.`,
+    (ns)=>`\\board[${ns}]\\nObjetivo：Encontrar o item.\\nRecompensa：desconhecida\\nCliente：${ns}`,
+    (ns)=>`\\m[confused]Tem certeza?\\optB[Não,Sim]`,
+    (ns)=>`\\SETpl[MobHuman]\\Lshake\\prf\\C[4]NPC：\\C[0]    Espere aí!`,
+    (ns)=>`\\narr A área está quieta... quieta demais.`,
+    (ns)=>`\\c[4]Guarda：\\c[0]    Alto! Quem vai lá?`,
+    (ns)=>`\\c[2]${ns}\\c[0]`,
+    (ns)=>`Um item útil encontrado na natureza perto de Noer.`,
+    (ns)=>`\\m[happy]\\c[6]Lona：\\c[0]    Consegui!\\optB[Continuar,Descansar]`,
+    (ns)=>`\\CBct[8]\\m[shocked]\\PRF\\c[6]Lona：\\c[0]    "...o quê?"`,
+    (ns)=>`\\c[4]Comerciante：\\c[0]    Quer comprar ou vender?`,
+    (ns)=>`\\narr A porta range lentamente ao abrir.`,
+    (ns)=>`\\board[Missão]\\nObjetivo：Explorar ${ns}.\\nRecompensa：Experiência`,
+    (ns)=>`\\c[6]Lona：\\c[0]    Este lugar me dá arrepios...`,
+    (ns)=>`\\optD[Atacar<r=A>,Fugir<r=B>,Conversar<r=C>]`,
+    (ns)=>`\\m[sad]\\c[6]Lona：\\c[0]    Não há como voltar atrás agora.`,
+    (ns)=>`\\SndLib[door_open]\\narr Você entra com cuidado.`,
+    (ns)=>`\\c[4]Ancião：\\c[0]    Você veio de longe, viajante.`,
+    (ns)=>`Habilidade passiva que aumenta defesa quando o HP está baixo.`,
+    (ns)=>`\\CamMP[npc1]\\BonMP[npc1,10]\\c[4]NPC：\\c[0]    Obrigado pela sua ajuda!`,
+  ];
+  const cht = [
+    (ns)=>`\\c[6]洛娜：\\c[0]    *嘆氣*...又是新的一天。`,
+    (ns)=>`\\board[${ns}]\\n目標：找到物品。\\n報酬：未知\\n委託人：${ns}`,
+    (ns)=>`\\m[confused]確定嗎？\\optB[不,是]`,
+    (ns)=>`\\SETpl[MobHuman]\\Lshake\\prf\\C[4]NPC：\\C[0]    站住！`,
+    (ns)=>`\\narr 周圍一片寂靜......太安靜了。`,
+    (ns)=>`\\c[4]衛兵：\\c[0]    站住！什麼人？`,
+    (ns)=>`\\c[2]${ns}\\c[0]`,
+    (ns)=>`在諾爾附近的荒野中發現的有用物品。`,
+    (ns)=>`\\m[happy]\\c[6]洛娜：\\c[0]    我做到了！\\optB[繼續,休息]`,
+    (ns)=>`\\CBct[8]\\m[shocked]\\PRF\\c[6]洛娜：\\c[0]    「……什麼？」`,
+    (ns)=>`\\c[4]商人：\\c[0]    您要買還是賣？`,
+    (ns)=>`\\narr 門緩緩地嘎吱作響地打開了。`,
+    (ns)=>`\\board[任務]\\n目標：探索${ns}。\\n報酬：經驗`,
+    (ns)=>`\\c[6]洛娜：\\c[0]    這個地方讓我渾身起雞皮疙瘩...`,
+    (ns)=>`\\optD[攻擊<r=A>,逃跑<r=B>,對話<r=C>]`,
+    (ns)=>`\\m[sad]\\c[6]洛娜：\\c[0]    現在已經無路可退了。`,
+    (ns)=>`\\SndLib[door_open]\\narr 你小心地走進去。`,
+    (ns)=>`\\c[4]長老：\\c[0]    你走了很遠的路，旅行者。`,
+    (ns)=>`被動技能，當HP較低時增加防禦力。`,
+    (ns)=>`\\CamMP[npc1]\\BonMP[npc1,10]\\c[4]NPC：\\c[0]    謝謝你的幫助！`,
+  ];
+  const kor = [
+    (ns)=>`\\c[6]로나：\\c[0]    *한숨*... 또 하루가 시작됐어.`,
+    (ns)=>`\\board[${ns}]\\n목표：아이템 찾기.\\n보상：미정\\n의뢰인：${ns}`,
+    (ns)=>`\\m[confused]확실해?\\optB[아니오,예]`,
+    (ns)=>`\\SETpl[MobHuman]\\Lshake\\prf\\C[4]NPC：\\C[0]    거기 서!`,
+    (ns)=>`\\narr 주변이 조용해... 너무 조용해.`,
+    (ns)=>`\\c[4]경비：\\c[0]    멈춰! 누구냐?`,
+    (ns)=>`\\c[2]${ns}\\c[0]`,
+    (ns)=>`노에르 근처 황야에서 발견한 유용한 아이템.`,
+    (ns)=>`\\m[happy]\\c[6]로나：\\c[0]    해냈어!\\optB[계속,쉬기]`,
+    (ns)=>`\\CBct[8]\\m[shocked]\\PRF\\c[6]로나：\\c[0]    "...뭐?"`,
+    (ns)=>`\\c[4]상인：\\c[0]    사시겠어요, 파시겠어요?`,
+    (ns)=>`\\narr 문이 삐걱거리며 천천히 열린다.`,
+    (ns)=>`\\board[퀘스트]\\n목표：${ns} 탐험.\\n보상：경험치`,
+    (ns)=>`\\c[6]로나：\\c[0]    이곳이 소름끼치게 만드는군...`,
+    (ns)=>`\\optD[공격<r=A>,도망<r=B>,대화<r=C>]`,
+    (ns)=>`\\m[sad]\\c[6]로나：\\c[0]    이제 돌아갈 수 없어.`,
+    (ns)=>`\\SndLib[door_open]\\narr 조심스럽게 안으로 들어간다.`,
+    (ns)=>`\\c[4]장로：\\c[0]    멀리서도 오셨군요, 나그네.`,
+    (ns)=>`HP가 낮을 때 방어력을 높이는 패시브 스킬.`,
+    (ns)=>`\\CamMP[npc1]\\BonMP[npc1,10]\\c[4]NPC：\\c[0]    도와줘서 고마워!`,
+  ];
+  const rus = [
+    (ns)=>`\\c[6]Лона：\\c[0]    *вздох*... ещё один день в этом мире.`,
+    (ns)=>`\\board[${ns}]\\nЦель：Найти предмет.\\nНаграда：неизвестна\\nКлиент：${ns}`,
+    (ns)=>`\\m[confused]Уверена?\\optB[Нет,Да]`,
+    (ns)=>`\\SETpl[MobHuman]\\Lshake\\prf\\C[4]NPC：\\C[0]    Стой!`,
+    (ns)=>`\\narr Вокруг тихо... слишком тихо.`,
+    (ns)=>`\\c[4]Стражник：\\c[0]    Стой! Кто идёт?`,
+    (ns)=>`\\c[2]${ns}\\c[0]`,
+    (ns)=>`Полезный предмет, найденный в дикой природе близ Ноэра.`,
+    (ns)=>`\\m[happy]\\c[6]Лона：\\c[0]    Я справилась!\\optB[Продолжить,Отдохнуть]`,
+    (ns)=>`\\CBct[8]\\m[shocked]\\PRF\\c[6]Лона：\\c[0]    "...что?"`,
+    (ns)=>`\\c[4]Торговец：\\c[0]    Купить или продать?`,
+    (ns)=>`\\narr Дверь медленно скрипит.`,
+    (ns)=>`\\board[Задание]\\nЦель：Исследовать ${ns}.\\nНаграда：Опыт`,
+    (ns)=>`\\c[6]Лона：\\c[0]    Это место меня пугает...`,
+    (ns)=>`\\optD[Атаковать<r=A>,Бежать<r=B>,Говорить<r=C>]`,
+    (ns)=>`\\m[sad]\\c[6]Лона：\\c[0]    Пути назад уже нет.`,
+    (ns)=>`\\SndLib[door_open]\\narr Ты осторожно входишь внутрь.`,
+    (ns)=>`\\c[4]Старейшина：\\c[0]    Ты прошла долгий путь, путница.`,
+    (ns)=>`Пассивный навык, повышающий защиту при низком HP.`,
+    (ns)=>`\\CamMP[npc1]\\BonMP[npc1,10]\\c[4]NPC：\\c[0]    Спасибо за помощь!`,
+  ];
+  const ukt = [
+    (ns)=>`\\c[6]Лона：\\c[0]    *зітхання*... ще один день у цьому світі.`,
+    (ns)=>`\\board[${ns}]\\nМета：Знайти предмет.\\nНагорода：невідома\\nКлієнт：${ns}`,
+    (ns)=>`\\m[confused]Впевнена?\\optB[Ні,Так]`,
+    (ns)=>`\\SETpl[MobHuman]\\Lshake\\prf\\C[4]NPC：\\C[0]    Стій!`,
+    (ns)=>`\\narr Навколо тихо... занадто тихо.`,
+    (ns)=>`\\c[4]Вартовий：\\c[0]    Стій! Хто йде?`,
+    (ns)=>`\\c[2]${ns}\\c[0]`,
+    (ns)=>`Корисний предмет, знайдений у дикій природі поблизу Ноера.`,
+    (ns)=>`\\m[happy]\\c[6]Лона：\\c[0]    Я впоралась!\\optB[Продовжити,Відпочити]`,
+    (ns)=>`\\CBct[8]\\m[shocked]\\PRF\\c[6]Лона：\\c[0]    "...що?"`,
+    (ns)=>`\\c[4]Торговець：\\c[0]    Купити чи продати?`,
+    (ns)=>`\\narr Двері повільно скриплять.`,
+    (ns)=>`\\board[Завдання]\\nМета：Дослідити ${ns}.\\nНагорода：Досвід`,
+    (ns)=>`\\c[6]Лона：\\c[0]    Це місце жахає мене...`,
+    (ns)=>`\\optD[Атакувати<r=A>,Втекти<r=B>,Говорити<r=C>]`,
+    (ns)=>`\\m[sad]\\c[6]Лона：\\c[0]    Шляху назад вже немає.`,
+    (ns)=>`\\SndLib[door_open]\\narr Ти обережно заходиш всередину.`,
+    (ns)=>`\\c[4]Старійшина：\\c[0]    Ти пройшла довгий шлях, мандрівнице.`,
+    (ns)=>`Пасивний навик, що підвищує захист при низькому HP.`,
+    (ns)=>`\\CamMP[npc1]\\BonMP[npc1,10]\\c[4]NPC：\\c[0]    Дякую за допомогу!`,
+  ];
+  const statusDist = (i) => {
+    const r = ((i * 2654435761) >>> 0) % 100;
+    if (r < 87) return {status:"aproveitado",tags_ok:1};
+    if (r < 95) return {status:"traduzido",tags_ok:1};
+    if (r < 96) return {status:"traduzido",tags_ok:0};
+    return {status:"erro",tags_ok:0};
+  };
+  const seed = [
+    {id:1,arquivo:"commonH.txt",full_key:"Lona/wet_normal0",status:"aproveitado",tags_ok:1,
+      eng:"\\c[6]Lona：\\c[0]    It feels so wet down there...",
+      pt:"\\c[6]Lona：\\c[0]    Parece tão molhado lá embaixo...",
+      cht:"\\c[6]洛娜：\\c[0]    那裡感覺好濕...",
+      kor:"\\c[6]로나：\\c[0]    저기 참 젖어 있네...",
+      rus:"\\c[6]Лона：\\c[0]    Там так мокро...",
+      ukt:"\\c[6]Лона：\\c[0]    Там так волого..."},
+    {id:2,arquivo:"commonH.txt",full_key:"Lona/wet_normal1",status:"aproveitado",tags_ok:1,
+      eng:"\\c[6]Lona：\\c[0]    It's like my lower stomach desires something...?",
+      pt:"\\c[6]Lona：\\c[0]    É como se meu baixo ventre desejasse algo...?",
+      cht:"\\c[6]洛娜：\\c[0]    感覺下腹部好像在渴望什麼...?"},
+    {id:3,arquivo:"CompElise.txt",full_key:"OrkindResearch1/begin2",status:"traduzido",tags_ok:0,
+      eng:"\\m[confused]Accept the task?\\optB[Decline,Accept]",
+      pt:"Goal：Floresta ao norte\nReward：3 Grandes Moedas",
+      cht:"\\m[confused]接受任務？\\optB[拒絕,接受]"},
+    {id:4,arquivo:"TagMapBanditCamp1.txt",full_key:"HevDoggy/begin14",status:"erro",tags_ok:0,
+      eng:"\\narr The dog's penis swelled, and her entire vagina is filled with the dog's knot...",
+      pt:null,cht:"\\narr 狗的陰莖膨脹了，她整個陰道都被狗結填滿了..."},
+    {id:5,arquivo:"TagMapBanditCamp1.txt",full_key:"beginEvent/begin",status:"erro",tags_ok:0,
+      eng:"\\SETpl[MobHumanCommoner]\\Lshake\\prf\\C[4]Bandit：\\C[0]    Be a good girl.. then we can play!",
+      pt:null,cht:"\\SETpl[MobHumanCommoner]\\Lshake\\prf\\C[4]盜賊：\\C[0]    乖乖的！"},
+    {id:6,arquivo:"TagMapNoerArena.txt",full_key:"PlayerMatch/LostRngRapeTorture",status:"traduzido",tags_ok:0,
+      eng:"\\ph\\SndLib[ppl_CheerGroup]\\CBmp[PPLg1,20]\\c[4]Audience：\\c[0]    BEAT HER UP! MAKE HER CRY!",
+      pt:"\\ph\\SndLib[ppl_CheerGroup]\\CBmp[PPLg1,20]\\c[4]Público：\\c[0]    DETONE ELA! FAÇA ELA CHORAR!",
+      cht:"\\ph\\SndLib[ppl_CheerGroup]\\CBmp[PPLg1,20]\\c[4]觀眾：\\c[0]    打她！讓她哭！"},
+    {id:7,arquivo:"menu.txt",full_key:"Menu/start_game",status:"aproveitado",tags_ok:1,
+      eng:"\\c[2]Start Game\\c[0]",pt:"\\c[2]Iniciar Jogo\\c[0]",cht:"\\c[2]開始遊戲\\c[0]"},
+    {id:8,arquivo:"DataItem.txt",full_key:"Item/herb_desc",status:"traduzido",tags_ok:1,
+      eng:"A medicinal herb found in the forests near Noer.",
+      pt:"Uma erva medicinal encontrada nas florestas perto de Noer.",
+      cht:"在諾爾附近的森林中發現的藥草。"},
+    {id:9,arquivo:"common.txt",full_key:"Sys/save_confirm",status:"erro",tags_ok:0,
+      eng:"\\board[Save Game]\\nDo you want to save?\\optB[Cancel,Save]",
+      pt:null,cht:"\\board[存檔]\\n是否要存檔？\\optB[取消,存檔]"},
+    {id:10,arquivo:"CompElise.txt",full_key:"RecQuestElise5/end2",status:"traduzido",tags_ok:0,
+      eng:"\\CBct[8]\\m[shocked]\\PRF\\c[6]Lona：\\c[0]    \"......\"",
+      pt:"\\CBct[8]\\board[Escolta]",cht:"\\CBct[8]\\m[shocked]\\PRF\\c[6]洛娜：\\c[0]    「……」"},
+  ];
+  const result = [...seed];
+  let id = 11;
+  for (const arq of arquivos) {
+    const nsList = nsMap[arq] || ["Begin","Event","NPC","Quest","End"];
+    const count = 140 + ((arq.length * 17) % 60);
+    for (let e = 0; e < count; e++) {
+      const ns = nsList[e % nsList.length];
+      const ti = (id * 7 + e * 3) % eng.length;
+      const {status,tags_ok} = statusDist(id);
+      result.push({
+        id, arquivo:arq, full_key:`${ns}/begin${e}`,
+        status, tags_ok,
+        eng:eng[ti](ns),
+        pt:status==="erro"?null:pt[ti](ns),
+        cht:cht[ti](ns),
+        kor:kor[ti](ns),
+        rus:rus[ti](ns),
+        ukt:ukt[ti](ns),
+      });
+      id++;
+      if (result.length >= 8440) break;
+    }
+    if (result.length >= 8440) break;
+  }
+  return result;
+}
+
+const MOCK_ENTRIES = [];   // fallback desativado
+const MOCK_LOG = [];
+
+// ── API helper ─────────────────────────────────────────────────
+const API = {
+  get:  (path)           => fetch(path).then(r=>r.json()),
+  post: (path, body={})  => fetch(path,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)}).then(r=>r.json()),
+};
+
+// ── COMPONENTES BASE ──────────────────────────────────────────
+function Icon({name,size=16}){
+  const p={
+    pipeline:<><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></>,
+    eye:<><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></>,
+    edit:<><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></>,
+    alert:<><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></>,
+    export:<><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></>,
+    settings:<><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></>,
+    search:<><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></>,
+    check:<><polyline points="20 6 9 17 4 12"/></>,
+    send:<><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></>,
+    refresh:<><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></>,
+    close:<><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></>,
+    log:<><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></>,
+    tag:<><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></>,
+    menu_ui:<><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><line x1="14" y1="17" x2="20" y2="17"/><line x1="17" y1="14" x2="17" y2="20"/></>,
+    prev:<><polyline points="15 18 9 12 15 6"/></>,
+    next:<><polyline points="9 18 15 12 9 6"/></>,
+    first:<><polyline points="11 17 6 12 11 7"/><polyline points="18 17 13 12 18 7"/></>,
+    last:<><polyline points="13 17 18 12 13 7"/><polyline points="6 17 11 12 6 7"/></>,
+  };
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+    style={{display:"inline-block",verticalAlign:"middle",flexShrink:0}}>{p[name]}</svg>;
+}
+
+function Badge({status,modelo,revisado}){
+  // Badge de status principal
+  const c={
+    aproveitado:{bg:"#0d2d1a",border:"#1a5c32",color:"#4ade80",label:"PT-BRC"},
+    traduzido:{bg:"#0d2d1a",border:"#166534",color:"#22c55e",label:"TRAD"},
+    erro:{bg:"#2d0d0d",border:"#6b1a1a",color:"#f87171",label:"ERRO"},
+    pendente:{bg:"#1f1a0d",border:"#5c4a1a",color:"#fbbf24",label:"PEND"},
+  }[status]||{bg:"#1f1a0d",border:"#5c4a1a",color:"#fbbf24",label:"PEND"};
+  // Badge de modelo
+  const m=(modelo||"").toLowerCase();
+  const isDS=m.includes("deepseek");
+  const isGPT=m.startsWith("gpt");
+  const isHuman=modelo==="manual";
+  const ml=isDS?"DS":isGPT?(m.includes("4o-m")?"4oM":m.includes("4o")?"4o":m.substring(0,5)):isHuman?"✎":null;
+  const mc=isDS?"#38bdf8":isGPT?"#22c55e":"#c084fc";
+  const mb=isDS?"#0c2a3a":isGPT?"#0c2a18":"#1c1030";
+  const mbd=isDS?"#0369a1":isGPT?"#166534":"#6d28d9";
+  return <div style={{display:"flex",flexDirection:"column",gap:2,alignItems:"center"}}>
+    <span style={{background:c.bg,border:`1px solid ${c.border}`,color:c.color,
+      padding:"2px 7px",borderRadius:4,fontSize:10,fontFamily:"'JetBrains Mono',monospace",
+      letterSpacing:"0.05em",fontWeight:600,whiteSpace:"nowrap"}}>{c.label}</span>
+    {ml&&<span style={{background:mb,border:`1px solid ${mbd}55`,color:mc,
+      padding:"1px 5px",borderRadius:3,fontSize:9,fontFamily:"'JetBrains Mono',monospace",
+      fontWeight:700,whiteSpace:"nowrap"}}>{ml}</span>}
+    {revisado&&<span style={{background:"#1c1030",border:"1px solid #6d28d955",color:"#c084fc",
+      padding:"1px 5px",borderRadius:3,fontSize:9,fontFamily:"'JetBrains Mono',monospace"}}>✎rev</span>}
+  </div>;
+}
+
+// Badge compacto para status de tags traduzíveis
+function TagTraduzBadge({val}){
+  if(val===1)   return <span title="Tags traduzíveis aprovadas" style={{color:"#22d3ee",background:"rgba(34,211,238,0.12)",
+    border:"1px solid #0891b255",borderRadius:3,padding:"1px 5px",fontSize:9,
+    fontFamily:"'JetBrains Mono',monospace",whiteSpace:"nowrap"}}>✓ tags</span>;
+  if(val===0)   return <span title="Tags traduzíveis rejeitadas" style={{color:"#f87171",background:"rgba(239,68,68,0.1)",
+    border:"1px solid #7f1d1d55",borderRadius:3,padding:"1px 5px",fontSize:9,
+    fontFamily:"'JetBrains Mono',monospace",whiteSpace:"nowrap"}}>✗ tags</span>;
+  return null; // null = não verificado, não mostra nada
+}
+
+// ── TAG COLOR SYSTEM ─────────────────────────────────────────
+// Ciano  = traduzível (\board, \optB, \optD)
+// Âmbar  = opaca (\C[6], \n, \m[...])
+// Azul   = escape (\\)
+const _TAGS_TRADUZ_RE = /^\\(board|optB|optD)\[/i;
+const _TAG_ESCAPE_RE  = /^\\\\/;
+
+function _tagColor(tag){
+  if(_TAG_ESCAPE_RE.test(tag))  return {color:"#38bdf8",bg:"rgba(56,189,248,0.10)"};
+  if(_TAGS_TRADUZ_RE.test(tag)) return {color:"#22d3ee",bg:"rgba(34,211,238,0.12)"};
+  return                               {color:"#f59e0b",bg:"rgba(245,158,11,0.12)"};
+}
+
+function temTagsTraduz(text){
+  if(!text) return false;
+  return /\\(board|optB|optD)\[/i.test(text);
+}
+
+function TagText({text}){
+  if(!text) return <span style={{color:"#4b5563",fontStyle:"italic"}}>— vazio —</span>;
+  const parts=text.split(/(\\\\|\\[A-Za-z_]+(?:\[[^\]]*\])?)/g);
+  return <span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:12,lineHeight:1.8,wordBreak:"break-all"}}>
+    {parts.map((p,i)=>{
+      if(!p.startsWith("\\")) return <span key={i} style={{color:"#e2e8f0"}}>{p}</span>;
+      const {color,bg}=_tagColor(p);
+      return <span key={i} style={{color,background:bg,borderRadius:3,padding:"0 3px",fontSize:11}}>{p}</span>;
+    })}
+  </span>;
+}
+
+// ── PAGINAÇÃO ─────────────────────────────────────────────────
+const PAGE_SIZES=[25,50,100,200];
+function Pagination({total,page,pageSize,onPage,onPageSize}){
+  const totalPages=Math.ceil(total/pageSize);
+  if(!total) return null;
+  const start=(page-1)*pageSize+1, end=Math.min(page*pageSize,total);
+  const maxW=7; let pages=[];
+  if(totalPages<=maxW){ pages=Array.from({length:totalPages},(_,i)=>i+1); }
+  else{
+    const half=Math.floor(maxW/2);
+    let lo=Math.max(1,page-half), hi=lo+maxW-1;
+    if(hi>totalPages){hi=totalPages;lo=hi-maxW+1;}
+    pages=Array.from({length:hi-lo+1},(_,i)=>lo+i);
+  }
+  const b={background:"transparent",border:"1px solid #1e2d3d",borderRadius:5,
+    padding:"4px 8px",cursor:"pointer",color:"#64748b",fontSize:11,
+    fontFamily:"'JetBrains Mono',monospace",display:"flex",alignItems:"center",
+    justifyContent:"center",minWidth:28,height:26};
+  const ba={...b,background:"#0ea5e9",border:"1px solid #0ea5e9",color:"white",fontWeight:700};
+  const bd={...b,opacity:0.25,cursor:"default"};
+  return <div style={{padding:"7px 20px",borderTop:"1px solid #1e2d3d",background:"#090e14",
+    display:"flex",alignItems:"center",gap:8,flexWrap:"wrap",flexShrink:0}}>
+    <span style={{color:"#334155",fontSize:11,fontFamily:"'JetBrains Mono',monospace",minWidth:160}}>
+      {start.toLocaleString()}–{end.toLocaleString()} de <strong style={{color:"#475569"}}>{total.toLocaleString()}</strong>
+    </span>
+    <div style={{display:"flex",gap:3,alignItems:"center"}}>
+      <button style={page===1?bd:b} onClick={()=>page>1&&onPage(1)} disabled={page===1}><Icon name="first" size={11}/></button>
+      <button style={page===1?bd:b} onClick={()=>page>1&&onPage(page-1)} disabled={page===1}><Icon name="prev" size={11}/></button>
+      {pages[0]>1&&<><button style={b} onClick={()=>onPage(1)}>1</button>{pages[0]>2&&<span style={{color:"#334155",padding:"0 2px",fontSize:12}}>…</span>}</>}
+      {pages.map(p=><button key={p} style={p===page?ba:b} onClick={()=>onPage(p)}>{p}</button>)}
+      {pages[pages.length-1]<totalPages&&<>{pages[pages.length-1]<totalPages-1&&<span style={{color:"#334155",padding:"0 2px",fontSize:12}}>…</span>}<button style={b} onClick={()=>onPage(totalPages)}>{totalPages}</button></>}
+      <button style={page===totalPages?bd:b} onClick={()=>page<totalPages&&onPage(page+1)} disabled={page===totalPages}><Icon name="next" size={11}/></button>
+      <button style={page===totalPages?bd:b} onClick={()=>page<totalPages&&onPage(totalPages)} disabled={page===totalPages}><Icon name="last" size={11}/></button>
+    </div>
+    <div style={{display:"flex",alignItems:"center",gap:5}}>
+      <span style={{color:"#334155",fontSize:11}}>Ir:</span>
+      <input type="number" min={1} max={totalPages} defaultValue={page}
+        onKeyDown={e=>{if(e.key==="Enter"){const v=parseInt(e.target.value);if(v>=1&&v<=totalPages)onPage(v);}}}
+        style={{width:48,background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:5,
+          color:"#94a3b8",padding:"3px 6px",fontSize:11,fontFamily:"'JetBrains Mono',monospace",textAlign:"center"}}/>
+    </div>
+    <div style={{flex:1}}/>
+    <div style={{display:"flex",alignItems:"center",gap:5}}>
+      <span style={{color:"#334155",fontSize:11}}>Por página:</span>
+      <div style={{display:"flex",gap:3}}>
+        {PAGE_SIZES.map(n=><button key={n} style={n===pageSize?ba:b}
+          onClick={()=>{onPageSize(n);onPage(1);}}>{n}</button>)}
+      </div>
+    </div>
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// TAG VERIFICADOR — PASTA PT-BR (SAÍDA) — compacto para Pipeline
+// ══════════════════════════════════════════════════════════════
+function TagVerificadorSaida({srvOnline, tagsSaida, setTagsSaida, onNavProblems}){
+  const {estado, resultado} = tagsSaida;
+
+  const verificar = async () => {
+    if(!srvOnline){ alert("Servidor offline. Inicie servidor.py primeiro."); return; }
+    setTagsSaida({estado:"carregando", resultado:null});
+    try {
+      const r = await API.get("/api/verificar-tags-saida");
+      setTagsSaida({estado: r.erro ? "erro" : "ok", resultado: r});
+    } catch(e) {
+      setTagsSaida({estado:"erro", resultado:{erro: String(e)}});
+    }
+  };
+
+  const temQuebradas = resultado && !resultado.erro && resultado.quebradas > 0;
+  const tudo_ok      = resultado && !resultado.erro && resultado.quebradas === 0;
+
+  return <div style={{marginTop:14,background:"#0b1219",border:`1px solid ${temQuebradas?"#78350f":"#1e2d3d"}`,
+    borderRadius:8,padding:"12px 16px",display:"flex",alignItems:"center",gap:12}}>
+    {/* Ícone de status */}
+    <div style={{width:26,height:26,borderRadius:"50%",flexShrink:0,
+      background: tudo_ok?"#0d2d1a" : temQuebradas?"#78350f22" : "#111827",
+      border:`2px solid ${tudo_ok?"#22c55e" : temQuebradas?"#f59e0b" : "#1e2d3d"}`,
+      display:"flex",alignItems:"center",justifyContent:"center",
+      color: tudo_ok?"#22c55e" : temQuebradas?"#f59e0b" : "#475569",
+      fontSize:13}}>
+      {tudo_ok?"✓" : temQuebradas?"!" : "🏷"}
+    </div>
+
+    {/* Texto de status */}
+    <div style={{flex:1,minWidth:0}}>
+      <div style={{color:"#e2e8f0",fontWeight:600,fontSize:13}}>Integridade de Tags — PT-BR\</div>
+      <div style={{color:"#334155",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>
+        {estado==="carregando" && "Verificando..."}
+        {estado==="erro"       && <span style={{color:"#f87171"}}>{resultado?.erro}</span>}
+        {tudo_ok  && <span style={{color:"#4ade80"}}>✓ {resultado.total} diálogos verificados — nenhuma tag quebrada</span>}
+        {temQuebradas && <>
+          <span style={{color:"#f59e0b"}}>{resultado.quebradas} tags quebradas em {resultado.total} diálogos</span>
+          <span style={{color:"#0ea5e9",marginLeft:10,cursor:"pointer",textDecoration:"underline",fontSize:11}}
+            onClick={onNavProblems}>→ ver em Problemas</span>
+        </>}
+        {estado==="idle" && "Verifica se os arquivos gerados têm as mesmas tags que o ENG original"}
+      </div>
+    </div>
+
+    {/* Botão verificar */}
+    <button onClick={estado==="carregando" ? undefined : verificar}
+      disabled={estado==="carregando"}
+      style={{background:"rgba(245,158,11,0.1)",border:"1px solid #92400e",borderRadius:6,
+        padding:"5px 13px",color:"#f59e0b",fontSize:11,cursor:estado==="carregando"?"wait":"pointer",
+        fontFamily:"'JetBrains Mono',monospace",whiteSpace:"nowrap",opacity:estado==="carregando"?0.7:1,
+        flexShrink:0}}>
+      {estado==="carregando" ? "⏳ Verificando..." : "🔍 Verificar"}
+    </button>
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// PIPELINE
+// ══════════════════════════════════════════════════════════════
+function PipelineScreen({entries,srvOnline,dbStatus,dbStats,onPipeline,pipeRunning,setPipeRunning,apiModelo,apiOpts=[],setDbStatus,setDbStats,setLangsDisponiveis,setEntries,langsDisponiveis,refLang="cht",tagsSaida,setTagsSaida,onNavProblems}){
+  entries=entries||[];
+  // Contagens SEMPRE do servidor. Entries mock só fallback offline.
+  const srvAprov       = srvOnline ? (dbStats?.aproveitado    ?? 0) : entries.filter(e=>e.status==="aproveitado").length;
+  const srvTraduz      = srvOnline ? (dbStats?.traduzido      ?? 0) : entries.filter(e=>e.status==="traduzido").length;
+  const srvErros       = srvOnline ? (dbStats?.erro           ?? 0) : entries.filter(e=>e.status==="erro").length;
+  const tagsBad        = srvOnline ? (dbStats?.tags_bad       ?? 0) : entries.filter(e=>!e.tags_ok&&e.status!=="erro").length;
+  // Revisão humana — vem do servidor (status_revisao='ok' no DB3)
+  const revisaoOk      = srvOnline ? (dbStats?.revisao_ok      ?? 0) : entries.filter(e=>e.status_revisao==="ok").length;
+  const revisaoPend    = srvOnline ? (dbStats?.revisao_pendente ?? 0) : entries.filter(e=>e.status_revisao==="pendente").length;
+  const totalDB2b      = dbStats?.db2b_total         || 0;
+  const totalDB2       = dbStats?.db2_total_dialogos || 0;
+  const db2bPendente   = dbStats?.db2b_pendente      || 0;
+  const totalDB3stats  = dbStats?.total              || 0;  // total real do DB3
+  // Total de strings no idioma refLang selecionado (vem do servidor)
+  const langKeyMap={"eng":"db2_n_eng","cht":"db2_n_cht","kor":"db2_n_kor","rus":"db2_n_rus","ukt":"db2_n_ukt","ptbrc":"db2_n_ptbrc"};
+  const totalRefLang   = dbStats?.[langKeyMap[refLang]] ?? totalDB2;
+  const LANG_LABELS_REF={"eng":"ENG","cht":"CHT","kor":"KOR","rus":"RUS","ukt":"UKR","ptbrc":"PT-BRC"};
+  const totalDB3       = (srvAprov+srvTraduz+srvErros)||0;
+  // total usa DB3 como base (banco de trabalho real), com fallback para DB2b/DB2
+  const total          = (totalDB3stats||totalDB2b||totalDB2||totalDB3||entries.length)||1;
+  const aproveitados   = srvAprov;
+  const traduzidos     = srvTraduz;
+  const erros          = srvErros;
+  // ok = aproveitados + traduzidos. revisaoOk é subconjunto de traduzidos (não soma dupla)
+  const ok             = aproveitados+traduzidos;
+  const pendenteReal   = Math.max(0, total - ok - erros);
+  const [actionMsg,setActionMsg]=useState(null);
+  const [criandoDb3,setCriandoDb3]=useState(false);
+
+  const criarDb3=async()=>{
+    if(!srvOnline) return;
+    setCriandoDb3(true);
+    try{
+      const r=await API.post("/api/db3/criar",{force:false});
+      setActionMsg({ok:r.ok,msg:r.msg||"Erro ao criar DB3"});
+      if(r.ok){
+        const st=await API.get("/api/status");
+        if(st?.dbs) setDbStatus(st.dbs);
+        if(st?.stats) setDbStats(st.stats);
+        if(st?.langs) setLangsDisponiveis(st.langs);
+        const dat=await API.get("/api/entries");
+        if(dat?.entries) setEntries(dat.entries);
+      }
+    }catch(e){ setActionMsg({ok:false,msg:"Erro: "+String(e)}); }
+    finally{ setCriandoDb3(false); setTimeout(()=>setActionMsg(null),5000); }
+  };
+
+  const run=async(step,opts={},label)=>{
+    if(!srvOnline){setActionMsg({ok:false,msg:"Servidor offline — inicie com: python servidor.py"});setTimeout(()=>setActionMsg(null),3500);return;}
+    setActionMsg({running:true,msg:`Executando: ${label}...`});
+    const r=await onPipeline(step,opts);
+    setActionMsg({ok:r?.ok,msg:r?.ok?`${label} concluído ✓`:(r?.error||`${label} falhou`)});
+    setTimeout(()=>setActionMsg(null),4000);
+  };
+
+  const db3Ok=srvOnline&&dbStatus?.db3;
+  const db2Ok=srvOnline&&dbStatus?.db2;
+  const db1Ok=srvOnline&&dbStatus?.db1;
+  const ptbrOk=srvOnline&&dbStatus?.ptbr_gerado;
+
+  const db2Langs=(langsDisponiveis||[]).filter(l=>l!=="pt").join(" · ").toUpperCase()||"ENG";
+  const dbs=[
+    {id:"DB1",label:"Estrutura CHT",
+     ok:db1Ok,
+     count:db1Ok?`${dbStats?.db1_arquivos||"?"} arquivos · ${dbStats?.db1_dialogos||"?"} diálogos`:"pendente — execute [1]",
+     color:db1Ok?"#22c55e":"#4b5563"},
+    {id:"DB2",label:"Todos idiomas",
+     ok:db2Ok,
+     count:db2Ok?`${totalDB2.toLocaleString()} diálogos · ${db2Langs}`:"pendente — execute [3]",
+     color:db2Ok?"#22c55e":"#4b5563"},
+    {id:"DB2b",label:"Fila API",
+     ok:srvOnline&&dbStatus?.db2b,
+     count:srvOnline&&dbStatus?.db2b?(totalDB2b>0?`${totalDB2b.toLocaleString()} total · ${db2bPendente.toLocaleString()} pendentes`:"fila carregada"):"pendente — execute [3]",
+     color:srvOnline&&dbStatus?.db2b?"#22c55e":"#4b5563"},
+    {id:"DB3",label:"Tradução PT-BR",
+     ok:db3Ok,
+     count:db3Ok?`${srvAprov.toLocaleString()} aproveit · ${srvTraduz.toLocaleString()} traduz · ${erros} erros · ${tagsBad} tags${revisaoOk>0?` · ✎ ${revisaoOk} rev.`:""}`:(srvOnline&&dbStatus?.db2b?"clique para criar DB3":"pendente — execute [4]"),
+     color:db3Ok?(erros>0?"#f59e0b":"#22c55e"):(srvOnline&&dbStatus?.db2b?"#f97316":"#4b5563"),
+     criavel:srvOnline&&dbStatus?.db2b&&!db3Ok},
+  ];
+
+  const steps=[
+    {n:1,label:"Extrair estrutura CHT",desc:"Indexa arquivos e marcadores do jogo",db:"→ DB1",done:db1Ok,warn:false,
+     btn:"Reextrair",btnStyle:"neutral",action:()=>run("extrator",{},"Extrator DB1")},
+    {n:2,label:"Atualizar após patch",desc:"Detecta mudanças em nova versão do jogo",db:"→ DB1",done:db1Ok,warn:false,
+     btn:"Verificar mudanças",btnStyle:"neutral",action:()=>run("atualizador",{},"Atualizador")},
+    {n:3,label:"Extrair todos os idiomas",desc:"Importa ENG/CHT/KOR/RUS/UKR/PT-BRC",db:"→ DB2",done:db2Ok,warn:false,
+     btn:"Reextrair",btnStyle:"neutral",action:()=>run("extrator_db2",{},"Extrator DB2")},
+    {n:4,label:"Traduzir via API",desc:`Modelo ativo: ${apiModelo}`,db:"→ DB3",done:db3Ok,warn:erros>0,
+     btn:"Teste (5 itens)",btnStyle:"info",action:()=>{
+       const a=apiOpts.find(o=>o.val===apiModelo)||apiOpts[0];
+       run("traduzir_teste",{modelo:apiModelo,provider:a.provider,fonte_lang:refLang},"Teste API");
+     },
+     btn2:erros>0?"Reenviar erros":null,btnStyle2:"warn",action2:()=>{
+       const a=apiOpts.find(o=>o.val===apiModelo)||apiOpts[0];
+       run("reenviar",{modelo:apiModelo,provider:a.provider,fonte_lang:refLang},"Reenviar erros");
+     },
+     btn3:"Traduzir tudo",btnStyle3:"primary",action3:()=>{
+       const a=apiOpts.find(o=>o.val===apiModelo)||apiOpts[0];
+       run("traduzir",{modelo:apiModelo,provider:a.provider,fonte_lang:refLang},"Tradução completa");
+     }},
+    {n:5,label:"Revisar traduções",desc:"Edite entradas nesta interface",db:"DB3",done:false,warn:false,
+     btn:null},
+    {n:6,label:"Gerar arquivos PT-BR",desc:"Reconstrói os .txt para o diretório PT-BR\\",db:"→ PT-BR\\",done:ptbrOk,warn:false,
+     btn:"Simular (dry-run)",btnStyle:"neutral",action:()=>run("gerador_dry",{},"Simulação"),
+     btn2:"Ver relatório",btnStyle2:"neutral",action2:()=>run("gerador_rel",{},"Relatório"),
+     btn3:"Gerar todos",btnStyle3:"primary",action3:()=>run("gerador",{},"Gerador")},
+  ];
+
+  const btnColors={
+    primary:{bg:"rgba(14,165,233,0.12)",border:"#0369a1",color:"#0ea5e9"},
+    warn:   {bg:"rgba(245,158,11,0.1)", border:"#92400e",color:"#f59e0b"},
+    info:   {bg:"rgba(99,102,241,0.1)", border:"#3730a3",color:"#818cf8"},
+    neutral:{bg:"rgba(71,85,105,0.1)", border:"#1e2d3d",color:"#64748b"},
+  };
+  const Btn=({label,style,onClick,running})=>{
+    const c=btnColors[style]||btnColors.neutral;
+    return <button onClick={onClick} disabled={running} style={{background:c.bg,border:`1px solid ${c.border}`,
+      borderRadius:6,padding:"5px 13px",color:c.color,fontSize:11,cursor:running?"wait":"pointer",
+      fontFamily:"'JetBrains Mono',monospace",opacity:running?0.6:1,whiteSpace:"nowrap"}}>{label}</button>;
+  };
+
+  return <div style={{padding:"24px 28px",overflowY:"auto",height:"100%"}}>
+    <div style={{marginBottom:22}}>
+      <div style={{color:"#475569",fontSize:11,letterSpacing:"0.18em",fontFamily:"'JetBrains Mono',monospace",marginBottom:5}}>VISÃO GERAL</div>
+      <div style={{display:"flex",alignItems:"baseline",gap:12}}>
+        <h2 style={{color:"#f1f5f9",fontSize:20,fontWeight:700,margin:0}}>LonaRPG · Tradução PT-BR</h2>
+        {!srvOnline&&<span style={{color:"#f97316",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>⚠ offline</span>}
+      </div>
+    </div>
+
+    {/* Desbloquear se pipeRunning travou sem SSE */}
+    {pipeRunning&&<div style={{marginBottom:10,background:"#1c0a00",border:"1px solid #7c2d12",
+      borderRadius:8,padding:"8px 14px",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+      <span style={{color:"#f97316",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>
+        ⟳ Processo ativo: {pipeRunning} — se travar, clique para desbloquear
+      </span>
+      <button onClick={()=>{if(typeof setPipeRunning==="function")setPipeRunning(null);}}
+        style={{background:"rgba(245,158,11,0.1)",border:"1px solid #92400e",borderRadius:5,
+        padding:"3px 10px",color:"#fbbf24",fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace"}}>
+        Desbloquear
+      </button>
+    </div>}
+    {/* Feedback de ação */}
+    {actionMsg&&<div style={{marginBottom:14,background:actionMsg.running?"#0c1520":actionMsg.ok?"#0d2d1a":"#1c0a00",
+      border:`1px solid ${actionMsg.running?"#1e2d3d":actionMsg.ok?"#166534":"#7c2d12"}`,
+      borderRadius:8,padding:"9px 14px",color:actionMsg.running?"#94a3b8":actionMsg.ok?"#4ade80":"#f97316",
+      fontSize:12,fontFamily:"'JetBrains Mono',monospace",display:"flex",alignItems:"center",gap:8}}>
+      {actionMsg.running&&<span style={{display:"inline-block",width:10,height:10,border:"2px solid",borderTopColor:"transparent",borderRadius:"50%",animation:"spin 0.7s linear infinite"}}/>}
+      {actionMsg.msg}
+    </div>}
+
+    {/* Cards DB */}
+    <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:10,marginBottom:20}}>
+      {dbs.map(d=><div key={d.id}
+        onClick={d.criavel?criarDb3:undefined}
+        style={{background:"#0f1923",border:`1px solid ${d.criavel?"#f97316":"#1e2d3d"}`,borderRadius:10,
+          padding:"14px 16px",borderTop:`2px solid ${d.color}55`,
+          cursor:d.criavel?"pointer":"default"}}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:6}}>
+          <span style={{color:"#475569",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>{d.id}</span>
+          <span style={{width:7,height:7,borderRadius:"50%",background:d.color,display:"block",
+            boxShadow:d.ok?`0 0 7px ${d.color}`:"none"}}/>
+        </div>
+        <div style={{color:"#e2e8f0",fontWeight:600,fontSize:13,marginBottom:3}}>{d.label}</div>
+        <div style={{color:d.criavel?"#f97316":"#475569",fontSize:10,fontFamily:"'JetBrains Mono',monospace",lineHeight:1.5}}>
+          {criandoDb3&&d.id==="DB3"?"⏳ criando...":d.count}
+        </div>
+        {d.criavel&&!criandoDb3&&<div style={{marginTop:5,fontSize:9,color:"#f97316",
+          fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.05em"}}>✦ clique para criar</div>}
+      </div>)}
+    </div>
+
+    {/* Barra progresso — aparece com DB2b (antes mesmo do DB3) */}
+    {(db3Ok||(srvOnline&&(dbStatus?.db2b||dbStatus?.db2)))&&<div style={{background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:10,
+      padding:"16px 20px",marginBottom:20}}>
+      <div style={{display:"flex",justifyContent:"space-between",marginBottom:10}}>
+        <span style={{color:"#64748b",fontSize:11,letterSpacing:"0.15em",fontFamily:"'JetBrains Mono',monospace"}}>PROGRESSO GERAL</span>
+        <span style={{color:"#e2e8f0",fontFamily:"'JetBrains Mono',monospace",fontSize:12,display:"flex",alignItems:"center",gap:8,flexWrap:"wrap",justifyContent:"flex-end"}}>
+          {/* Lado esquerdo: OK / total */}
+          <span>
+            {ok.toLocaleString()}<span style={{color:"#475569"}}>/{total.toLocaleString()} OK ({Math.round(ok*100/total)}%)</span>
+          </span>
+          {/* Revisão humana badge — aparece só se houver */}
+          {revisaoOk>0&&<span style={{background:"rgba(167,139,250,0.12)",border:"1px solid #5b21b6",
+            borderRadius:4,padding:"1px 8px",fontSize:11,color:"#a78bfa",fontWeight:700,
+            display:"flex",alignItems:"center",gap:4}}>
+            <span style={{fontSize:10}}>✎</span> {revisaoOk.toLocaleString()} revisados
+          </span>}
+          <span style={{color:"#334155",fontSize:11}}>·</span>
+          {/* Lado direito: faltam X strings do idioma selecionado */}
+          {(()=>{
+            const faltam=Math.max(0, totalRefLang - ok);
+            const pctFeito=totalRefLang>0?Math.round(ok*100/totalRefLang):0;
+            return <span style={{background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:4,
+              padding:"2px 9px",fontFamily:"'JetBrains Mono',monospace",fontSize:11,
+              display:"flex",alignItems:"center",gap:5}}>
+              <span style={{color:"#334155",fontSize:10}}>faltam</span>
+              <span style={{color:faltam===0?"#22c55e":faltam<500?"#fbbf24":"#f97316",fontWeight:700}}>
+                {faltam.toLocaleString()}
+              </span>
+              <span style={{color:"#334155",fontSize:10}}>/ {totalRefLang.toLocaleString()} {LANG_LABELS_REF[refLang]||refLang.toUpperCase()}</span>
+              <span style={{color:"#1e2d3d"}}>·</span>
+              <span style={{color:pctFeito===100?"#22c55e":"#475569",fontSize:10}}>{pctFeito}%</span>
+            </span>;
+          })()}
+        </span>
+      </div>
+      {/* Barra segmentada */}
+      <div style={{height:8,borderRadius:6,background:"#1e2d3d",overflow:"hidden",display:"flex",marginBottom:12}}>
+        <div title="PT-BRC aproveitado" style={{width:`${aproveitados*100/total}%`,background:"#16a34a",transition:"width 0.5s"}}/>
+        {/* Revisão humana ocupa fatia de traduzidos (subconjunto visual) */}
+        <div title="Revisão humana" style={{width:`${revisaoOk*100/total}%`,background:"#7c3aed",transition:"width 0.5s"}}/>
+        <div title="Traduzido (GPT/DS)" style={{width:`${Math.max(0,traduzidos-revisaoOk)*100/total}%`,background:"#22c55e",transition:"width 0.5s"}}/>
+        <div title="Tags alteradas" style={{width:`${tagsBad*100/total}%`,background:"#f59e0b",transition:"width 0.5s"}}/>
+        <div title="Erros" style={{width:`${erros*100/total}%`,background:"#ef4444",transition:"width 0.5s"}}/>
+        <div style={{flexGrow:1,background:"#1e293b"}}/>
+      </div>
+      {/* Legenda */}
+      <div style={{display:"flex",gap:18,flexWrap:"wrap",alignItems:"center"}}>
+        {[
+          {c:"#16a34a",l:"PT-BRC aproveitado",  v:aproveitados},
+          {c:"#22c55e",l:"Traduzido (GPT/DS)",   v:traduzidos},
+          {c:"#7c3aed",l:"Revisão humana",        v:revisaoOk, icon:"✎", always:true},
+          {c:"#f59e0b",l:"Tags alteradas",        v:tagsBad},
+          {c:"#ef4444",l:"Erros",                 v:erros},
+          pendenteReal>0?{c:"#334155",l:"Sem tradução",v:pendenteReal,highlight:true}:null,
+        ].filter(Boolean).filter(s=>s.always||s.v>0||s.highlight).map(s=>
+          <div key={s.l} style={{display:"flex",alignItems:"center",gap:5}}>
+            {s.icon
+              ?<span style={{fontSize:12,color:s.c,fontWeight:700,lineHeight:1}}>{s.icon}</span>
+              :<span style={{width:9,height:9,borderRadius:2,background:s.c,display:"block",flexShrink:0,
+                border:s.highlight?"1px solid #475569":"none"}}/>}
+            <span style={{color:s.v>0?"#64748b":"#334155",fontSize:11}}>{s.l}</span>
+            <span style={{color:s.highlight?"#f97316":s.v>0?"#e2e8f0":"#334155",fontSize:11,
+              fontFamily:"'JetBrains Mono',monospace",fontWeight:600}}>{s.v.toLocaleString()}</span>
+            {/* Badge pendente de revisão */}
+            {s.l==="Revisão humana"&&revisaoPend>0&&<span style={{background:"rgba(251,191,36,0.1)",
+              border:"1px solid #92400e",borderRadius:3,padding:"0 5px",fontSize:10,
+              color:"#fbbf24",fontFamily:"'JetBrains Mono',monospace"}}>
+              {revisaoPend} pendente{revisaoPend>1?"s":""}
+            </span>}
+          </div>)}
+      </div>
+    </div>}
+
+    {/* Etapas */}
+    <div style={{color:"#475569",fontSize:11,letterSpacing:"0.18em",fontFamily:"'JetBrains Mono',monospace",marginBottom:10}}>ETAPAS DO PIPELINE</div>
+    <div style={{display:"flex",flexDirection:"column",gap:7}}>
+      {steps.map(s=>{
+        const isRunning=!!pipeRunning;
+        return <div key={s.n} style={{background:"#0b1219",border:`1px solid ${s.warn?"#78350f":"#1e2d3d"}`,
+          borderRadius:8,padding:"12px 16px",display:"flex",alignItems:"center",gap:12}}>
+          <div style={{width:26,height:26,borderRadius:"50%",flexShrink:0,
+            background:s.done?(s.warn?"#78350f22":"#0d2d1a"):"#111827",
+            border:`2px solid ${s.done?(s.warn?"#f59e0b":"#22c55e"):"#1e2d3d"}`,
+            display:"flex",alignItems:"center",justifyContent:"center",
+            color:s.done?(s.warn?"#f59e0b":"#22c55e"):"#475569",
+            fontSize:11,fontWeight:700,fontFamily:"'JetBrains Mono',monospace"}}>
+            {s.done?(s.warn?"!":"✓"):s.n}
+          </div>
+          <div style={{flex:1,minWidth:0}}>
+            <div style={{color:s.done?"#e2e8f0":"#64748b",fontWeight:600,fontSize:13}}>{s.label}</div>
+            <div style={{color:"#334155",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>{s.desc} <span style={{color:"#1e2d3d"}}>{s.db}</span></div>
+          </div>
+          <div style={{display:"flex",gap:6,flexShrink:0}}>
+            {s.btn&&<Btn label={s.btn} style={s.btnStyle} onClick={s.action} running={isRunning}/>}
+            {s.btn2&&<Btn label={s.btn2} style={s.btnStyle2} onClick={s.action2} running={isRunning}/>}
+            {s.btn3&&<Btn label={s.btn3} style={s.btnStyle3} onClick={s.action3} running={isRunning}/>}
+          </div>
+        </div>;
+      })}
+    </div>
+    {/* Verificador de integridade de tags */}
+    <div style={{marginTop:20}}>
+      <div style={{color:"#475569",fontSize:11,letterSpacing:"0.18em",fontFamily:"'JetBrains Mono',monospace",marginBottom:10}}>DIAGNÓSTICO</div>
+      <TagVerificadorSaida srvOnline={srvOnline} tagsSaida={tagsSaida} setTagsSaida={setTagsSaida} onNavProblems={onNavProblems}/>
+    </div>
+
+    <style>{`@keyframes spin{to{transform:rotate(360deg)}}`}</style>
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// VISUALIZADOR (paginação completa + debounce)
+// ══════════════════════════════════════════════════════════════
+function ViewerScreen({onEdit,entries,setEntries,onPipeline,langs=["eng","pt","cht","kor","rus","ukt"],srvOnline,dbStatus,setDbStatus,setDbStats,setLangsDisponiveis,apiModelo="gpt-4o-mini",apiOpts=[],refLang="cht"}){
+  const [search,setSearch]=useState("");
+  const [debSearch,setDebSearch]=useState("");
+
+  const [baseLang,setBaseLang]=useState("eng");
+  const [cmpLang,setCmpLang]=useState("pt");
+  // Seleção: APENAS pageEntries visíveis — nunca acumula cross-página
+  const [selectedIds,setSelectedIds]=useState(new Set());
+  const [page,setPage]=useState(1);
+  const [pageSize,setPageSize]=useState(50);
+  const timerRef=useRef();
+
+  useEffect(()=>{
+    clearTimeout(timerRef.current);
+    timerRef.current=setTimeout(()=>{setDebSearch(search);setPage(1);},300);
+    return ()=>clearTimeout(timerRef.current);
+  },[search]);
+
+  // Reset seleção quando filtro/busca mudar
+  useEffect(()=>{ setSelectedIds(new Set()); },[page,modeloFiltro,debSearch,pageSize]);
+
+  const getText=(e,lang)=>{
+    if(lang==="eng")   return e.eng;
+    if(lang==="pt")    return e.pt;
+    if(lang==="cht")   return e.cht;
+    if(lang==="kor")   return e.kor||null;
+    if(lang==="rus")   return e.rus||null;
+    if(lang==="ukt")   return e.ukt||null;
+    if(lang==="ptbrc") return e.ptbrc||null;
+    return null;
+  };
+
+  // ── FILTRO ÚNICO — categorias exclusivas ─────────────────────────────────
+  const [modeloFiltro, setModeloFiltro] = useState("todos");
+
+  const CATS = [
+    {k:"todos",      label:"Todos",        col:"#64748b", pred:()=>true},
+    {k:"pendente",   label:"Pendente",      col:"#f97316", pred:e=>{const s=e.status||"";return s===""||s==="pendente";}},
+    {k:"aproveitado",label:"Aproveitado",   col:"#16a34a", pred:e=>e.status==="aproveitado"},
+    {k:"traduzido",  label:"Traduzido",     col:"#22c55e", pred:e=>e.status==="traduzido"&&e.modelo!=="manual"&&e.status_revisao!=="ok"},
+    {k:"gpt",        label:"GPT",           col:"#38bdf8", pred:e=>(e.modelo||"").toLowerCase().startsWith("gpt")},
+    {k:"deepseek",   label:"DeepSeek",      col:"#818cf8", pred:e=>(e.modelo||"").toLowerCase().includes("deepseek")},
+    {k:"correcao",   label:"✎ Correção",    col:"#c084fc", pred:e=>e.modelo==="manual"||e.status_revisao==="ok"},
+    {k:"revisao",    label:"⚑ Revisão",     col:"#fb923c", pred:e=>e.status_revisao==="pendente"},
+    {k:"tagsbad",    label:"⚠ Tags ruins",  col:"#fbbf24", pred:e=>e.status!=="erro"&&!e.tags_ok},
+    {k:"erro",       label:"Erro",          col:"#f87171", pred:e=>e.status==="erro"},
+  ];
+
+  // Contadores — sempre sobre o total de entries
+  const cats = useMemo(()=>{
+    const c={};
+    CATS.forEach(({k,pred})=>{ c[k]=entries.filter(pred).length; });
+    return c;
+  },[entries]);
+
+  // Lista filtrada = predicado de categoria + busca textual
+  const filtered = useMemo(()=>{
+    const cat=CATS.find(c=>c.k===modeloFiltro)||CATS[0];
+    return entries.filter(e=>{
+      if(!cat.pred(e)) return false;
+      if(debSearch){
+        const q=debSearch.toLowerCase();
+        const baseText=(getText(e,baseLang)||"").toLowerCase();
+        if(!e.full_key.toLowerCase().includes(q)&&
+           !e.arquivo.toLowerCase().includes(q)&&
+           !(e.eng||"").toLowerCase().includes(q)&&
+           !(e.pt||"").toLowerCase().includes(q)&&
+           !baseText.includes(q)) return false;
+      }
+      return true;
+    });
+  },[entries,modeloFiltro,debSearch,baseLang]);
+
+
+  const pageEntries=useMemo(()=>filtered.slice((page-1)*pageSize,page*pageSize),[filtered,page,pageSize]);
+
+  // ── helpers de seleção — SOMENTE sobre pageEntries (visível na tela) ──────────────────────────
+  const selected=selectedIds; // alias para uso no JSX
+  const allPageSel=pageEntries.length>0&&pageEntries.every(e=>selectedIds.has(e.id));
+  const anyPageSel=pageEntries.some(e=>selectedIds.has(e.id));
+  const allFilterSel=allPageSel;
+  const toggleAll=()=>{
+    if(allPageSel){ setSelectedIds(new Set()); }
+    else          { setSelectedIds(new Set(pageEntries.map(e=>e.id))); }
+  };
+  const selAll=()=>setSelectedIds(new Set(pageEntries.map(e=>e.id)));
+  const clrSel=()=>setSelectedIds(new Set());
+  const toggleSel=(id)=>setSelectedIds(prev=>{const n=new Set(prev);n.has(id)?n.delete(id):n.add(id);return n;});
+  const [markMsg,setMarkMsg]=useState(null);
+  // Opera SOMENTE nos IDs passados — que são sempre subconjunto de pageEntries
+  // applyMark: 1 request bulk para o servidor (evita concorrência SQLite com N requests paralelos)
+  const applyMark=(ids,localUpdater,bulkPayload,msg)=>{
+    if(!ids||ids.length===0) return;
+    const allIds=ids.map(Number).filter(id=>!isNaN(id));
+    if(allIds.length===0) return;
+    const allSet=new Set(allIds);
+    // Atualiza estado local imediatamente — todos os selecionados
+    setEntries(prev=>prev.map(e=>allSet.has(Number(e.id))?localUpdater(e):e));
+    // Apenas IDs positivos existem no DB3 e podem ser salvos no servidor
+    const dbIds=allIds.filter(id=>id>0);
+    if(dbIds.length>0){
+      const entradas=allIds.map(id=>{const e=entries.find(x=>x.id===id)||{};return {arquivo:e.arquivo,full_key:e.full_key,...bulkPayload};}).filter(e=>e.arquivo&&e.full_key);
+    if(entradas.length>0) API.post("/api/revisao/save",{entradas}).catch(()=>{});
+    }
+    setMarkMsg(msg(allIds.length));
+    setTimeout(()=>setMarkMsg(null),2500);
+    clrSel();
+  };
+  const markRevisao=(ids,val)=>applyMark(ids,
+    e=>({...e,status_revisao:val}),
+    {status_revisao:val},
+    n=>val==="pendente"?`⚑ ${n} marcados para revisão`:`⚐ ${n} desmarcados`
+  );
+  const markCorrecao=(ids)=>applyMark(ids,
+    e=>({...e,modelo:"manual",status_revisao:"ok"}),
+    {status_revisao:"ok",modelo:"manual"},
+    n=>`✎ ${n} marcados como Correção Humana`
+  );
+  const unmarkCorrecao=(ids)=>applyMark(ids,
+    e=>({...e,modelo:"",status_revisao:""}),
+    {status_revisao:"",modelo:""},
+    n=>`⚐ ${n} desmarcados`
+  );
+
+
+
+  // Contador de strings por idioma — sincronizado com filtro ativo
+  const baseCount=useMemo(()=>
+    filtered.filter(e=>{const t=getText(e,baseLang); return t!=null&&t!=="";}).length
+  ,[filtered,baseLang,getText]);
+
+
+  const LANG_LABELS={"eng":"ENG","pt":"PT-BR","cht":"CHT","kor":"KOR","rus":"RUS","ukt":"UKR","ptbrc":"PT-BRC"};
+  const langOpts=useMemo(()=>{
+    const base=langs.includes("pt")?langs:["eng","pt",...langs.filter(l=>l!=="eng")];
+    return base.map(l=>({val:l,label:LANG_LABELS[l]||l.toUpperCase()}));
+  },[langs]);
+
+  return <div style={{display:"flex",flexDirection:"column",height:"100%"}}>
+    {/* ── BARRA DE FILTRO ÚNICA ── */}
+    <div style={{display:"flex",gap:4,padding:"7px 14px 6px",background:"#060d15",
+      borderBottom:"1px solid #0a1520",flexWrap:"wrap",alignItems:"center"}}>
+      <span style={{color:"#334155",fontSize:9,fontFamily:"'JetBrains Mono',monospace",
+        letterSpacing:"0.12em",marginRight:3}}>FILTRO</span>
+      {CATS.map(({k,label,col})=>{
+        const act=modeloFiltro===k;
+        const cnt=cats[k]??0;
+        return <button key={k} onClick={()=>{setModeloFiltro(k);setPage(1);}} style={{
+          background:act?col+"28":"transparent",
+          border:`1px solid ${act?col:"#1e2d3d"}`,
+          borderRadius:6,padding:"3px 9px",cursor:"pointer",
+          display:"flex",alignItems:"center",gap:4,transition:"all 0.12s"}}>
+          <span style={{color:act?col:"#475569",fontSize:11,
+            fontFamily:"'JetBrains Mono',monospace",fontWeight:act?700:400}}>{label}</span>
+          <span style={{color:act?col:"#334155",fontSize:10,fontWeight:700,
+            background:act?col+"18":"#0a1520",border:`1px solid ${act?col+"44":"#1a2535"}`,
+            borderRadius:3,padding:"0 4px",fontFamily:"'JetBrains Mono',monospace"}}>
+            {cnt.toLocaleString()}
+          </span>
+        </button>;
+      })}
+    </div>
+
+    {/* Toolbar */}
+    <div style={{padding:"10px 20px",borderBottom:"1px solid #1e2d3d",background:"#090e14",
+      display:"flex",gap:9,alignItems:"center",flexWrap:"wrap"}}>
+      <div style={{position:"relative",flex:1,minWidth:200}}>
+        <span style={{position:"absolute",left:10,top:"50%",transform:"translateY(-50%)",color:"#334155",pointerEvents:"none"}}>
+          <Icon name="search" size={13}/>
+        </span>
+        <input value={search} onChange={e=>setSearch(e.target.value)}
+          placeholder="Buscar arquivo, chave, ENG ou PT-BR..."
+          style={{width:"100%",paddingLeft:30,paddingRight:12,paddingTop:7,paddingBottom:7,
+            background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:7,
+            color:"#e2e8f0",fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}/>
+        {search&&<button onClick={()=>setSearch("")} style={{position:"absolute",right:10,top:"50%",
+          transform:"translateY(-50%)",background:"none",border:"none",color:"#475569",cursor:"pointer",padding:0}}>
+          <Icon name="close" size={12}/>
+        </button>}
+      </div>
+
+      <div style={{display:"flex",alignItems:"center",gap:5}}>
+        <span style={{color:"#334155",fontSize:11}}>Base
+          <span style={{marginLeft:5,color:"#475569",fontSize:10,fontFamily:"'JetBrains Mono',monospace",
+            background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:3,padding:"1px 6px"}}>
+            {baseCount.toLocaleString()}
+          </span>
+        </span>
+        <select value={baseLang} onChange={e=>setBaseLang(e.target.value)} style={{
+          background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:5,
+          color:"#94a3b8",padding:"4px 7px",fontSize:12,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          {langOpts.map(o=><option key={o.val} value={o.val}>{o.label}</option>)}
+        </select>
+        <span style={{color:"#334155",fontSize:11}}>↔</span>
+        <select value={cmpLang} onChange={e=>setCmpLang(e.target.value)} style={{
+          background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:5,
+          color:"#94a3b8",padding:"4px 7px",fontSize:12,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          {langOpts.map(o=><option key={o.val} value={o.val}>{o.label}</option>)}
+        </select>
+      </div>
+      {selected.size>0&&<div style={{display:"flex",gap:5,alignItems:"center",flexWrap:"wrap",
+        padding:"3px 0",borderTop:"1px solid #1e2d3d",width:"100%",marginTop:4}}>
+        {/* contador */}
+        <span style={{color:"#94a3b8",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+          background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:5,padding:"2px 8px",
+          display:"flex",alignItems:"center",gap:4}}>
+          <Icon name="check" size={10}/>{selected.size} selecionados
+        </span>
+        {/* selecionar TODOS os filtrados / limpar */}
+        {!allFilterSel
+          ? <button onClick={selAll} style={{background:"rgba(14,165,233,0.07)",border:"1px solid #0369a1",
+              borderRadius:6,padding:"4px 10px",color:"#38bdf8",fontSize:11,cursor:"pointer",
+              fontFamily:"'JetBrains Mono',monospace"}}>
+              sel. página ({pageEntries.length})
+            </button>
+          : <button onClick={clrSel} style={{background:"rgba(14,165,233,0.07)",border:"1px solid #0369a1",
+              borderRadius:6,padding:"4px 10px",color:"#38bdf8",fontSize:11,cursor:"pointer",
+              fontFamily:"'JetBrains Mono',monospace"}}>
+              limpar seleção
+            </button>
+        }
+        {/* marcar para revisão */}
+        <button onClick={()=>{
+          const ids=[...selectedIds];
+          if(ids.length===0){alert("Nenhum entry selecionado.");return;}
+          markRevisao(ids,"pendente");
+        }}
+          title="Marca para revisão — só entries desta página"
+          style={{background:"rgba(249,115,22,0.09)",border:"1px solid #c2410c",
+          borderRadius:6,padding:"4px 10px",color:"#f97316",fontSize:11,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          ⚑ para revisão
+        </button>
+        {/* desmarcar revisão */}
+        <button onClick={()=>{
+          const ids=[...selectedIds];
+          markRevisao(ids,"");
+        }}
+          style={{background:"rgba(71,85,105,0.07)",border:"1px solid #1e2d3d",
+          borderRadius:6,padding:"4px 10px",color:"#475569",fontSize:11,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          ⚐ desmarcar
+        </button>
+        {/* marcar como correção humana */}
+        <button onClick={()=>{
+          const ids=[...selectedIds];
+          if(ids.length===0){alert("Nenhum entry selecionado.");return;}
+          markCorrecao(ids);
+        }}
+          style={{background:"rgba(192,132,252,0.09)",border:"1px solid #7c3aed",
+          borderRadius:6,padding:"4px 10px",color:"#c084fc",fontSize:11,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          ✎ Correção Humana
+        </button>
+        {/* desmarcar correção */}
+        <button onClick={()=>{
+          const ids=[...selectedIds];
+          unmarkCorrecao(ids);
+        }}
+          style={{background:"rgba(71,85,105,0.07)",border:"1px solid #1e2d3d",
+          borderRadius:6,padding:"4px 10px",color:"#475569",fontSize:11,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          ✎ desmarcar correção
+        </button>
+        {/* reenviar para API */}
+        {onPipeline&&<button onClick={()=>{const a=(apiOpts||[]).find(o=>o.val===apiModelo)||{provider:"gpt"};onPipeline("reenviar",{ids:[...selected].join(","),modelo:apiModelo,provider:a.provider,fonte_lang:refLang});clrSel();}}
+          style={{background:"rgba(34,197,94,0.07)",border:"1px solid #166534",
+          borderRadius:6,padding:"4px 10px",color:"#4ade80",fontSize:11,cursor:"pointer",
+          display:"flex",gap:4,alignItems:"center",fontFamily:"'JetBrains Mono',monospace"}}>
+          <Icon name="send" size={10}/> reenviar API
+        </button>}
+        {/* fechar barra */}
+        <button onClick={clrSel} style={{background:"transparent",marginLeft:"auto",
+          border:"1px solid #1e2d3d",borderRadius:6,padding:"4px 7px",color:"#475569",cursor:"pointer"}}>
+          <Icon name="close" size={11}/>
+        </button>
+      </div>}
+      {markMsg&&<div style={{padding:"5px 14px",background:"rgba(249,115,22,0.08)",
+        borderBottom:"1px solid #c2410c33",color:"#f97316",fontSize:11,
+        fontFamily:"'JetBrains Mono',monospace",display:"flex",alignItems:"center",gap:6}}>
+        {markMsg}
+      </div>}
+      {/* Legenda de cores de tags */}
+      <div style={{padding:"4px 20px",borderTop:"1px solid #0a1520",background:"#060c12",
+        display:"flex",gap:14,alignItems:"center",flexWrap:"wrap"}}>
+        <span style={{color:"#334155",fontSize:9,fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.1em"}}>TAGS</span>
+        {[
+          {c:"#22d3ee",bg:"rgba(34,211,238,0.12)", label:"traduzível", ex:"\\board[...]  \\optB[...]  \\optD[...]"},
+          {c:"#f59e0b",bg:"rgba(245,158,11,0.12)",  label:"opaca",      ex:"\\C[6]  \\n  \\m[...]"},
+          {c:"#38bdf8",bg:"rgba(56,189,248,0.10)",  label:"escape",     ex:"\\\\"},
+        ].map(({c,bg,label,ex})=>
+          <div key={label} style={{display:"flex",alignItems:"center",gap:5}}>
+            <span style={{color:c,background:bg,borderRadius:3,padding:"1px 7px",
+              fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{ex}</span>
+            <span style={{color:"#334155",fontSize:9,fontFamily:"'JetBrains Mono',monospace"}}>{label}</span>
+          </div>
+        )}
+      </div>
+    </div>
+    {/* Cabeçalho */}
+    <div style={{display:"grid",gridTemplateColumns:"28px 200px 1fr 1fr 90px 68px",
+      padding:"6px 20px",borderBottom:"1px solid #1e2d3d",background:"#090e14",alignItems:"center"}}>
+      <div onClick={toggleAll} title={allPageSel?"Desmarcar página":"Selecionar página"}
+        style={{cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center"}}>
+        <div style={{width:13,height:13,borderRadius:3,
+          border:"1px solid "+(allPageSel?"#0ea5e9":anyPageSel?"#0ea5e966":"#1e2d3d"),
+          background:allPageSel?"#0ea5e9":anyPageSel?"#0ea5e926":"transparent",
+          display:"flex",alignItems:"center",justifyContent:"center"}}>
+          {allPageSel&&<Icon name="check" size={9}/>}
+          {!allPageSel&&anyPageSel&&<span style={{color:"#0ea5e9",fontSize:10,lineHeight:1,fontWeight:700}}>−</span>}
+        </div>
+      </div>
+      {["Chave","BASE","COMPARAR","Status","Ação"].map((h,i)=>
+        <div key={i} style={{color:"#1e2d3d",fontSize:10,fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.12em"}}>{h}</div>)}
+    </div>
+    {/* Linhas */}
+    <div style={{flex:1,overflowY:"auto",minHeight:0}}>
+      {pageEntries.length===0&&<div style={{padding:32,color:"#334155",fontFamily:"'JetBrains Mono',monospace",fontSize:13,textAlign:"center"}}>Nenhuma entrada encontrada.</div>}
+      {pageEntries.map(entry=><div key={entry.id} onClick={()=>toggleSel(entry.id)} style={{
+        display:"grid",gridTemplateColumns:"28px 200px 1fr 1fr 90px 68px",
+        padding:"8px 20px",borderBottom:"1px solid #0a1520",alignItems:"start",cursor:"pointer",
+        background:selected.has(entry.id)?"#0a1f30":entry.status==="erro"?"rgba(239,68,68,0.025)":!entry.tags_ok?"rgba(245,158,11,0.025)":"transparent"}}>
+        <div style={{paddingTop:3}}>
+          <div style={{width:13,height:13,borderRadius:3,
+            border:`1px solid ${selected.has(entry.id)?"#0ea5e9":"#1e2d3d"}`,
+            background:selected.has(entry.id)?"#0ea5e9":"transparent",
+            display:"flex",alignItems:"center",justifyContent:"center"}}>
+            {selected.has(entry.id)&&<Icon name="check" size={9}/>}
+          </div>
+        </div>
+        <div style={{paddingRight:12}}>
+          <div style={{display:"flex",alignItems:"center",gap:5,marginBottom:2}}>
+            <span style={{
+              color:entry.id>0?"#1e3a52":"#3d1a00",fontSize:9,
+              fontFamily:"'JetBrains Mono',monospace",
+              background:entry.id>0?"#050d17":"#1a0d00",
+              border:`1px solid ${entry.id>0?"#0f2030":"#3d1a00"}`,
+              borderRadius:3,padding:"0 4px",
+              letterSpacing:"0.05em",userSelect:"all",cursor:"text"}}
+              title={entry.id>0?"ID do DB3":"Pendente — sem ID no DB3 ainda"}>
+              {entry.id>0?`#${entry.id}`:"pend"}
+            </span>
+            <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{entry.arquivo}</span>
+          </div>
+          <div style={{color:"#64748b",fontSize:11,fontFamily:"'JetBrains Mono',monospace",wordBreak:"break-all"}}>{entry.full_key}</div>
+        </div>
+        <div style={{paddingRight:14}}><TagText text={getText(entry,baseLang)}/></div>
+        <div style={{paddingRight:14}}><TagText text={getText(entry,cmpLang)}/></div>
+        <div style={{paddingTop:2,display:"flex",flexDirection:"column",gap:4}}>
+          <Badge status={entry.status} modelo={entry.modelo} revisado={entry.status_revisao==="ok"}/>
+          {!entry.tags_ok&&entry.status!=="erro"&&<span style={{color:"#f59e0b",fontSize:10,
+            display:"flex",gap:2,alignItems:"center",fontFamily:"'JetBrains Mono',monospace"}}>
+            <Icon name="tag" size={10}/> tags</span>}
+        </div>
+        <div style={{paddingTop:2,display:"flex",gap:5}}>
+          <button onClick={e=>{
+            e.stopPropagation();
+            const ns=entry.status_revisao==="pendente"?"":"pendente";
+            setEntries(prev=>prev.map(x=>x.id===entry.id?{...x,status_revisao:ns}:x));
+            API.post("/api/revisao/save",{entradas:[{arquivo:entry.arquivo,full_key:entry.full_key,status_revisao:ns}]}).catch(()=>{});
+          }} title={entry.status_revisao==="pendente"?"Remover marcação":"Marcar para revisão"}
+          style={{
+            background:entry.status_revisao==="pendente"?"rgba(249,115,22,0.15)":"rgba(71,85,105,0.12)",
+            border:entry.status_revisao==="pendente"?"1px solid #c2410c":"1px solid #1e2d3d",
+            borderRadius:5,padding:"4px 8px",
+            color:entry.status_revisao==="pendente"?"#f97316":"#475569",
+            fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace",
+            transition:"all 0.15s"}}>
+            {entry.status_revisao==="pendente"?"⚑":"⚐"}
+          </button>
+          <button onClick={e=>{e.stopPropagation();onEdit(entry);}} style={{
+            background:"rgba(71,85,105,0.15)",border:"1px solid #1e2d3d",
+            borderRadius:5,padding:"4px 9px",color:"#64748b",fontSize:11,cursor:"pointer",
+            display:"flex",gap:4,alignItems:"center",fontFamily:"'JetBrains Mono',monospace"}}>
+            <Icon name="edit" size={10}/> ed
+          </button>
+        </div>
+      </div>)}
+    </div>
+    <Pagination total={filtered.length} page={page} pageSize={pageSize} onPage={setPage} onPageSize={setPageSize}/>
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// EDITOR MODAL
+// ══════════════════════════════════════════════════════════════
+const LANG_LABELS={
+  eng:"INGLÊS (ENG)",pt:"PT-BR (TRADUÇÃO)",cht:"CHINÊS TRADICIONAL (CHT)",
+  kor:"COREANO (KOR)",rus:"RUSSO (RUS)",ukt:"UCRANIANO (UKR)",ptbrc:"PT-BRC (ANTERIOR)",
+};
+function EditorModal({entry,refLang,onClose,onSave,onRevisao,onPipeline,apiModelo,apiOpts=[]}){
+  const [ptText,setPtText]=useState(entry?.pt||"");
+  const [saved,setSaved]=useState(false);
+  const [revisao,setRevisao]=useState(entry?.status_revisao||"");
+  const [nota,setNota]=useState(entry?.nota_revisor||"");
+  const [showNota,setShowNota]=useState(false);
+  const [tagTraduzOk,setTagTraduzOk]=useState(entry?.tags_traduz_ok??null);
+  const hasTraduzTags = temTagsTraduz(entry?.pt||"") || temTagsTraduz(entry?.eng||"");
+  if(!entry) return null;
+
+  const refText=entry[refLang]||null;
+  const refLabel=LANG_LABELS[refLang]||refLang.toUpperCase();
+
+  const isAdult=entry.status==="erro"&&/penis|vagina|rape|knot|doggy|whore/i.test(entry.eng||"");
+  const ci=entry.status==="erro"
+    ?{color:"#f87171",bg:"rgba(239,68,68,0.08)",border:"#7f1d1d",
+      label:isAdult?"⚠  Filtro de conteúdo GPT — tradução manual necessária":"⚠  Timeout de conexão — reenvio para API resolve"}
+    :!entry.tags_ok
+    ?{color:"#fbbf24",bg:"rgba(245,158,11,0.08)",border:"#78350f",label:"⚠  Tags embaralhadas pelo GPT — reenvio individual (lote=1) resolve"}
+    :{color:"#4ade80",bg:"rgba(34,197,94,0.07)",border:"#14532d",label:"✓  Tradução aprovada"};
+
+  const handleSaveClick=()=>{
+    // Se o texto foi editado, é automaticamente Correção Humana
+    const textoMudou   = ptText !== (entry.pt||"");
+    // Se texto mudou: marca como Correção Humana (modelo=manual)
+    // mas PRESERVA status_revisao="pendente" se o revisor havia marcado para revisão
+    // Revisão só sai via botão ⚑ explícito, nunca automaticamente
+    const revisaoAtual  = entry.status_revisao||"";
+    const revisaoFinal  = textoMudou
+      ? (revisaoAtual === "pendente" ? "pendente" : revisaoAtual)
+      : revisao;
+    const modeloFinal  = textoMudou ? "manual" : (modeloLocal||null);
+    if(textoMudou && revisaoAtual !== "pendente") setRevisao(revisaoAtual||"ok");
+
+    onSave(entry.id, ptText);
+
+    // Persiste revisao/nota/modelo se qualquer coisa mudou
+    const revisaoMudou = revisaoFinal !== (entry.status_revisao||"");
+    const notaMudou    = nota         !== (entry.nota_revisor||"");
+    const modeloMudou  = modeloFinal  !== (entry.modelo||"");
+    if(onRevisao && (textoMudou||revisaoMudou||notaMudou||modeloMudou)) {
+      onRevisao(entry.id, revisaoFinal, nota, modeloFinal);
+    }
+    setSaved(true);
+    setTimeout(()=>{setSaved(false);onClose();},700);
+  };
+
+  const [modeloLocal,setModeloLocal]=useState(
+    entry?.status_revisao==="ok"?"manual":""
+  );
+  const cycleRevisao=()=>{
+    const next = revisao===""?"pendente":revisao==="pendente"?"ok":"";
+    setRevisao(next);
+    if(next==="ok")       setModeloLocal("manual");
+    else if(next==="")    setModeloLocal("");
+  };
+
+  const revColor = revisao==="pendente"?"#f97316":revisao==="ok"?"#c084fc":"#475569";
+  const revLabel = revisao==="pendente"?"⚑ Para revisão":revisao==="ok"?"✎ Correção Humana":"⚐ Sem marcação";
+
+  return <div onClick={onClose} style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.78)",
+    zIndex:200,display:"flex",alignItems:"center",justifyContent:"center",padding:"12px 8px"}}>
+    <div onClick={e=>e.stopPropagation()} style={{background:"#0c1520",border:"1px solid #1e2d3d",
+      borderRadius:14,width:"100%",maxWidth:"min(780px, calc(100vw - 24px))",maxHeight:"92vh",
+      display:"flex",flexDirection:"column",overflow:"hidden",
+      boxShadow:"0 25px 60px rgba(0,0,0,0.6)"}}>
+      {/* Header */}
+      <div style={{padding:"16px 22px",borderBottom:"1px solid #1e2d3d",
+        display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+        <div>
+          <div style={{display:"flex",alignItems:"center",gap:6,marginBottom:3}}>
+            <span style={{
+              color:entry.id>0?"#1e3a52":"#3d1a00",fontSize:9,
+              fontFamily:"'JetBrains Mono',monospace",
+              background:entry.id>0?"#050d17":"#1a0d00",
+              border:`1px solid ${entry.id>0?"#0f2030":"#3d1a00"}`,
+              borderRadius:3,padding:"1px 5px",
+              userSelect:"all",cursor:"text"}}
+              title={entry.id>0?"ID do DB3":"Pendente — sem ID no DB3 ainda"}>
+              {entry.id>0?`#${entry.id}`:"pend"}
+            </span>
+            <span style={{color:"#334155",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>{entry.arquivo}</span>
+          </div>
+          <div style={{color:"#f1f5f9",fontWeight:700,fontSize:15,fontFamily:"'JetBrains Mono',monospace"}}>{entry.full_key}</div>
+        </div>
+        {/* Status revisão no header */}
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+          <button onClick={cycleRevisao} title="Ciclar: Sem marcação → Para revisão → Correção Humana" style={{
+            background:`${revColor}15`,border:`1px solid ${revColor}55`,
+            borderRadius:6,padding:"5px 12px",color:revColor,
+            fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace",
+            transition:"all 0.15s"}}>{revLabel}</button>
+          <button onClick={onClose} style={{background:"rgba(71,85,105,0.15)",border:"1px solid #1e2d3d",
+            borderRadius:7,padding:7,cursor:"pointer",color:"#64748b"}}><Icon name="close" size={14}/></button>
+        </div>
+      </div>
+      <div style={{overflowY:"auto",padding:22,display:"flex",flexDirection:"column",gap:14}}>
+        {revisao==="ok"&&<div style={{background:"rgba(192,132,252,0.08)",border:"1px solid #7c3aed55",borderRadius:8,
+          padding:"9px 14px",color:"#c084fc",fontSize:12,fontFamily:"'JetBrains Mono',monospace",
+          display:"flex",alignItems:"center",gap:7}}>
+          <span style={{fontSize:14}}>✎</span> Correção Humana — tradução revisada manualmente
+        </div>}
+        <div style={{background:ci.bg,border:`1px solid ${ci.border}`,borderRadius:8,
+          padding:"9px 14px",color:ci.color,fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}>{ci.label}</div>
+        {/* ENG */}
+        <div>
+          <div style={{color:"#334155",fontSize:10,letterSpacing:"0.15em",fontFamily:"'JetBrains Mono',monospace",marginBottom:6}}>INGLÊS (ENG)</div>
+          <div style={{background:"#060c12",border:"1px solid #1e2d3d",borderRadius:7,padding:"11px 14px"}}><TagText text={entry.eng}/></div>
+        </div>
+        {/* Ref lang */}
+        {refLang!=="eng"&&<div>
+          <div style={{color:"#334155",fontSize:10,letterSpacing:"0.15em",fontFamily:"'JetBrains Mono',monospace",marginBottom:6}}>{refLabel}</div>
+          <div style={{background:"#060c12",border:"1px solid #1e2d3d",borderRadius:7,padding:"11px 14px"}}>
+            {refText?<TagText text={refText}/>:<span style={{color:"#334155",fontStyle:"italic",fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}>— sem dados para este idioma —</span>}
+          </div>
+        </div>}
+        {/* PT-BR editável */}
+        <div>
+          <div style={{color:"#0ea5e9",fontSize:10,letterSpacing:"0.15em",fontFamily:"'JetBrains Mono',monospace",marginBottom:6}}>PORTUGUÊS BRASILEIRO ✏</div>
+          <textarea value={ptText} onChange={e=>setPtText(e.target.value)}
+            style={{width:"100%",minHeight:88,background:"#060c12",border:"1px solid #0ea5e9",
+              borderRadius:7,padding:"11px 14px",color:"#e2e8f0",fontSize:13,
+              fontFamily:"'JetBrains Mono',monospace",resize:"vertical",lineHeight:1.7}}/>
+        </div>
+        {/* Nota do revisor — expansível */}
+        <div>
+          <button onClick={()=>setShowNota(p=>!p)} style={{background:"none",border:"none",
+            color:"#334155",fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace",
+            display:"flex",gap:5,alignItems:"center",padding:0}}>
+            {showNota?"▾":"▸"} Nota do revisor {nota&&<span style={{color:"#f97316",fontSize:10}}>●</span>}
+          </button>
+          {showNota&&<textarea value={nota} onChange={e=>setNota(e.target.value)}
+            placeholder="Anote problemas, dúvidas, contexto..."
+            style={{width:"100%",marginTop:6,minHeight:54,background:"#060c12",border:"1px solid #334155",
+              borderRadius:7,padding:"9px 12px",color:"#94a3b8",fontSize:12,
+              fontFamily:"'JetBrains Mono',monospace",resize:"vertical",lineHeight:1.6}}/>}
+        </div>
+      </div>
+      {/* Footer */}
+      <div style={{padding:"14px 22px",borderTop:"1px solid #1e2d3d",display:"flex",gap:9,justifyContent:"flex-end",alignItems:"center"}}>
+        {/* Botão de aprovação de tags traduzíveis — só aparece quando há \board, \optB ou \optD */}
+        {hasTraduzTags && <button
+          onClick={async()=>{
+            const next = tagTraduzOk===1 ? null : 1;
+            setTagTraduzOk(next);
+            try { await API.post("/api/tags-traduz/salvar",{arquivo:entry.arquivo,full_key:entry.full_key,tags_traduz_ok:next}); } catch(e){}
+          }}
+          title="Aprova o conteúdo dentro das tags traduzíveis (\board, \optB, \optD)"
+          style={{background:tagTraduzOk===1?"rgba(34,211,238,0.18)":"rgba(34,211,238,0.07)",
+            border:tagTraduzOk===1?"1px solid #0891b2":"1px solid #164e63",borderRadius:7,
+            padding:"7px 15px",color:tagTraduzOk===1?"#22d3ee":"#0e7490",fontSize:12,
+            cursor:"pointer",display:"flex",gap:5,alignItems:"center",transition:"all 0.15s"}}>
+          {tagTraduzOk===1 ? "✓ Tags OK" : "◎ Aprovar Tags"}
+        </button>}
+        <button onClick={()=>{
+            if(!onPipeline) return;
+            const a=(apiOpts||[]).find(o=>o.val===apiModelo)||{provider:"gpt"};
+            onPipeline("reenviar",{ids:String(entry.id),modelo:apiModelo,provider:a.provider,fonte_lang:refLang});
+            onClose();
+          }} disabled={!onPipeline}
+          style={{background:"rgba(245,158,11,0.1)",border:"1px solid #92400e",borderRadius:7,
+          padding:"7px 15px",color:"#fbbf24",fontSize:12,cursor:"pointer",display:"flex",gap:5,alignItems:"center"}}>
+          <Icon name="send" size={12}/> Reenviar API</button>
+        <button onClick={()=>setPtText(entry.pt||"")} style={{background:"rgba(71,85,105,0.1)",
+          border:"1px solid #1e2d3d",borderRadius:7,padding:"7px 15px",color:"#475569",
+          fontSize:12,cursor:"pointer",display:"flex",gap:5,alignItems:"center"}}>
+          <Icon name="refresh" size={12}/> Restaurar</button>
+        <button onClick={handleSaveClick} disabled={saved}
+          style={{background:saved?"rgba(34,197,94,0.25)":"rgba(34,197,94,0.15)",
+            border:`1px solid ${saved?"#22c55e":"#166534"}`,borderRadius:7,
+            padding:"7px 20px",color:"#22c55e",fontSize:12,cursor:saved?"default":"pointer",fontWeight:600,
+            display:"flex",gap:5,alignItems:"center",transition:"all 0.2s"}}>
+          <Icon name="check" size={12}/> {saved?"Salvo!":"Salvar"}</button>
+      </div>
+    </div>
+  </div>;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// PROBLEMAS
+// ══════════════════════════════════════════════════════════════
+function ProblemsScreen({onEdit,entries,langs=[],onPipeline,apiModelo,apiOpts=[],srvOnline,pipeRunning,setEntries,setDbStats,setDbStatus,setLangsDisponiveis,tagsSaida,setTagsSaida}){
+  const [tab,setTab]=useState("erros");
+  const [page,setPage]=useState(1);
+  const [pageSize,setPageSize]=useState(25);
+  const [refLangP,setRefLangP]=useState("cht");
+  const [selected,setSelected]=useState(new Set()); // ids selecionados para reenvio bulk
+  const [runMsg,setRunMsg]=useState(null); // {ok,msg}
+  const [filtroSaida,setFiltroSaida]=useState("");  // filtro da tab tags_saida
+  // Recarrega entries quando pipeline termina (IDs mudam de negativo→positivo após tradução)
+  const prevRunning=React.useRef(pipeRunning);
+  useEffect(()=>{
+    if(prevRunning.current && !pipeRunning && srvOnline){
+      // Pipeline acabou — força reload para pegar IDs atualizados
+      fetch("/api/entries").then(r=>r.json()).then(dat=>{
+        if(dat?.entries&&setEntries) setEntries(dat.entries);
+        if(dat?.stats&&setDbStats) setDbStats(dat.stats);
+      }).catch(()=>{});
+    }
+    prevRunning.current=pipeRunning;
+  },[pipeRunning]);
+
+  const erros=useMemo(()=>entries.filter(e=>e.status==="erro"),[entries]);
+  const tagsBad=useMemo(()=>entries.filter(e=>e.status!=="erro"&&!e.tags_ok),[entries]);
+  const tagsTraduz=useMemo(()=>entries.filter(e=>
+    temTagsTraduz(e.pt||"") && !(e.tags_traduz_ok===1) &&
+    (e.status==="traduzido"||e.status==="aproveitado")
+  ),[entries]);
+  const list=tab==="erros"?erros:tab==="tags"?tagsBad:tab==="tags_traduz"?tagsTraduz:[];
+  const pageEntries=list.slice((page-1)*pageSize,page*pageSize);
+  // Estado para salvar tags_traduz da aba
+  const [savingTagTraduz,setSavingTagTraduz]=useState({});
+
+  // Dados da aba Tags PT-BR (Saída)
+  const saidaEstado   = tagsSaida?.estado   || "idle";
+  const saidaResult   = tagsSaida?.resultado || null;
+  const saidaQtd      = saidaResult?.quebradas || 0;
+  const filtradosSaida = useMemo(()=>{
+    const ents = saidaResult?.entradas || [];
+    if(!filtroSaida.trim()) return ents;
+    const q = filtroSaida.toLowerCase();
+    return ents.filter(e=>
+      e.arquivo.toLowerCase().includes(q) ||
+      e.full_key.toLowerCase().includes(q) ||
+      (e.faltando||[]).join(" ").toLowerCase().includes(q) ||
+      (e.sobrando||[]).join(" ").toLowerCase().includes(q)
+    );
+  },[saidaResult, filtroSaida]);
+
+  const verificarSaida = async () => {
+    if(!srvOnline) return;
+    setTagsSaida({estado:"carregando", resultado:null});
+    try {
+      const r = await API.get("/api/verificar-tags-saida");
+      setTagsSaida({estado: r.erro ? "erro" : "ok", resultado: r});
+    } catch(e) {
+      setTagsSaida({estado:"erro", resultado:{erro: String(e)}});
+    }
+  };
+
+  const isRunning=!!pipeRunning;
+
+  // Reenviar via SSE — aceita array de ids ou undefined (todos da lista atual)
+  const runReenviar=async(ids)=>{
+    if(!srvOnline||isRunning) return;
+    const a=(apiOpts||[]).find(o=>o.val===apiModelo)||{provider:"gpt"};
+    const opts={modelo:apiModelo,provider:a.provider,fonte_lang:refLangP};
+    if(ids&&ids.length>0) opts.ids=ids.join(",");
+    setRunMsg(null);
+    const r=await onPipeline("reenviar",opts);
+    setRunMsg({ok:r?.ok,msg:r?.ok?"Reenvio concluído":"Reenvio finalizado com erros"});
+    setSelected(new Set());
+    // handlePipeline já recarrega entries via RELOAD_STEPS quando SSE termina
+  };
+  const toggleSel=(id)=>setSelected(prev=>{const n=new Set(prev);n.has(id)?n.delete(id):n.add(id);return n;});
+  const selAll=()=>setSelected(new Set(pageEntries.map(e=>e.id)));
+  const clrSel=()=>setSelected(new Set());
+  const LANG_LABELS_P={"eng":"ENG","cht":"CHT","kor":"KOR","rus":"RUS","ukt":"UKR","ptbrc":"PT-BRC"};
+  const getRef=(e)=>{
+    const l=refLangP;
+    if(l==="eng") return {text:e.eng, label:"ENG"};
+    if(l==="cht") return {text:e.cht, label:"CHT"};
+    if(l==="kor") return {text:e.kor, label:"KOR"};
+    if(l==="rus") return {text:e.rus, label:"RUS"};
+    if(l==="ukt") return {text:e.ukt, label:"UKR"};
+    if(l==="ptbrc") return {text:e.ptbrc, label:"PT-BRC"};
+    return {text:e.eng, label:"ENG"};
+  };
+  // langs disponíveis para referência (excluindo pt que é o alvo)
+  const refLangsP=useMemo(()=>langs.filter(l=>l!=="pt").length>0
+    ? langs.filter(l=>l!=="pt")
+    : ["eng","cht"],[langs]);
+  return <div style={{display:"flex",flexDirection:"column",height:"100%"}}>
+    <div style={{padding:"14px 20px 0",borderBottom:"1px solid #1e2d3d",background:"#090e14",display:"flex",alignItems:"flex-end",gap:0}}>
+      {[{id:"erros",label:"Erros",count:erros.length,color:"#ef4444"},
+        {id:"tags",label:"Tags alteradas",count:tagsBad.length,color:"#f59e0b"},
+        {id:"tags_traduz",label:"Tags traduzíveis",
+          count:entries.filter(e=>temTagsTraduz(e.pt||"")&&!(e.tags_traduz_ok===1)).length,
+          color:"#22d3ee"},
+        {id:"tags_saida",label:"Tags PT-BR (Saída)",count:saidaQtd,color:"#fb923c",
+          badge: saidaEstado==="idle"?"?": saidaEstado==="carregando"?"⏳": saidaQtd>0?saidaQtd:"✓"}].map(t=>
+        <button key={t.id} onClick={()=>{setTab(t.id);setPage(1);}} style={{
+          padding:"9px 18px",background:"transparent",cursor:"pointer",border:"none",
+          borderBottom:tab===t.id?`2px solid ${t.color}`:"2px solid transparent",
+          color:tab===t.id?t.color:"#475569",fontSize:13,
+          fontFamily:"'JetBrains Mono',monospace",marginBottom:-1}}>
+          {t.label}<span style={{marginLeft:8,background:`${t.color}22`,border:`1px solid ${t.color}44`,
+            borderRadius:4,padding:"1px 6px",fontSize:11,fontWeight:700}}>{t.badge!==undefined?t.badge:t.count}</span>
+        </button>)}
+      <div style={{flex:1}}/>
+      <div style={{paddingBottom:10,display:"flex",gap:8,alignItems:"center"}}>
+        {/* Seletor de idioma referência */}
+        <div style={{display:"flex",alignItems:"center",gap:5}}>
+          <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>Ref</span>
+          {refLangsP.map(l=>{
+            const act=refLangP===l;
+            const colors={"eng":"#94a3b8","cht":"#f97316","kor":"#38bdf8","rus":"#ef4444","ukt":"#a78bfa","ptbrc":"#22c55e"};
+            const col=colors[l]||"#64748b";
+            return <button key={l} onClick={()=>setRefLangP(l)} style={{
+              padding:"3px 8px",borderRadius:4,fontSize:10,cursor:"pointer",
+              fontFamily:"'JetBrains Mono',monospace",fontWeight:act?700:400,
+              background:act?col+"22":"transparent",
+              border:act?`1px solid ${col}55`:"1px solid #1e2d3d",
+              color:act?col:"#475569",transition:"all 0.1s"}}>
+              {LANG_LABELS_P[l]||l.toUpperCase()}
+            </button>;
+          })}
+        </div>
+        <div style={{width:1,height:16,background:"#1e2d3d"}}/>
+        {/* Bulk action bar */}
+        {selected.size>0&&<div style={{display:"flex",alignItems:"center",gap:7,
+          background:"rgba(14,165,233,0.08)",border:"1px solid #0c4a6e",borderRadius:6,padding:"4px 10px"}}>
+          <span style={{color:"#38bdf8",fontSize:11,fontFamily:"'JetBrains Mono',monospace",fontWeight:700}}>
+            {selected.size} sel.
+          </span>
+          <button onClick={()=>runReenviar([...selected])} disabled={isRunning}
+            style={{background:"rgba(34,197,94,0.1)",border:"1px solid #166534",borderRadius:5,
+              padding:"3px 10px",color:isRunning?"#334155":"#22c55e",fontSize:11,cursor:isRunning?"not-allowed":"pointer",
+              fontFamily:"'JetBrains Mono',monospace",display:"flex",gap:4,alignItems:"center"}}>
+            <Icon name="send" size={10}/> Reenviar sel.
+          </button>
+          <button onClick={clrSel} style={{background:"transparent",border:"none",color:"#475569",
+            fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace"}}>✕</button>
+        </div>}
+        <button onClick={()=>runReenviar(list.map(e=>e.id))} disabled={isRunning||!srvOnline||list.length===0}
+          style={{background:isRunning?"rgba(71,85,105,0.05)":"rgba(245,158,11,0.1)",
+            border:isRunning?"1px solid #1e2d3d":"1px solid #78350f",borderRadius:6,
+            padding:"5px 13px",color:isRunning?"#334155":"#fbbf24",fontSize:11,
+            cursor:isRunning||!srvOnline?"not-allowed":"pointer",display:"flex",gap:5,
+            alignItems:"center",fontFamily:"'JetBrains Mono',monospace",opacity:isRunning?0.5:1}}>
+          {isRunning
+            ?<span style={{display:"inline-block",width:10,height:10,border:"2px solid #fbbf24",borderTopColor:"transparent",borderRadius:"50%",animation:"spin 0.7s linear infinite"}}/>
+            :<Icon name="send" size={11}/>}
+          Reenviar todos ({list.length})
+        </button>
+        {/* Selecionar página */}
+        <button onClick={selected.size>0?clrSel:selAll}
+          style={{background:"rgba(71,85,105,0.08)",border:"1px solid #1e2d3d",borderRadius:6,
+            padding:"5px 10px",color:"#475569",fontSize:11,cursor:"pointer",
+            fontFamily:"'JetBrains Mono',monospace"}}>
+          {selected.size>0?"Limpar sel.":"Sel. página"}
+        </button>
+      </div>
+    </div>
+    <div style={{padding:"9px 20px",borderBottom:"1px solid #0a1520",background:"#090e14",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+      <span style={{color:tab==="erros"?"#fca5a5":tab==="tags_saida"?"#fb923c":tab==="tags_traduz"?"#22d3ee":"#fcd34d",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>
+        {tab==="erros"
+          ?`→ ${erros.length} entradas sem tradução — use DeepSeek ou Editar manual para filtros GPT.`
+          :tab==="tags_saida"
+          ?"→ Tags da pasta PT-BR\\ (saída) comparadas com ENG. Diferenças podem causar bugs visuais no jogo."
+          :tab==="tags_traduz"
+          ?"→ Entradas com \\board[...], \\optB[...] ou \\optD[...] traduzíveis. Abra o editor e clique ◎ Aprovar Tags."
+          :"→ GPT embaralhou tags entre entradas do mesmo lote. Reenvio individual resolve."}
+      </span>
+      {/* Feedback resultado */}
+      {runMsg&&<span style={{fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+        color:runMsg.ok?"#4ade80":"#f87171",display:"flex",alignItems:"center",gap:5}}>
+        {runMsg.ok?"✓":"✗"} {runMsg.msg}
+        <button onClick={()=>setRunMsg(null)} style={{background:"transparent",border:"none",color:"#334155",cursor:"pointer",fontSize:12}}>✕</button>
+      </span>}
+      {/* Indicador execução */}
+      {isRunning&&<span style={{color:"#fbbf24",fontSize:11,fontFamily:"'JetBrains Mono',monospace",display:"flex",alignItems:"center",gap:6}}>
+        <span style={{width:7,height:7,borderRadius:"50%",background:"#fbbf24",animation:"pulse 1s infinite",display:"block"}}/>
+        Enviando para API...
+      </span>}
+    </div>
+    <div style={{flex:1,overflowY:"auto"}}>
+      {/* ── Aba Tags PT-BR (Saída) ── */}
+      {tab==="tags_saida" && <div style={{padding:"20px"}}>
+        {/* Estado idle — ainda não verificou */}
+        {saidaEstado==="idle" && <div style={{textAlign:"center",padding:"40px 20px"}}>
+          <div style={{color:"#475569",fontSize:14,marginBottom:16}}>
+            🏷 Nenhuma verificação realizada ainda
+          </div>
+          <div style={{color:"#334155",fontSize:12,fontFamily:"'JetBrains Mono',monospace",marginBottom:20}}>
+            Compara as tags dos arquivos PT-BR\ (saída do gerador) com o ENG original do DB2.<br/>
+            A pasta PT-BR\ tem confiança total no extrator — este diagnóstico torna o ponto cego visível.
+          </div>
+          <button onClick={verificarSaida}
+            style={{background:"rgba(251,146,60,0.12)",border:"1px solid #c2410c",borderRadius:8,
+              padding:"10px 28px",color:"#fb923c",fontSize:13,cursor:"pointer",
+              fontFamily:"'JetBrains Mono',monospace",fontWeight:600}}>
+            🔍 Verificar Tags PT-BR agora
+          </button>
+        </div>}
+
+        {/* Estado carregando */}
+        {saidaEstado==="carregando" && <div style={{textAlign:"center",padding:"60px 20px"}}>
+          <div style={{width:32,height:32,border:"3px solid #1e2d3d",borderTopColor:"#fb923c",
+            borderRadius:"50%",animation:"spin 0.7s linear infinite",margin:"0 auto 14px"}}/>
+          <div style={{color:"#475569",fontSize:13,fontFamily:"'JetBrains Mono',monospace"}}>Verificando arquivos PT-BR\...</div>
+        </div>}
+
+        {/* Estado erro */}
+        {saidaEstado==="erro" && saidaResult?.erro && <div style={{
+          background:"#1c0a00",border:"1px solid #7c2d12",borderRadius:8,padding:"16px 20px",marginBottom:16}}>
+          <div style={{color:"#f87171",fontSize:13,fontFamily:"'JetBrains Mono',monospace",marginBottom:10}}>{saidaResult.erro}</div>
+          <button onClick={verificarSaida}
+            style={{background:"rgba(251,146,60,0.1)",border:"1px solid #c2410c",borderRadius:6,
+              padding:"6px 16px",color:"#fb923c",fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace"}}>
+            Tentar novamente
+          </button>
+        </div>}
+
+        {/* Estado ok — mostra resultados */}
+        {saidaEstado==="ok" && saidaResult && <>
+          {/* Resumo */}
+          <div style={{display:"flex",gap:10,marginBottom:16,flexWrap:"wrap",alignItems:"center"}}>
+            {[
+              {l:"Verificados", v:saidaResult.total,    c:"#94a3b8"},
+              {l:"OK",          v:saidaResult.ok,       c:"#4ade80"},
+              {l:"Quebradas",   v:saidaResult.quebradas,c:saidaResult.quebradas>0?"#f59e0b":"#4ade80"},
+            ].map(s=><div key={s.l} style={{background:"#0b1219",border:"1px solid #1e2d3d",
+              borderRadius:7,padding:"8px 14px",fontFamily:"'JetBrains Mono',monospace"}}>
+              <div style={{color:"#334155",fontSize:9,letterSpacing:"0.1em",marginBottom:2}}>{s.l.toUpperCase()}</div>
+              <div style={{color:s.c,fontSize:18,fontWeight:700}}>{s.v}</div>
+            </div>)}
+            <div style={{flex:1}}/>
+            <button onClick={verificarSaida}
+              style={{background:"rgba(71,85,105,0.1)",border:"1px solid #1e2d3d",borderRadius:6,
+                padding:"6px 14px",color:"#64748b",fontSize:11,cursor:"pointer",fontFamily:"'JetBrains Mono',monospace"}}>
+              🔍 Reverificar
+            </button>
+          </div>
+
+          {/* Tudo ok */}
+          {saidaResult.quebradas===0 && <div style={{background:"#0d2d1a",border:"1px solid #166534",
+            borderRadius:8,padding:"20px",textAlign:"center",color:"#4ade80",fontSize:14}}>
+            ✓ Nenhuma tag quebrada — pasta PT-BR\ está íntegra!
+          </div>}
+
+          {/* Lista de quebradas */}
+          {saidaResult.quebradas>0 && <>
+            <input value={filtroSaida} onChange={e=>setFiltroSaida(e.target.value)}
+              placeholder="Filtrar por arquivo, chave ou tag..."
+              style={{width:"100%",background:"#060c12",border:"1px solid #1e2d3d",borderRadius:7,
+                padding:"8px 12px",color:"#e2e8f0",fontSize:12,
+                fontFamily:"'JetBrains Mono',monospace",marginBottom:12}}/>
+            {filtradosSaida.length===0
+              ? <div style={{textAlign:"center",color:"#475569",padding:"20px"}}>Nenhum resultado para "{filtroSaida}"</div>
+              : filtradosSaida.map((e,i)=><div key={i} style={{
+                  background:"#0b1219",border:"1px solid #78350f55",borderRadius:8,
+                  padding:"14px 16px",marginBottom:8}}>
+                  {/* Arquivo + chave */}
+                  <div style={{display:"flex",gap:8,alignItems:"baseline",marginBottom:10,flexWrap:"wrap"}}>
+                    <span style={{color:"#64748b",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>{e.arquivo}</span>
+                    <span style={{color:"#334155",fontSize:10}}>›</span>
+                    <span style={{color:"#94a3b8",fontSize:12,fontFamily:"'JetBrains Mono',monospace",fontWeight:700}}>{e.full_key}</span>
+                  </div>
+                  {/* Tags lado a lado */}
+                  <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:8}}>
+                    <div style={{background:"#060c12",borderRadius:6,padding:"8px 10px",border:"1px solid #1e2d3d"}}>
+                      <div style={{color:"#475569",fontSize:9,fontFamily:"'JetBrains Mono',monospace",
+                        letterSpacing:"0.1em",marginBottom:5}}>ENG — ESPERADO</div>
+                      <div style={{display:"flex",gap:4,flexWrap:"wrap"}}>
+                        {e.tags_eng.length===0
+                          ? <span style={{color:"#334155",fontSize:11,fontStyle:"italic"}}>sem tags</span>
+                          : e.tags_eng.map((t,j)=><span key={j} style={{
+                              background:e.faltando?.includes(t)?"rgba(239,68,68,0.15)":"rgba(245,158,11,0.12)",
+                              border:`1px solid ${e.faltando?.includes(t)?"#7f1d1d":"#78350f55"}`,
+                              color:e.faltando?.includes(t)?"#f87171":"#f59e0b",
+                              borderRadius:4,padding:"2px 6px",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{t}</span>)}
+                      </div>
+                    </div>
+                    <div style={{background:"#060c12",borderRadius:6,padding:"8px 10px",border:"1px solid #1e2d3d"}}>
+                      <div style={{color:"#475569",fontSize:9,fontFamily:"'JetBrains Mono',monospace",
+                        letterSpacing:"0.1em",marginBottom:5}}>PT-BR — ENCONTRADO</div>
+                      <div style={{display:"flex",gap:4,flexWrap:"wrap"}}>
+                        {e.tags_pt.length===0
+                          ? <span style={{color:"#334155",fontSize:11,fontStyle:"italic"}}>sem tags</span>
+                          : e.tags_pt.map((t,j)=><span key={j} style={{
+                              background:e.sobrando?.includes(t)?"rgba(239,68,68,0.15)":"rgba(34,197,94,0.1)",
+                              border:`1px solid ${e.sobrando?.includes(t)?"#7f1d1d":"#14532d55"}`,
+                              color:e.sobrando?.includes(t)?"#f87171":"#22c55e",
+                              borderRadius:4,padding:"2px 6px",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{t}</span>)}
+                      </div>
+                    </div>
+                  </div>
+                  {/* Diagnóstico rápido */}
+                  <div style={{display:"flex",gap:8,flexWrap:"wrap"}}>
+                    {e.faltando?.length>0&&<span style={{background:"rgba(239,68,68,0.08)",
+                      border:"1px solid #7f1d1d",borderRadius:4,padding:"3px 10px",
+                      color:"#f87171",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>
+                      ← faltando: {e.faltando.join("  ")}
+                    </span>}
+                    {e.sobrando?.length>0&&<span style={{background:"rgba(251,191,36,0.08)",
+                      border:"1px solid #78350f",borderRadius:4,padding:"3px 10px",
+                      color:"#fbbf24",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>
+                      + sobrando: {e.sobrando.join("  ")}
+                    </span>}
+                  </div>
+                </div>)}
+          </>}
+        </>}
+      </div>}
+
+      {/* ── Abas Erros e Tags alteradas — lista original ── */}
+      {/* ── Aba Tags Traduzíveis ── */}
+      {tab==="tags_traduz" && <div style={{flex:1,overflowY:"auto"}}>
+        {tagsTraduz.length===0
+          ? <div style={{padding:"40px",textAlign:"center",color:"#334155",fontFamily:"'JetBrains Mono',monospace",fontSize:13}}>
+              ✓ Nenhuma tag traduzível pendente de aprovação.
+            </div>
+          : pageEntries.map(entry=>{
+              const aprovado = entry.tags_traduz_ok===1;
+              const saving   = savingTagTraduz[entry.id];
+              const aprovar  = async()=>{
+                const next = aprovado ? null : 1;
+                setSavingTagTraduz(p=>({...p,[entry.id]:true}));
+                try {
+                  await API.post("/api/tags-traduz/salvar",{arquivo:entry.arquivo,full_key:entry.full_key,tags_traduz_ok:next});
+                  if(setEntries){
+                    const fresh=await API.get("/api/entries");
+                    if(fresh.entries) setEntries(fresh.entries);
+                  }
+                } catch(e){}
+                setSavingTagTraduz(p=>({...p,[entry.id]:false}));
+              };
+              return <div key={entry.id} style={{padding:"13px 20px",borderBottom:"1px solid #0a1520",
+                display:"grid",gridTemplateColumns:"1fr 1fr 120px",gap:12,alignItems:"start",
+                background:aprovado?"rgba(34,211,238,0.03)":"transparent"}}>
+                <div>
+                  <div style={{display:"flex",gap:7,alignItems:"center",marginBottom:6}}>
+                    <Badge status={entry.status} modelo={entry.modelo} revisado={entry.status_revisao==="ok"}/>
+                    <TagTraduzBadge val={entry.tags_traduz_ok??null}/>
+                    <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{entry.arquivo}</span>
+                  </div>
+                  <div style={{color:"#64748b",fontSize:11,fontFamily:"'JetBrains Mono',monospace",marginBottom:7}}>{entry.full_key}</div>
+                  <div style={{background:"#060c12",borderRadius:6,padding:"8px 11px",border:"1px solid #1e2d3d"}}>
+                    <div style={{color:"#334155",fontSize:9,fontFamily:"'JetBrains Mono',monospace",marginBottom:4}}>ENG</div>
+                    <TagText text={entry.eng}/>
+                  </div>
+                </div>
+                <div>
+                  <div style={{background:"#060c12",borderRadius:6,padding:"8px 11px",
+                    border:`1px solid ${aprovado?"#0891b255":"#164e6355"}`,marginTop:24}}>
+                    <div style={{color:"#334155",fontSize:9,fontFamily:"'JetBrains Mono',monospace",marginBottom:4}}>PT-BR</div>
+                    <TagText text={entry.pt}/>
+                  </div>
+                </div>
+                <div style={{display:"flex",flexDirection:"column",gap:7,paddingTop:24}}>
+                  <button onClick={aprovar} disabled={saving}
+                    style={{background:aprovado?"rgba(34,211,238,0.18)":"rgba(34,211,238,0.08)",
+                      border:aprovado?"1px solid #0891b2":"1px solid #164e63",borderRadius:6,
+                      padding:"8px 0",color:aprovado?"#22d3ee":"#0e7490",fontSize:11,
+                      cursor:saving?"wait":"pointer",display:"flex",gap:5,alignItems:"center",
+                      justifyContent:"center",fontFamily:"'JetBrains Mono',monospace",fontWeight:600}}>
+                    {saving
+                      ? <span style={{display:"inline-block",width:10,height:10,border:"2px solid #22d3ee",borderTopColor:"transparent",borderRadius:"50%",animation:"spin 0.7s linear infinite"}}/>
+                      : aprovado ? "✓ Tags OK" : "◎ Aprovar Tags"}
+                  </button>
+                  <button onClick={()=>onEdit(entry)}
+                    style={{background:"rgba(14,165,233,0.07)",border:"1px solid #0c4a6e",
+                      borderRadius:6,padding:"7px 0",color:"#38bdf8",fontSize:11,cursor:"pointer",
+                      display:"flex",gap:5,alignItems:"center",justifyContent:"center",
+                      fontFamily:"'JetBrains Mono',monospace"}}>
+                    <Icon name="edit" size={11}/> Editar
+                  </button>
+                </div>
+              </div>;
+            })}
+      </div>}
+
+      {tab!=="tags_saida"&&tab!=="tags_traduz" && pageEntries.map(entry=><div key={entry.id} style={{padding:"15px 20px",borderBottom:"1px solid #0a1520",
+        display:"grid",gridTemplateColumns:"1fr 1fr 110px",gap:14,alignItems:"start",background:selected.has(entry.id)?"rgba(14,165,233,0.04)":"transparent"}}>
+        <div>
+          <div style={{display:"flex",gap:8,alignItems:"center",marginBottom:7}}>
+            <Badge status={entry.status} modelo={entry.modelo} revisado={entry.status_revisao==="ok"}/>
+                    {temTagsTraduz(entry.pt||"")&&<TagTraduzBadge val={entry.tags_traduz_ok??null}/>}
+            <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{entry.arquivo}</span>
+          </div>
+          <div style={{color:"#64748b",fontSize:11,fontFamily:"'JetBrains Mono',monospace",marginBottom:8}}>{entry.full_key}</div>
+          {(()=>{
+            const {text,label}=getRef(entry);
+            // fallback: se o idioma selecionado estiver vazio, tenta eng → cht
+            const fallback = !text ? (entry.eng?{text:entry.eng,label:"ENG↩"}:entry.cht?{text:entry.cht,label:"CHT↩"}:null) : null;
+            const show = text ? {text,label} : fallback;
+            const isFallback = !text && show;
+            return <div style={{background:"#060c12",borderRadius:7,padding:"8px 12px",border:"1px solid #1e2d3d"}}>
+              {show
+                ? <><div style={{color:isFallback?"#f97316":"#334155",fontSize:9,
+                    fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.12em",marginBottom:4}}>
+                    {show.label}{isFallback&&" (sem "+label+")"}
+                  </div><TagText text={show.text}/></>
+                : <span style={{color:"#4b5563",fontStyle:"italic",fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}>— sem texto de referência —</span>
+              }
+            </div>;
+          })()}
+        </div>
+        <div>
+          <div style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace",marginBottom:7}}>
+            {entry.status==="erro"?"PT-BR (vazio)":"PT-BR (problema)"}</div>
+          <div style={{background:"#060c12",borderRadius:7,padding:"8px 12px",
+            border:`1px solid ${entry.status==="erro"?"#7f1d1d":"#78350f"}`}}>
+            {entry.pt?<TagText text={entry.pt}/>:<span style={{color:"#4b5563",fontStyle:"italic",fontSize:12}}>— filtro GPT bloqueou —</span>}
+          </div>
+        </div>
+        <div style={{display:"flex",flexDirection:"column",gap:7,paddingTop:28}}>
+          {/* Checkbox seleção */}
+          <label style={{display:"flex",alignItems:"center",gap:6,cursor:"pointer",paddingBottom:4,
+            borderBottom:"1px solid #0f1923",marginBottom:2}}>
+            <input type="checkbox" checked={selected.has(entry.id)}
+              onChange={()=>toggleSel(entry.id)}
+              style={{accentColor:"#0ea5e9",width:13,height:13,cursor:"pointer"}}/>
+            <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>sel.</span>
+          </label>
+          <button onClick={()=>onEdit(entry)} style={{background:"rgba(14,165,233,0.08)",border:"1px solid #0c4a6e",
+            borderRadius:6,padding:"7px 0",color:"#38bdf8",fontSize:11,cursor:"pointer",
+            display:"flex",gap:5,alignItems:"center",justifyContent:"center",fontFamily:"'JetBrains Mono',monospace"}}>
+            <Icon name="edit" size={11}/> Editar</button>
+          <button onClick={()=>runReenviar([entry.id])} disabled={isRunning||!srvOnline}
+            style={{background:isRunning?"rgba(71,85,105,0.05)":"rgba(245,158,11,0.08)",
+              border:isRunning?"1px solid #1e2d3d":"1px solid #78350f",borderRadius:6,
+              padding:"7px 0",color:isRunning?"#334155":"#fbbf24",fontSize:11,
+              cursor:isRunning||!srvOnline?"not-allowed":"pointer",display:"flex",gap:5,
+              alignItems:"center",justifyContent:"center",fontFamily:"'JetBrains Mono',monospace",
+              opacity:isRunning?0.5:1}}>
+            <Icon name="send" size={11}/> Reenviar
+          </button>
+        </div>
+      </div>)}
+    </div>
+    {tab!=="tags_saida"&&tab!=="tags_traduz"&&<Pagination total={list.length} page={page} pageSize={pageSize} onPage={setPage} onPageSize={setPageSize}/>}
+    {tab==="tags_traduz"&&<Pagination total={tagsTraduz.length} page={page} pageSize={pageSize} onPage={setPage} onPageSize={setPageSize}/>}
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// EXPORTAR
+// ══════════════════════════════════════════════════════════════
+function ExportScreen({entries, srvOnline, onPipeline, pipeRunning}){
+  const [log,setLog]=useState([]);
+  const [running,setRunning]=useState(null); // 'all'|'dry'|'rel'|arquivo
+  const [lastResult,setLastResult]=useState(null); // {ok,step}
+  const logRef=React.useRef(null);
+
+  const arquivos=useMemo(()=>[...new Set(entries.map(e=>e.arquivo))].sort(),[entries]);
+
+  // Stats por arquivo
+  const statsArq=useMemo(()=>{
+    const m={};
+    arquivos.forEach(arq=>{
+      const es=entries.filter(e=>e.arquivo===arq);
+      const ok=es.filter(e=>e.status==="traduzido"||e.status==="aproveitado").length;
+      const err=es.filter(e=>e.status==="erro").length;
+      const pend=es.filter(e=>e.status==="pendente").length;
+      m[arq]={total:es.length,ok,err,pend};
+    });
+    return m;
+  },[entries,arquivos]);
+
+  // Stats globais
+  const totalOk=useMemo(()=>Object.values(statsArq).reduce((a,s)=>a+s.ok,0),[statsArq]);
+  const totalErr=useMemo(()=>Object.values(statsArq).reduce((a,s)=>a+s.err,0),[statsArq]);
+  const totalPend=useMemo(()=>Object.values(statsArq).reduce((a,s)=>a+s.pend,0),[statsArq]);
+  const totalEntradas=useMemo(()=>Object.values(statsArq).reduce((a,s)=>a+s.total,0),[statsArq]);
+  const cobertura=totalEntradas>0?Math.round(totalOk*100/totalEntradas):0;
+
+  // Auto-scroll log
+  React.useEffect(()=>{
+    if(logRef.current) logRef.current.scrollTop=logRef.current.scrollHeight;
+  },[log]);
+
+  const runStep=async(step,opts={},label)=>{
+    if(!srvOnline){setLog(["[ERRO] Servidor offline — execute: python servidor.py"]);return;}
+    if(running) return;
+    setRunning(label);
+    setLog([`► ${label}...`]);
+    setLastResult(null);
+    const params=new URLSearchParams(opts);
+    const es=new EventSource(`/api/pipeline/${step}/stream?${params}`);
+    es.onmessage=(ev)=>{
+      try{
+        const d=JSON.parse(ev.data);
+        if(d.ping) return;
+        if(d.line) setLog(prev=>[...prev,d.line].slice(-300));
+        if(d.done){
+          es.close();
+          setRunning(null);
+          setLastResult({ok:d.returncode===0,step});
+          setLog(prev=>[...prev, d.returncode===0?"✓ Concluído com sucesso.":"✗ Finalizado com erros."]);
+        }
+      }catch(e){}
+    };
+    es.onerror=()=>{
+      es.close();
+      setRunning(null);
+      setLog(prev=>[...prev,"[ERR] SSE desconectado."]);
+    };
+  };
+
+  const busy=!!running;
+  const MF="'JetBrains Mono',monospace";
+
+  // Cor do botão por tipo
+  const btnStyle=(variant,disabled)=>({
+    background: disabled?"rgba(255,255,255,0.03)":
+      variant==="primary"?"rgba(34,197,94,0.12)":
+      variant==="warn"?"rgba(251,191,36,0.1)":
+      "rgba(14,165,233,0.08)",
+    border: disabled?"1px solid #1e2d3d":
+      variant==="primary"?"1px solid #166534":
+      variant==="warn"?"1px solid #92400e":
+      "1px solid #0c4a6e",
+    color: disabled?"#334155":
+      variant==="primary"?"#22c55e":
+      variant==="warn"?"#fbbf24":
+      "#38bdf8",
+    borderRadius:6,padding:"7px 16px",fontSize:12,cursor:disabled?"not-allowed":"pointer",
+    fontFamily:MF,fontWeight:600,opacity:disabled?0.5:1,transition:"opacity 0.15s",
+    display:"flex",alignItems:"center",gap:6,
+  });
+
+  return <div style={{display:"flex",height:"100%",overflow:"hidden"}}>
+    {/* ── Coluna esquerda: controles + lista de arquivos ── */}
+    <div style={{width:320,borderRight:"1px solid #1e2d3d",display:"flex",flexDirection:"column",overflow:"hidden",flexShrink:0}}>
+      {/* Header */}
+      <div style={{padding:"20px 20px 14px",borderBottom:"1px solid #1e2d3d"}}>
+        <div style={{color:"#475569",fontSize:10,letterSpacing:"0.18em",fontFamily:MF,marginBottom:4}}>GERADOR DE ARQUIVOS</div>
+        <div style={{color:"#f1f5f9",fontSize:17,fontWeight:700,marginBottom:12}}>Exportar PT-BR</div>
+        {/* Stats resumidas */}
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:6,marginBottom:14}}>
+          {[
+            {label:"Traduzido",val:totalOk,color:"#22c55e"},
+            {label:"Pendente",val:totalPend,color:"#64748b"},
+            {label:"Erro",val:totalErr,color:totalErr>0?"#f87171":"#334155"},
+          ].map(s=><div key={s.label} style={{background:"#0a1018",border:"1px solid #1e2d3d",borderRadius:6,padding:"7px 10px",textAlign:"center"}}>
+            <div style={{color:s.color,fontSize:16,fontWeight:700,fontFamily:MF}}>{s.val}</div>
+            <div style={{color:"#334155",fontSize:10,fontFamily:MF,marginTop:2}}>{s.label}</div>
+          </div>)}
+        </div>
+        {/* Barra de cobertura */}
+        <div style={{marginBottom:14}}>
+          <div style={{display:"flex",justifyContent:"space-between",marginBottom:4}}>
+            <span style={{color:"#475569",fontSize:11,fontFamily:MF}}>Cobertura PT-BR</span>
+            <span style={{color:cobertura>80?"#22c55e":cobertura>40?"#fbbf24":"#f87171",fontSize:11,fontFamily:MF,fontWeight:700}}>{cobertura}%</span>
+          </div>
+          <div style={{height:4,background:"#0f1923",borderRadius:2,overflow:"hidden"}}>
+            <div style={{height:"100%",width:`${cobertura}%`,background:cobertura>80?"#22c55e":cobertura>40?"#fbbf24":"#ef4444",borderRadius:2,transition:"width 0.3s"}}/>
+          </div>
+        </div>
+        {/* Botões principais */}
+        <div style={{display:"flex",flexDirection:"column",gap:6}}>
+          <button style={btnStyle("primary",busy)}
+            onClick={()=>!busy&&runStep("gerador",{},"Gerar todos")}>
+            {running==="Gerar todos"?<span style={{display:"inline-block",animation:"spin 1s linear infinite"}}>⟳</span>:<Icon name="export" size={13}/>}
+            Gerar todos ({arquivos.length} arquivos)
+          </button>
+          <div style={{display:"flex",gap:6}}>
+            <button style={{...btnStyle("sky",busy),flex:1}}
+              onClick={()=>!busy&&runStep("gerador_dry",{},"Dry-run")}>
+              Simular (dry-run)
+            </button>
+            <button style={{...btnStyle("sky",busy),flex:1}}
+              onClick={()=>!busy&&runStep("gerador_rel",{},"Relatório")}>
+              Ver relatório
+            </button>
+          </div>
+        </div>
+        {/* Resultado da última execução */}
+        {lastResult&&<div style={{marginTop:10,padding:"6px 10px",borderRadius:6,
+          background:lastResult.ok?"rgba(34,197,94,0.08)":"rgba(239,68,68,0.08)",
+          border:`1px solid ${lastResult.ok?"#166534":"#7f1d1d"}`,
+          color:lastResult.ok?"#4ade80":"#f87171",fontSize:11,fontFamily:MF}}>
+          {lastResult.ok?"✓ Arquivos gerados com sucesso":"✗ Finalizado com erros — veja o log"}
+        </div>}
+      </div>
+
+      {/* Lista de arquivos */}
+      <div style={{flex:1,overflowY:"auto",padding:"10px 12px"}}>
+        <div style={{color:"#334155",fontSize:10,letterSpacing:"0.15em",fontFamily:MF,padding:"4px 8px",marginBottom:6}}>
+          ARQUIVOS ({arquivos.length})
+        </div>
+        {arquivos.map(arq=>{
+          const s=statsArq[arq]||{total:0,ok:0,err:0,pend:0};
+          const pct=s.total>0?Math.round(s.ok*100/s.total):0;
+          const isRunningThis=running===arq;
+          return <div key={arq} style={{background:"#0a1018",border:"1px solid #1e2d3d",
+            borderRadius:6,padding:"8px 10px",marginBottom:4}}>
+            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:5}}>
+              <div style={{display:"flex",alignItems:"center",gap:6,minWidth:0}}>
+                {s.err>0&&<span style={{width:5,height:5,borderRadius:"50%",background:"#ef4444",flexShrink:0,display:"block"}}/>}
+                <span style={{color:"#94a3b8",fontSize:11,fontFamily:MF,
+                  overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}
+                  title={arq}>{arq}</span>
+              </div>
+              <button
+                onClick={()=>!busy&&runStep("gerador",{arquivo:arq},arq)}
+                style={{...btnStyle("sky",busy),padding:"3px 10px",fontSize:10,flexShrink:0}}>
+                {isRunningThis?<span style={{animation:"spin 1s linear infinite",display:"inline-block"}}>⟳</span>:"Gerar"}
+              </button>
+            </div>
+            {/* Mini barra por arquivo */}
+            <div style={{display:"flex",alignItems:"center",gap:6}}>
+              <div style={{flex:1,height:3,background:"#0f1923",borderRadius:2,overflow:"hidden"}}>
+                <div style={{height:"100%",width:`${pct}%`,
+                  background:pct===100?"#22c55e":pct>40?"#0ea5e9":"#475569",borderRadius:2}}/>
+              </div>
+              <span style={{color:"#334155",fontSize:10,fontFamily:MF,flexShrink:0,minWidth:28,textAlign:"right"}}>{pct}%</span>
+              {s.err>0&&<span style={{color:"#f87171",fontSize:10,fontFamily:MF,flexShrink:0}}>{s.err}✗</span>}
+            </div>
+          </div>;
+        })}
+      </div>
+    </div>
+
+    {/* ── Coluna direita: log ao vivo ── */}
+    <div style={{flex:1,display:"flex",flexDirection:"column",overflow:"hidden"}}>
+      <div style={{padding:"12px 18px",borderBottom:"1px solid #1e2d3d",background:"#090e14",
+        display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+          {running&&<span style={{width:7,height:7,borderRadius:"50%",background:"#22c55e",
+            animation:"pulse 1s infinite",display:"block"}}/>}
+          <span style={{color:"#475569",fontSize:11,fontFamily:MF,letterSpacing:"0.12em"}}>
+            {running?`EXECUTANDO — ${running}`:"LOG DE SAÍDA"}
+          </span>
+        </div>
+        {log.length>0&&<button onClick={()=>setLog([])}
+          style={{background:"transparent",border:"1px solid #1e2d3d",borderRadius:4,
+            padding:"3px 10px",color:"#475569",fontSize:10,cursor:"pointer",fontFamily:MF}}>
+          Limpar
+        </button>}
+      </div>
+      <div ref={logRef} style={{flex:1,overflowY:"auto",padding:"14px 18px",fontFamily:MF,fontSize:12,lineHeight:1.7}}>
+        {log.length===0
+          ?<div style={{color:"#1e2d3d",textAlign:"center",paddingTop:60,fontSize:13}}>
+              Nenhuma execução ainda.<br/>
+              <span style={{fontSize:11,color:"#0f1923"}}>Clique em "Gerar todos" ou em um arquivo específico.</span>
+            </div>
+          :log.map((line,i)=>{
+            const isErr=line.includes("[ERRO]")||line.includes("✗")||line.includes("sem tradução")&&line.includes("!");
+            const isOk=line.includes("✓")||line.includes("[100%]");
+            const isPct=/\[\s*\d+%\]/.test(line);
+            return <div key={i} style={{
+              color:isErr?"#f87171":isOk?"#4ade80":isPct?"#0ea5e9":"#64748b",
+              whiteSpace:"pre-wrap",wordBreak:"break-all"}}>
+              {line}
+            </div>;
+          })
+        }
+      </div>
+    </div>
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// MENU UI — strings de interface (sem diálogo)
+// ══════════════════════════════════════════════════════════════
+const MENU_FILES=["menu.txt","DataItem.txt","DataSkill.txt","DataEquip.txt","DataState.txt","DataTitle.txt","commonCommands.txt"];
+function MenuScreen({onEdit,entries}){
+  const [search,setSearch]=useState("");
+  const [activeFile,setActiveFile]=useState("todos");
+  const [editInline,setEditInline]=useState(null); // {id, val}
+
+  const menuEntries=useMemo(()=>entries.filter(e=>MENU_FILES.some(f=>e.arquivo===f)),[entries]);
+
+  const fileList=useMemo(()=>{
+    const counts={};
+    menuEntries.forEach(e=>{counts[e.arquivo]=(counts[e.arquivo]||0)+1;});
+    return Object.entries(counts).sort((a,b)=>a[0].localeCompare(b[0]));
+  },[menuEntries]);
+
+  const filtered=useMemo(()=>{
+    let arr=activeFile==="todos"?menuEntries:menuEntries.filter(e=>e.arquivo===activeFile);
+    if(search){
+      const q=search.toLowerCase();
+      arr=arr.filter(e=>(e.full_key||"").toLowerCase().includes(q)||(e.eng||"").toLowerCase().includes(q)||(e.pt||"").toLowerCase().includes(q));
+    }
+    return arr;
+  },[menuEntries,activeFile,search]);
+
+  // Group by namespace
+  const grouped=useMemo(()=>{
+    const g={};
+    filtered.forEach(e=>{
+      const ns=e.full_key.split("/")[0]||"Outros";
+      if(!g[ns]) g[ns]=[];
+      g[ns].push(e);
+    });
+    return g;
+  },[filtered]);
+
+  const nsKeys=Object.keys(grouped).sort();
+  const totalMenu=menuEntries.length;
+  const missingPt=menuEntries.filter(e=>!e.pt).length;
+
+  return <div style={{display:"flex",height:"100%",overflow:"hidden"}}>
+    {/* Sidebar de arquivos */}
+    <div style={{width:190,background:"#04080f",borderRight:"1px solid #1e2d3d",
+      overflowY:"auto",padding:"12px 8px",flexShrink:0}}>
+      <div style={{color:"#334155",fontSize:10,letterSpacing:"0.15em",
+        fontFamily:"'JetBrains Mono',monospace",padding:"4px 8px",marginBottom:6}}>ARQUIVOS</div>
+      {[["todos",totalMenu],...fileList].map(([f,n])=>{
+        const active=activeFile===f;
+        return <button key={f} onClick={()=>setActiveFile(f)} style={{
+          width:"100%",textAlign:"left",padding:"7px 10px",borderRadius:6,
+          background:active?"#0f1923":"transparent",
+          border:active?"1px solid #1e2d3d":"1px solid transparent",
+          color:active?"#e2e8f0":"#475569",cursor:"pointer",
+          display:"flex",justifyContent:"space-between",alignItems:"center",
+          fontSize:11,fontFamily:"'JetBrains Mono',monospace",marginBottom:2}}>
+          <span style={{overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{f}</span>
+          <span style={{background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:3,
+            padding:"0 5px",fontSize:10,color:"#334155",flexShrink:0,marginLeft:4}}>{n}</span>
+        </button>;
+      })}
+    </div>
+    {/* Conteúdo */}
+    <div style={{flex:1,display:"flex",flexDirection:"column",overflow:"hidden"}}>
+      {/* Toolbar */}
+      <div style={{padding:"10px 18px",borderBottom:"1px solid #1e2d3d",background:"#090e14",
+        display:"flex",gap:9,alignItems:"center"}}>
+        <div style={{position:"relative",flex:1}}>
+          <span style={{position:"absolute",left:9,top:"50%",transform:"translateY(-50%)",color:"#334155",pointerEvents:"none"}}>
+            <Icon name="search" size={12}/>
+          </span>
+          <input value={search} onChange={e=>setSearch(e.target.value)}
+            placeholder="Buscar chave ou texto..."
+            style={{width:"100%",paddingLeft:28,paddingRight:12,padding:"7px 12px 7px 28px",
+              background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:7,
+              color:"#e2e8f0",fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}/>
+        </div>
+        <div style={{color:"#334155",fontSize:11,fontFamily:"'JetBrains Mono',monospace",whiteSpace:"nowrap"}}>
+          <span style={{color:"#e2e8f0"}}>{filtered.length}</span> entradas
+          {missingPt>0&&<span style={{color:"#f87171",marginLeft:10}}>· {missingPt} sem PT-BR</span>}
+        </div>
+      </div>
+      {/* Grupos */}
+      <div style={{flex:1,overflowY:"auto",padding:"12px 18px",display:"flex",flexDirection:"column",gap:14}}>
+        {nsKeys.length===0&&<div style={{color:"#334155",fontFamily:"'JetBrains Mono',monospace",
+          fontSize:13,textAlign:"center",paddingTop:40}}>Nenhuma entrada.</div>}
+        {nsKeys.map(ns=><div key={ns}>
+          {/* Cabeçalho do grupo */}
+          <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:6}}>
+            <span style={{color:"#0ea5e9",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+              letterSpacing:"0.1em",fontWeight:700}}>{ns}</span>
+            <span style={{color:"#1e2d3d",fontSize:10}}>/</span>
+            <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>
+              {grouped[ns].length} itens</span>
+            <div style={{flex:1,height:1,background:"#1e2d3d"}}/>
+          </div>
+          {/* Linhas do grupo */}
+          <div style={{background:"#0a1018",border:"1px solid #1e2d3d",borderRadius:8,overflow:"hidden"}}>
+            {grouped[ns].map((entry,i)=>{
+              const isEditing=editInline&&editInline.id===entry.id;
+              const missingThis=!entry.pt;
+              return <div key={entry.id} style={{
+                display:"grid",gridTemplateColumns:"200px 1fr 1fr 80px",
+                padding:"8px 14px",
+                borderBottom:i<grouped[ns].length-1?"1px solid #0f1923":"none",
+                alignItems:"center",gap:8,
+                background:missingThis?"rgba(239,68,68,0.03)":"transparent"}}>
+                {/* Subkey */}
+                <div style={{color:"#475569",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+                  overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}
+                  title={entry.full_key}>{entry.full_key.split("/").slice(1).join("/")}</div>
+                {/* ENG */}
+                <div style={{color:"#94a3b8",fontSize:12,fontFamily:"'JetBrains Mono',monospace",
+                  lineHeight:1.5}}>{entry.eng||<span style={{color:"#334155",fontStyle:"italic"}}>—</span>}</div>
+                {/* PT-BR inline edit */}
+                <div>
+                  {isEditing
+                    ?<input autoFocus value={editInline.val}
+                        onChange={e=>setEditInline({...editInline,val:e.target.value})}
+                        onKeyDown={e=>{if(e.key==="Enter"){/* save via button */}if(e.key==="Escape")setEditInline(null);}}
+                        style={{width:"100%",background:"#060c12",border:"1px solid #0ea5e9",
+                          borderRadius:5,padding:"5px 9px",color:"#e2e8f0",fontSize:12,
+                          fontFamily:"'JetBrains Mono',monospace"}}/>
+                    :<span onClick={()=>setEditInline({id:entry.id,val:entry.pt||""})}
+                        style={{color:missingThis?"#4b5563":entry.pt&&entry.pt!==entry.eng?"#4ade80":"#64748b",
+                          fontSize:12,fontFamily:"'JetBrains Mono',monospace",lineHeight:1.5,
+                          cursor:"text",display:"block",padding:"5px 0",
+                          fontStyle:missingThis?"italic":"normal"}}>
+                        {entry.pt||<span style={{color:"#4b5563"}}>— clique para traduzir —</span>}
+                      </span>}
+                </div>
+                {/* Ações */}
+                <div style={{display:"flex",gap:5}}>
+                  {isEditing?<>
+                    <button onClick={()=>{/* save */setEditInline(null);}} style={{
+                      background:"rgba(34,197,94,0.1)",border:"1px solid #166534",
+                      borderRadius:5,padding:"4px 9px",color:"#22c55e",fontSize:11,cursor:"pointer"}}>✓</button>
+                    <button onClick={()=>setEditInline(null)} style={{
+                      background:"transparent",border:"1px solid #1e2d3d",
+                      borderRadius:5,padding:"4px 7px",color:"#475569",fontSize:11,cursor:"pointer"}}>✕</button>
+                  </>:<button onClick={e=>{e.stopPropagation();onEdit(entry);}} style={{
+                    background:"rgba(71,85,105,0.12)",border:"1px solid #1e2d3d",
+                    borderRadius:5,padding:"4px 9px",color:"#64748b",fontSize:11,cursor:"pointer",
+                    display:"flex",gap:3,alignItems:"center",fontFamily:"'JetBrains Mono',monospace"}}>
+                    <Icon name="edit" size={10}/> editar
+                  </button>}
+                </div>
+              </div>;
+            })}
+          </div>
+        </div>)}
+      </div>
+    </div>
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// CONFIG
+// ══════════════════════════════════════════════════════════════
+const API_PRESETS={
+  "gpt-4o-mini":{label:"GPT-4o-mini",provider:"OpenAI",url:"https://api.openai.com/v1/chat/completions",ph:"sk-...",color:"#22c55e"},
+  "deepseek-chat":{label:"DeepSeek Chat",provider:"DeepSeek",url:"https://api.deepseek.com/v1/chat/completions",ph:"sk-ds-...",color:"#38bdf8"},
+  "gpt-4o":{label:"GPT-4o",provider:"OpenAI",url:"https://api.openai.com/v1/chat/completions",ph:"sk-...",color:"#a78bfa"},
+  "custom":{label:"Custom",provider:"",url:"",ph:"api-key-...",color:"#f59e0b"},
+};
+function SettingsScreen({apiModelo,onApiModelo,srvOnline,onSaveConfig}){
+  const [modelo,setModelo]=useState(apiModelo||"gpt-4o-mini");
+  const [keyOpenAI,setKeyOpenAI]=useState("");        // nova chave OpenAI digitada
+  const [keyDeepSeek,setKeyDeepSeek]=useState("");    // nova chave DeepSeek digitada
+  const [kiOpenAI,setKiOpenAI]=useState(null);        // metadados disco OpenAI
+  const [kiDeepSeek,setKiDeepSeek]=useState(null);    // metadados disco DeepSeek
+  // compat: keyInfo/apiKey/setApiKey apontam para o provedor ativo
+  const isDeep = modelo.includes("deepseek");
+  const keyInfo  = isDeep ? kiDeepSeek : kiOpenAI;
+  const apiKey   = isDeep ? keyDeepSeek : keyOpenAI;
+  const setApiKey= isDeep ? setKeyDeepSeek : setKeyOpenAI;
+  const [showKey,setShowKey]=useState(false);
+  const [lote,setLote]=useState(20);
+  const [temp,setTemp]=useState(0.3);
+  const [tout,setTout]=useState(60);
+  const [customUrl,setCustomUrl]=useState("");
+  const [saveState,setSaveState]=useState(null);  // null | "saving" | "ok" | "err"
+  const [saveMsg,setSaveMsg]=useState("");
+
+  // Carrega config real do servidor ao montar
+  useEffect(()=>{
+    if(!srvOnline) return;
+    API.get("/api/config").then(cfg=>{
+      if(cfg.modelo)                    { setModelo(cfg.modelo); if(onApiModelo) onApiModelo(cfg.modelo); }
+      if(cfg.lote_size)                   setLote(cfg.lote_size);
+      if(cfg.temperatura !== undefined)   setTemp(cfg.temperatura);
+      if(cfg.timeout)                     setTout(cfg.timeout);
+      if(cfg.base_url && modelo==="custom") setCustomUrl(cfg.base_url);
+      // Metadados de AMBAS as chaves — nunca o valor real
+      if(cfg.key_openai)   setKiOpenAI(cfg.key_openai);
+      if(cfg.key_deepseek) setKiDeepSeek(cfg.key_deepseek);
+    }).catch(()=>{});
+  },[srvOnline]);
+
+  // Sincroniza modelo com topbar
+  useEffect(()=>{ if(apiModelo && apiModelo!==modelo) setModelo(apiModelo); },[apiModelo]);
+
+  const handleModelChange=(v)=>{ setModelo(v); if(onApiModelo) onApiModelo(v); };
+  const preset  = API_PRESETS[modelo] || API_PRESETS["custom"];
+  const baseUrl = modelo==="custom" ? customUrl : preset.url;
+  const keyOnDisk = keyInfo?.exists && !apiKey;  // chave salva, campo vazio
+
+  const handleSave = async()=>{
+    if(!srvOnline){
+      setSaveState("err"); setSaveMsg("Servidor offline. Execute: python servidor.py");
+      setTimeout(()=>{ setSaveState(null); setSaveMsg(""); }, 3500);
+      return;
+    }
+    setSaveState("saving"); setSaveMsg("Gravando config.json em disco...");
+    const cfg = {
+      modelo,
+      lote_size:        parseInt(lote),
+      temperatura:      parseFloat(temp),
+      timeout:          parseInt(tout),
+      base_url:         baseUrl,
+      api_key_openai:   keyOpenAI.trim(),   // vazio = servidor preserva
+      api_key_deepseek: keyDeepSeek.trim(), // vazio = servidor preserva
+    };
+    try {
+      const r = await API.post("/api/config", cfg);
+      if(r.ok){
+        if(r.key_openai)   { setKiOpenAI(r.key_openai);   setKeyOpenAI(""); }
+        if(r.key_deepseek) { setKiDeepSeek(r.key_deepseek); setKeyDeepSeek(""); }
+        if(onApiModelo && r.modelo) onApiModelo(r.modelo);
+        const ko = r.key_openai||{}; const kd = r.key_deepseek||{};
+        const parts=[];
+        if(ko.exists) parts.push("OpenAI: "+ko.hint);
+        if(kd.exists) parts.push("DeepSeek: "+kd.hint);
+        setSaveState("ok");
+        setSaveMsg(parts.length ? "Salvo ✓ — "+parts.join("  |  ") : "Salvo ✓  —  Atenção: nenhuma API key configurada.");
+      } else {
+        setSaveState("err"); setSaveMsg(r.error || "Erro desconhecido");
+      }
+    } catch(e) {
+      setSaveState("err"); setSaveMsg("Falha na conexão com o servidor");
+    }
+    setTimeout(()=>{ setSaveState(null); setSaveMsg(""); }, 4500);
+  };
+
+  return <div style={{padding:"28px 32px",overflowY:"auto",height:"100%",maxWidth:680}}>
+    <div style={{color:"#475569",fontSize:11,letterSpacing:"0.18em",fontFamily:"'JetBrains Mono',monospace",marginBottom:6}}>CONFIGURAÇÕES</div>
+    <h2 style={{color:"#f1f5f9",fontSize:20,fontWeight:700,marginBottom:4}}>config.json</h2>
+
+    {/* Status servidor */}
+    <div style={{marginBottom:22,fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>
+      {srvOnline
+        ? <span style={{color:"#22c55e"}}>✓ servidor online — alterações serão gravadas em disco</span>
+        : <span style={{color:"#f97316"}}>⚠ servidor offline — execute: python servidor.py</span>}
+    </div>
+
+    {/* Preset cards */}
+    <div style={{marginBottom:20}}>
+      <label style={{display:"block",color:"#475569",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+        letterSpacing:"0.12em",marginBottom:10}}>MODELO / PROVEDOR</label>
+      <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:8}}>
+        {Object.entries(API_PRESETS).map(([key,p])=>{
+          const active=modelo===key;
+          return <button key={key} onClick={()=>handleModelChange(key)} style={{
+            background:active?`${p.color}12`:"#0f1923",border:`1px solid ${active?p.color:"#1e2d3d"}`,
+            borderRadius:8,padding:"10px 10px",cursor:"pointer",textAlign:"left",transition:"all 0.15s"}}>
+            <div style={{color:active?p.color:"#475569",fontSize:11,fontWeight:700,
+              fontFamily:"'JetBrains Mono',monospace",marginBottom:3}}>{p.label}</div>
+            <div style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{p.provider||"—"}</div>
+          </button>;
+        })}
+      </div>
+    </div>
+
+    {/* API Keys — OpenAI e DeepSeek separados */}
+    <div style={{marginBottom:16}}>
+      <label style={{display:"block",color:"#475569",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+        letterSpacing:"0.12em",marginBottom:10}}>API KEYS</label>
+
+      {/* Status resumido de ambas */}
+      <div style={{display:"flex",gap:6,marginBottom:10}}>
+        {[
+          {label:"OpenAI",ki:kiOpenAI,col:"#22c55e"},
+          {label:"DeepSeek",ki:kiDeepSeek,col:"#38bdf8"},
+        ].map(({label,ki,col})=>(
+          <div key={label} style={{flex:1,padding:"6px 10px",
+            background:ki?.exists?"rgba(10,30,10,0.4)":"rgba(30,10,10,0.3)",
+            border:"1px solid "+(ki?.exists?col+"55":"#7f1d1d44"),borderRadius:6,
+            display:"flex",alignItems:"center",gap:6}}>
+            <span style={{fontSize:10}}>{ki?.exists?"🔑":"○"}</span>
+            <span style={{color:ki?.exists?col:"#ef4444",fontSize:10,
+              fontFamily:"'JetBrains Mono',monospace"}}>
+              {label}: {ki?.exists?ki.hint+" · "+ki.len+"ch":"não configurada"}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      {/* Campo OpenAI */}
+      <div style={{marginBottom:9}}>
+        <div style={{color:"#22c55e",fontSize:10,fontFamily:"'JetBrains Mono',monospace",
+          marginBottom:5,display:"flex",alignItems:"center",gap:6}}>
+          <span style={{fontWeight:700}}>OpenAI</span>
+          <span style={{color:"#1e2d3d"}}>GPT-4o / GPT-4o-mini</span>
+          {kiOpenAI?.exists&&!keyOpenAI&&<span style={{color:"#166534",fontSize:9,
+            background:"rgba(34,197,94,0.1)",border:"1px solid #166534",borderRadius:3,padding:"0 4px"}}>✓ salva</span>}
+        </div>
+        <div style={{position:"relative"}}>
+          <input type={showKey?"text":"password"} value={keyOpenAI}
+            onChange={e=>setKeyOpenAI(e.target.value)}
+            placeholder={kiOpenAI?.exists?`Nova (vazio = manter ${kiOpenAI.hint})`:"sk-proj-..."}
+            style={{width:"100%",boxSizing:"border-box",background:"#0f1923",
+              border:"1px solid "+(keyOpenAI?"#0ea5e9":kiOpenAI?.exists?"#166534":"#1e2d3d"),
+              borderRadius:7,color:"#e2e8f0",padding:"8px 40px 8px 12px",
+              fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}/>
+          <button onClick={()=>setShowKey(p=>!p)} style={{position:"absolute",right:9,top:"50%",
+            transform:"translateY(-50%)",background:"none",border:"none",cursor:"pointer",color:"#475569",padding:3}}>
+            {showKey
+              ?<svg width={13} height={13} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94"/><path d="M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+              :<svg width={13} height={13} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>}
+          </button>
+        </div>
+        {keyOpenAI&&<div style={{marginTop:3,fontSize:10,fontFamily:"'JetBrains Mono',monospace",color:"#0ea5e9"}}>
+          ✎ {keyOpenAI.length} chars
+        </div>}
+      </div>
+
+      {/* Campo DeepSeek */}
+      <div>
+        <div style={{color:"#38bdf8",fontSize:10,fontFamily:"'JetBrains Mono',monospace",
+          marginBottom:5,display:"flex",alignItems:"center",gap:6}}>
+          <span style={{fontWeight:700}}>DeepSeek</span>
+          <span style={{color:"#1e2d3d"}}>deepseek-chat / deepseek-reasoner</span>
+          {kiDeepSeek?.exists&&!keyDeepSeek&&<span style={{color:"#0369a1",fontSize:9,
+            background:"rgba(56,189,248,0.1)",border:"1px solid #0369a1",borderRadius:3,padding:"0 4px"}}>✓ salva</span>}
+        </div>
+        <input type={showKey?"text":"password"} value={keyDeepSeek}
+          onChange={e=>setKeyDeepSeek(e.target.value)}
+          placeholder={kiDeepSeek?.exists?`Nova (vazio = manter ${kiDeepSeek.hint})`:"sk-ds-..."}
+          style={{width:"100%",boxSizing:"border-box",background:"#0f1923",
+            border:"1px solid "+(keyDeepSeek?"#0369a1":kiDeepSeek?.exists?"#0369a1":"#1e2d3d"),
+            borderRadius:7,color:"#e2e8f0",padding:"8px 12px",
+            fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}/>
+        {keyDeepSeek&&<div style={{marginTop:3,fontSize:10,fontFamily:"'JetBrains Mono',monospace",color:"#38bdf8"}}>
+          ✎ {keyDeepSeek.length} chars
+        </div>}
+      </div>
+
+      {/* Aviso global: nenhuma chave */}
+      {srvOnline&&!kiOpenAI?.exists&&!kiDeepSeek?.exists&&!keyOpenAI&&!keyDeepSeek&&<div style={{marginTop:9,
+        padding:"8px 12px",background:"rgba(239,68,68,0.07)",border:"1px solid #7f1d1d",borderRadius:7,
+        color:"#f87171",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>
+        ⚠ Nenhuma API key configurada. A tradução não funcionará.
+      </div>}
+    </div>
+
+    {/* Base URL custom */}
+    {modelo==="custom" && <div style={{marginBottom:16}}>
+      <label style={{display:"block",color:"#475569",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+        letterSpacing:"0.12em",marginBottom:7}}>BASE URL</label>
+      <input value={customUrl} onChange={e=>setCustomUrl(e.target.value)} placeholder="https://..."
+        style={{width:"100%",boxSizing:"border-box",background:"#0f1923",border:"1px solid #1e2d3d",
+          borderRadius:7,color:"#e2e8f0",padding:"9px 12px",fontSize:13,
+          fontFamily:"'JetBrains Mono',monospace"}}/>
+    </div>}
+
+    {/* Numéricos */}
+    <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:12,marginBottom:20}}>
+      {[{label:"Lote",key:"lote",val:lote,set:setLote,min:1,max:50},
+        {label:"Temperatura",key:"temp",val:temp,set:setTemp,min:0,max:1,step:0.1},
+        {label:"Timeout (s)",key:"tout",val:tout,set:setTout,min:10,max:300}
+      ].map(f=><div key={f.key}>
+        <label style={{display:"block",color:"#475569",fontSize:11,fontFamily:"'JetBrains Mono',monospace",
+          letterSpacing:"0.12em",marginBottom:7}}>{f.label}</label>
+        <input type="number" value={f.val} min={f.min} max={f.max} step={f.step||1}
+          onChange={e=>f.set(Number(e.target.value))}
+          style={{width:"100%",background:"#0f1923",border:"1px solid #1e2d3d",borderRadius:7,
+            color:"#e2e8f0",padding:"9px 12px",fontSize:13,fontFamily:"'JetBrains Mono',monospace"}}/>
+      </div>)}
+    </div>
+
+    {/* Preview JSON */}
+    <div style={{marginBottom:18,padding:"14px 18px",background:"#0f1923",border:"1px solid #1e2d3d",
+      borderRadius:8,fontFamily:"'JetBrains Mono',monospace",fontSize:12,lineHeight:1.9}}>
+      <div style={{color:"#334155",marginBottom:6}}>// preview config.json</div>
+      <div style={{color:"#4ade80"}}>{"{"}</div>
+      <div style={{paddingLeft:16}}>
+        <div>
+          <span style={{color:"#f59e0b"}}>"api_key"</span>
+          <span style={{color:"#e2e8f0"}}>: </span>
+          {(keyOpenAI||keyDeepSeek)
+            ? <span style={{color:"#0ea5e9"}}>{"\"***"}{(isDeep?keyDeepSeek:keyOpenAI).slice(-4)}{"\""}</span>
+            : keyInfo?.exists
+              ? <><span style={{color:"#4ade80"}}>"{keyInfo.hint}"</span><span style={{color:"#334155",fontSize:10}}> ← salvo</span></>
+              : <span style={{color:"#ef4444"}}>"⚠ não configurada"</span>}
+          <span style={{color:"#475569"}}>,</span>
+        </div>
+        <div><span style={{color:"#f59e0b"}}>"modelo"</span><span style={{color:"#e2e8f0"}}>: </span><span style={{color:"#38bdf8"}}>"{modelo}"</span><span style={{color:"#475569"}}>,</span></div>
+        <div><span style={{color:"#f59e0b"}}>"base_url"</span><span style={{color:"#e2e8f0"}}>: </span><span style={{color:"#38bdf8"}}>"{baseUrl||preset.url}"</span><span style={{color:"#475569"}}>,</span></div>
+        <div><span style={{color:"#f59e0b"}}>"lote_size"</span><span style={{color:"#e2e8f0"}}>: </span><span style={{color:"#c084fc"}}>{lote}</span><span style={{color:"#475569"}}>,</span></div>
+        <div><span style={{color:"#f59e0b"}}>"temperatura"</span><span style={{color:"#e2e8f0"}}>: </span><span style={{color:"#c084fc"}}>{temp}</span><span style={{color:"#475569"}}>,</span></div>
+        <div><span style={{color:"#f59e0b"}}>"timeout"</span><span style={{color:"#e2e8f0"}}>: </span><span style={{color:"#c084fc"}}>{tout}</span></div>
+      </div>
+      <div style={{color:"#4ade80"}}>{"}"}</div>
+    </div>
+
+    {/* Feedback save */}
+    {saveState && <div style={{marginBottom:12,padding:"9px 14px",borderRadius:7,
+      background:saveState==="saving"?"#0c1520":saveState==="ok"?"rgba(34,197,94,0.08)":"rgba(239,68,68,0.08)",
+      border:`1px solid ${saveState==="saving"?"#1e2d3d":saveState==="ok"?"#166534":"#7f1d1d"}`,
+      color:saveState==="saving"?"#64748b":saveState==="ok"?"#4ade80":"#f87171",
+      fontSize:12,fontFamily:"'JetBrains Mono',monospace",display:"flex",alignItems:"center",gap:9}}>
+      {saveState==="saving" && <span style={{display:"inline-block",width:10,height:10,
+        border:"2px solid #475569",borderTopColor:"transparent",borderRadius:"50%",
+        animation:"spin 0.7s linear infinite",flexShrink:0}}/>}
+      {saveMsg}
+    </div>}
+
+    <button onClick={handleSave} disabled={saveState==="saving"}
+      style={{background:saveState==="ok"?"rgba(34,197,94,0.2)":saveState==="err"?"rgba(239,68,68,0.1)":"rgba(34,197,94,0.12)",
+        border:`1px solid ${saveState==="ok"?"#22c55e":saveState==="err"?"#7f1d1d":"#166534"}`,
+        borderRadius:7,padding:"9px 22px",
+        color:saveState==="ok"?"#4ade80":saveState==="err"?"#f87171":"#22c55e",
+        fontSize:13,cursor:saveState==="saving"?"wait":"pointer",fontWeight:600,
+        display:"flex",gap:7,alignItems:"center",opacity:saveState==="saving"?0.6:1}}>
+      <Icon name="check" size={13}/>
+      {saveState==="saving"?"Salvando...":saveState==="ok"?"Salvo! ✓":saveState==="err"?"Erro ao salvar":"Salvar config.json"}
+    </button>
+    <style>{`@keyframes spin{to{transform:rotate(360deg)}}`}</style>
+
+    {/* ── MANUTENÇÃO DO BANCO ── */}
+    <div style={{marginTop:32,paddingTop:24,borderTop:"1px solid #1e2d3d"}}>
+      <div style={{color:"#475569",fontSize:11,letterSpacing:"0.18em",fontFamily:"'JetBrains Mono',monospace",marginBottom:14}}>MANUTENÇÃO</div>
+      <MaintButton srvOnline={srvOnline}/>
+    </div>
+
+  </div>;
+}
+
+function MaintButton({srvOnline}){
+  const [state,setState]=useState(null);
+  const [syncState,setSyncState]=useState(null);
+
+  const run=async()=>{
+    if(!srvOnline){alert("Servidor offline.");return;}
+    setState("running");
+    try{
+      const r=await API.post("/api/revisao/limpar_invalidas",{});
+      setState(r.ok?{ok:true,n:r.limpos}:"error");
+      setTimeout(()=>setState(null),4000);
+    }catch(e){ setState("error"); setTimeout(()=>setState(null),4000); }
+  };
+
+  const runSync=async()=>{
+    if(!srvOnline){alert("Servidor offline.");return;}
+    if(!window.confirm("Sincronizar DB2b com as traduções do DB3?\n\nIsso garante que ao recriar o DB3, nenhuma tradução seja perdida.")) return;
+    setSyncState("running");
+    try{
+      const r=await API.post("/api/db2b/sincronizar",{});
+      setSyncState(r.ok?{ok:true,n:r.atualizados,total:r.total_db3}:"error");
+      setTimeout(()=>setSyncState(null),5000);
+    }catch(e){ setSyncState("error"); setTimeout(()=>setSyncState(null),4000); }
+  };
+
+  const MF="'JetBrains Mono',monospace";
+  return <div style={{display:"flex",flexDirection:"column",gap:12,maxWidth:500}}>
+
+    {/* Importar Patch — mescla DB3 anterior ao criar novo */}
+    <div style={{background:"#060c12",border:"1px solid #1e2d3d",borderRadius:10,padding:"16px 18px"}}>
+      <div style={{color:"#22c55e",fontSize:12,fontFamily:MF,marginBottom:6,fontWeight:600,
+        display:"flex",alignItems:"center",gap:6}}>
+        🔀 Importar Patch (DB3 anterior)
+        <span style={{background:"rgba(34,197,94,.1)",border:"1px solid #166534",color:"#4ade80",
+          fontSize:9,padding:"1px 6px",borderRadius:3,fontWeight:700}}>RECOMENDADO</span>
+      </div>
+      <div style={{color:"#475569",fontSize:11,fontFamily:MF,marginBottom:12,lineHeight:1.6}}>
+        Coloque o DB3 anterior como <code style={{color:"#fbbf24"}}>db3_patch.sqlite</code> na pasta <code style={{color:"#fbbf24"}}>database\</code>.<br/>
+        O sistema mescla: <strong style={{color:"#e2e8f0"}}>DB2b (base PT-BRC)</strong> + <strong style={{color:"#0ea5e9"}}>Patch (seu trabalho)</strong>.<br/>
+        Funciona para qualquer caso: projeto novo, nova versão do jogo ou migração.
+      </div>
+      <button onClick={async()=>{
+        if(!srvOnline){alert("Servidor offline.");return;}
+        if(!window.confirm("Importar patch?\n\nIsso recria o DB3 mesclando DB2b + db3_patch.sqlite.\nUm backup do DB3 atual será criado automaticamente.")) return;
+        setSyncState("running");
+        try{
+          const r=await API.post("/api/db3/importar-patch",{});
+          setSyncState(r.ok?{ok:true,msg:r.msg}:"error");
+          setTimeout(()=>setSyncState(null),8000);
+        }catch(e){setSyncState("error");setTimeout(()=>setSyncState(null),4000);}
+      }} disabled={syncState==="running"||!srvOnline} style={{
+        background:syncState?.ok?"rgba(34,197,94,0.12)":syncState==="error"?"rgba(239,68,68,0.1)":"rgba(34,197,94,0.08)",
+        border:`1px solid ${syncState?.ok?"#166534":syncState==="error"?"#7f1d1d":"#166534"}`,
+        borderRadius:7,padding:"7px 18px",
+        color:syncState?.ok?"#4ade80":syncState==="error"?"#f87171":"#22c55e",
+        fontSize:12,cursor:syncState==="running"?"wait":"pointer",fontFamily:MF,
+        display:"flex",gap:7,alignItems:"center"}}>
+        {syncState==="running"?"⏳ Importando..."
+          :syncState?.ok?`✓ ${syncState.msg}`
+          :syncState==="error"?"✗ Erro"
+          :"🔀 Importar patch agora"}
+      </button>
+    </div>
+
+    {/* Sincronizar DB2b — resolve as 521 strings perdidas */}
+    <div style={{background:"#060c12",border:"1px solid #1e2d3d",borderRadius:10,padding:"16px 18px"}}>
+      <div style={{color:"#38bdf8",fontSize:12,fontFamily:MF,marginBottom:6,fontWeight:600,
+        display:"flex",alignItems:"center",gap:6}}>
+        🔄 Sincronizar DB2b com DB3
+        <span style={{background:"rgba(14,165,233,.1)",border:"1px solid #0369a1",color:"#38bdf8",
+          fontSize:9,padding:"1px 6px",borderRadius:3,fontWeight:700}}>IMPORTANTE</span>
+      </div>
+      <div style={{color:"#475569",fontSize:11,fontFamily:MF,marginBottom:12,lineHeight:1.6}}>
+        Copia as traduções do DB3 de volta para o DB2b.<br/>
+        <span style={{color:"#f97316"}}>Execute ANTES de exportar ou recriar o DB3</span> — 
+        garante que nenhuma das <strong style={{color:"#e2e8f0"}}>521 strings</strong> traduzidas via API seja perdida ao recriar.
+      </div>
+      <button onClick={runSync} disabled={syncState==="running"||!srvOnline} style={{
+        background:syncState?.ok?"rgba(34,197,94,0.12)":syncState==="error"?"rgba(239,68,68,0.1)":"rgba(14,165,233,0.08)",
+        border:`1px solid ${syncState?.ok?"#166534":syncState==="error"?"#7f1d1d":"#0369a1"}`,
+        borderRadius:7,padding:"7px 18px",
+        color:syncState?.ok?"#4ade80":syncState==="error"?"#f87171":"#38bdf8",
+        fontSize:12,cursor:syncState==="running"?"wait":"pointer",fontFamily:MF,
+        display:"flex",gap:7,alignItems:"center"}}>
+        {syncState==="running"?"⏳ Sincronizando..."
+          :syncState?.ok?`✓ ${syncState.n} entradas sincronizadas (${syncState.total} no DB3)`
+          :syncState==="error"?"✗ Erro"
+          :"🔄 Sincronizar agora"}
+      </button>
+    </div>
+
+    {/* Limpar marcações */}
+    <div style={{background:"#060c12",border:"1px solid #1e2d3d",borderRadius:10,padding:"16px 18px"}}>
+      <div style={{color:"#94a3b8",fontSize:12,fontFamily:MF,marginBottom:6,fontWeight:600}}>
+        🧹 Limpar marcações de revisão inválidas
+      </div>
+      <div style={{color:"#475569",fontSize:11,fontFamily:MF,marginBottom:12,lineHeight:1.6}}>
+        Remove <code style={{color:"#f97316"}}>status_revisao</code> de entries ainda não traduzidos.
+      </div>
+      <button onClick={run} disabled={state==="running"||!srvOnline} style={{
+        background:state?.ok?"rgba(34,197,94,0.12)":state==="error"?"rgba(239,68,68,0.1)":"rgba(249,115,22,0.08)",
+        border:`1px solid ${state?.ok?"#166534":state==="error"?"#7f1d1d":"#92400e"}`,
+        borderRadius:7,padding:"7px 18px",
+        color:state?.ok?"#4ade80":state==="error"?"#f87171":"#f97316",
+        fontSize:12,cursor:state==="running"?"wait":"pointer",fontFamily:MF,
+        display:"flex",gap:7,alignItems:"center"}}>
+        {state==="running"?"⏳ Limpando...":state?.ok?`✓ ${state.n} entradas limpas`:state==="error"?"✗ Erro":"🧹 Limpar agora"}
+      </button>
+    </div>
+  </div>;
+}
+
+// ── LOG ───────────────────────────────────────────────────────
+function LogPanel({collapsed,onToggle,logLines}){
+  const ref=useRef();
+  const lines=logLines||MOCK_LOG;
+  useEffect(()=>{if(ref.current)ref.current.scrollTop=ref.current.scrollHeight;},[collapsed,lines]);
+  return <div style={{borderTop:"1px solid #1e2d3d",background:"#04080f",
+    height:collapsed?32:120,transition:"height 0.2s ease",display:"flex",flexDirection:"column",flexShrink:0}}>
+    <div onClick={onToggle} style={{display:"flex",alignItems:"center",gap:9,padding:"7px 18px",
+      cursor:"pointer",borderBottom:collapsed?"none":"1px solid #0a1520",userSelect:"none"}}>
+      <Icon name="log" size={12}/>
+      <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.15em"}}>LOG DO PROCESSO</span>
+      <span style={{flex:1}}/>
+      <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace"}}>{lines.length} linhas</span>
+      <span style={{color:"#1e2d3d",fontSize:10,marginLeft:8}}>{collapsed?"▲":"▼"}</span>
+    </div>
+    {!collapsed&&<div ref={ref} style={{flex:1,overflowY:"auto",padding:"4px 18px 8px"}}>
+      {lines.map((line,i)=><div key={i} style={{
+        color:line.includes("TAGS")?"#f59e0b":line.includes("[ERR]")||line.includes("Erro")?"#f87171":line.includes("Concluído")||line.includes("✓")?"#4ade80":"#334155",
+        fontSize:11,fontFamily:"'JetBrains Mono',monospace",lineHeight:1.65}}>{line}</div>)}
+    </div>}
+  </div>;
+}
+
+// ══════════════════════════════════════════════════════════════
+// APP
+// ══════════════════════════════════════════════════════════════
+function App(){
+  const [screen,setScreen]=useState("pipeline");
+  const [editEntry,setEditEntry]=useState(null);
+  const [logCol,setLogCol]=useState(true);
+  const [entries,setEntries]=useState([]);
+  const [loading,setLoading]=useState(true);
+  const [srvOnline,setSrvOnline]=useState(false);
+  const [dbStatus,setDbStatus]=useState({db1:false,db2:false,db2b:false,db3:false});
+  const [dbStats,setDbStats]=useState({});
+  const [langsDisponiveis,setLangsDisponiveis]=useState(["eng","pt","cht","kor","rus","ukt"]);
+  const [refLang,setRefLang]=useState("cht");
+  const [apiModelo,setApiModelo]=useState("gpt-4o-mini");
+  const [savedToast,setSavedToast]=useState(null);
+  const [logLines,setLogLines]=useState(MOCK_LOG);
+  const [pipeRunning,setPipeRunning]=useState(null);
+  const [tagsSaida,setTagsSaida]=useState({estado:"idle",resultado:null}); // verificador tags PT-BR
+
+  // Carrega dados do servidor ao iniciar
+  useEffect(()=>{
+    (async()=>{
+      try{
+        const st=await API.get("/api/status");
+        setSrvOnline(true);
+        setDbStatus(st.dbs||{});
+        setDbStats(st.stats||{});
+        if(st.langs){
+          // Garante que todos os idiomas com dados no DB2 aparecem no seletor,
+          // mesmo que o servidor não retorne "ukt" por estar sem dados parciais
+          const ALL_LANGS=["eng","pt","cht","kor","rus","ukt","ptbrc"];
+          const statsLangs=st.stats||{};
+          const fromStats=ALL_LANGS.filter(l=>{
+            if(l==="pt") return true; // PT-BR sempre presente
+            if(l==="eng") return true;
+            const key="db2_n_"+l;
+            return (statsLangs[key]||0)>0;
+          });
+          // Une os dois: idiomas do servidor + idiomas confirmados pelos stats
+          const merged=[...new Set([...st.langs,...fromStats])];
+          setLangsDisponiveis(merged);
+        }
+        const cfg=await API.get("/api/config").catch(()=>({}));
+        if(cfg.modelo) setApiModelo(cfg.modelo);
+        const dat=await API.get("/api/entries");
+        setEntries(dat.entries||[]);
+      }catch(e){
+        setSrvOnline(false);
+      }finally{
+        setLoading(false);
+      }
+    })();
+  },[]);
+
+  // Salvar entrada — persiste no banco se servidor online
+  const handleSave=useCallback((id,newPt)=>{
+    const entry=entries.find(e=>e.id===id);
+    // Preserva status_revisao — edição manual NÃO remove marcação de revisão
+    // status_revisao só muda via botão ⚑ (marcar/desmarcar) explícito
+    const revisaoAtual = entry?.status_revisao||"";
+    setEntries(prev=>prev.map(e=>e.id===id
+      ?{...e,pt:newPt,status:"traduzido",tags_ok:1,modelo:"manual",
+        status_revisao:revisaoAtual}
+      :e));
+    setSavedToast(id);
+    setTimeout(()=>setSavedToast(null),2000);
+    if(srvOnline&&entry){
+      API.post("/api/save",{arquivo:entry.arquivo,full_key:entry.full_key,
+        texto_eng:entry.eng||"",texto_ptbr:newPt,modelo_usado:"manual"}).catch(()=>{});
+    }
+  },[srvOnline,entries]);
+
+  // Executar step do pipeline — SSE streaming (log em tempo real)
+  const handlePipeline=useCallback((step,opts={})=>{
+    if(!srvOnline) return Promise.resolve({ok:false,error:"Servidor offline — execute: python servidor.py"});
+    setPipeRunning(step);
+    setLogCol(false);
+    const params=new URLSearchParams({modelo:apiModelo,...Object.fromEntries(
+      Object.entries(opts).filter(([,v])=>v!=null&&v!=="")
+    )});
+    return new Promise((resolve)=>{
+      let es;
+      try{ es=new EventSource(`/api/pipeline/${step}/stream?${params}`); }
+      catch(e){ setPipeRunning(null); resolve({ok:false,error:String(e)}); return; }
+      const RELOAD_STEPS=["traduzir","traduzir_teste","reenviar","traduzir_gpt","traduzir_gpt_teste","reenviar_gpt","traduzir_ds","traduzir_ds_teste","reenviar_ds","extrator","extrator_db2","atualizador","gerador","gerador_dry","gerador_rel"];
+      es.onmessage=(ev)=>{
+        try{
+          const d=JSON.parse(ev.data);
+          if(d.ping) return;  // keep-alive
+          if(d.line) setLogLines(prev=>[...prev,d.line].slice(-500));
+          if(d.done){
+            es.close(); setPipeRunning(null);
+            if(d.returncode===0&&RELOAD_STEPS.includes(step)){
+              setTimeout(()=>{
+                API.get("/api/entries").then(dat=>{
+                  if(dat?.entries){
+                    setEntries(prev=>{
+                      const lm=new Map(prev.map(e=>[e.id,e]));
+                      return dat.entries.map(s=>{
+                        const l=lm.get(s.id);
+                        if(!l) return s;
+                        return {...s,
+                          status_revisao:l.status_revisao||s.status_revisao||"",
+                          modelo:l.modelo==="manual"?"manual":s.modelo||l.modelo||""};
+                      });
+                    });
+                    setSavedToast("reload");
+                    setTimeout(()=>setSavedToast(null),3000);
+                  }
+                }).catch(()=>{});
+              },800);
+              API.get("/api/status").then(st=>{
+                if(st?.dbs)setDbStatus(st.dbs);
+                if(st?.stats)setDbStats(st.stats);
+                if(st?.langs)setLangsDisponiveis(st.langs);
+              }).catch(()=>{});
+            }
+            resolve({ok:d.returncode===0,returncode:d.returncode});
+          }
+        }catch(e){}
+      };
+      es.onerror=()=>{
+        es.close(); setPipeRunning(null);
+        setLogLines(prev=>[...prev,"[ERR] SSE desconectado — verifique se servidor.py está rodando"].slice(-500));
+        resolve({ok:false,error:"SSE error"});
+      };
+    });
+  },[srvOnline,apiModelo]);
+
+  // Salvar config.json via API
+  const handleSaveConfig=useCallback(async(cfg)=>{
+    if(!srvOnline) return false;
+    const r=await API.post("/api/config",cfg).catch(()=>({ok:false}));
+    if(r.ok&&cfg.modelo) setApiModelo(cfg.modelo);
+    return r.ok||false;
+  },[srvOnline]);
+
+  // Marcar/desmarcar revisão humana
+  const handleRevisao=useCallback((id,status_revisao,nota,modelo=null)=>{
+    const entry=entries.find(e=>e.id===id);
+    setEntries(prev=>prev.map(e=>e.id===id?{
+      ...e,status_revisao,nota_revisor:nota,
+      ...(modelo!==null?{modelo}:{})
+    }:e));
+    if(srvOnline&&entry){
+      API.post("/api/revisao/save",{entradas:[{
+        arquivo:entry.arquivo,full_key:entry.full_key,
+        status_revisao,...(modelo!==null?{modelo}:{})
+      }]}).catch(()=>{});
+    }
+  },[srvOnline,entries]);
+
+  // Ref lang topbar — idiomas reais do DB2 (exceto PT-BR que é o alvo)
+  const LANG_LABELS_TOP={"eng":"ENG","cht":"CHT","kor":"KOR","rus":"RUS","ukt":"UKR","ptbrc":"PT-BRC"};
+  const LANG_OPTS=langsDisponiveis.filter(l=>l!=="pt").map(l=>({val:l,label:LANG_LABELS_TOP[l]||l.toUpperCase()}));
+  // API_OPTS: val = modelo, provider define qual script Python é chamado
+  const API_OPTS=[
+    {val:"gpt-4o-mini",      label:"GPT-mini",  color:"#22c55e", provider:"gpt"},
+    {val:"deepseek-chat",    label:"DeepSeek",  color:"#38bdf8", provider:"deepseek"},
+    {val:"gpt-4o",           label:"GPT-4o",    color:"#a78bfa", provider:"gpt"},
+    {val:"google-translate", label:"🌐",        color:"#4ade80", provider:"google"},
+  ];
+  const curApi=API_OPTS.find(a=>a.val===apiModelo)||API_OPTS[0];
+  const nav=[
+    {id:"pipeline",icon:"pipeline",label:"Pipeline"},
+    {id:"viewer",icon:"eye",label:"Visualizar",badge:"revisao"},
+    {id:"problems",icon:"alert",label:"Problemas",badge:"erros"},
+    {id:"menus",icon:"menu_ui",label:"Menus UI"},
+    {id:"export",icon:"export",label:"Exportar"},
+    {id:"settings",icon:"settings",label:"Config"},
+  ];
+
+  if(loading) return <div style={{height:"100vh",background:"#060c12",display:"flex",
+    alignItems:"center",justifyContent:"center",flexDirection:"column",gap:14}}>
+    <div style={{width:34,height:34,border:"3px solid #1e2d3d",borderTopColor:"#0ea5e9",
+      borderRadius:"50%",animation:"spin 0.8s linear infinite"}}/>
+    <span style={{color:"#334155",fontFamily:"'JetBrains Mono',monospace",fontSize:12}}>
+      Conectando ao servidor...
+    </span>
+    <style>{`@keyframes spin{to{transform:rotate(360deg)}}`}</style>
+  </div>;
+
+  const errCount=entries.filter(e=>e.status==="erro").length;
+  const revCount=entries.filter(e=>e.status_revisao==="pendente").length;
+
+  return <div style={{height:"100vh",display:"flex",flexDirection:"column",overflow:"hidden"}}>
+    <style>{`@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}`}</style>
+
+    {/* Banner offline */}
+    {!srvOnline&&<div style={{background:"#1c0a00",borderBottom:"1px solid #7c2d12",
+      padding:"5px 18px",display:"flex",alignItems:"center",gap:12,flexShrink:0}}>
+      <span style={{color:"#f97316",fontSize:12,fontFamily:"'JetBrains Mono',monospace"}}>
+        ⚠ Servidor offline — dados fictícios.
+      </span>
+      <span style={{color:"#7c2d12",fontSize:11,fontFamily:"'JetBrains Mono',monospace"}}>
+        Execute:  python servidor.py  (ou opção [5] no MENU.bat)
+      </span>
+    </div>}
+
+    {/* TOPBAR */}
+    <div style={{height:44,background:"#04080f",borderBottom:"1px solid #1e2d3d",
+      display:"flex",alignItems:"center",padding:"0 16px",gap:10,flexShrink:0}}>
+      {/* Logo */}
+      <div style={{display:"flex",alignItems:"center",gap:8}}>
+        <div style={{width:26,height:26,background:"linear-gradient(135deg,#0ea5e9,#6366f1)",
+          borderRadius:7,display:"flex",alignItems:"center",justifyContent:"center",
+          fontSize:12,fontWeight:700,color:"white"}}>L</div>
+        <span style={{color:"#f1f5f9",fontWeight:700,fontSize:14}}>LonaRPG</span>
+        <span style={{color:"#1e2d3d"}}>·</span>
+        <span style={{color:"#334155",fontSize:13}}>Translator PT-BR</span>
+      </div>
+      <div style={{width:1,height:22,background:"#1e2d3d"}}/>
+      {/* DB status real */}
+      <div style={{display:"flex",gap:8}}>
+        {[{k:"db1",l:"DB1"},{k:"db2",l:"DB2"},{k:"db2b",l:"DB2b"},{k:"db3",l:"DB3"}].map(d=>
+          <div key={d.k} style={{display:"flex",alignItems:"center",gap:4}}>
+            <span style={{width:6,height:6,borderRadius:"50%",display:"block",
+              background:srvOnline?(dbStatus[d.k]?"#22c55e":"#4b5563"):"#4b5563",
+              boxShadow:srvOnline&&dbStatus[d.k]?"0 0 5px #22c55e":"none"}}/>
+            <span style={{color:srvOnline&&dbStatus[d.k]?"#334155":"#4b5563",fontSize:11,
+              fontFamily:"'JetBrains Mono',monospace"}}>{d.l}</span>
+          </div>)}
+      </div>
+      <div style={{flex:1}}/>
+      {/* API pills */}
+      <div style={{display:"flex",alignItems:"center",gap:5}}>
+        <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.1em"}}>API</span>
+        {API_OPTS.map(a=>{const ac=apiModelo===a.val;return <button key={a.val} onClick={()=>setApiModelo(a.val)} style={{
+          padding:"3px 8px",borderRadius:5,fontSize:11,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace",fontWeight:ac?700:400,
+          background:ac?`${a.color}18`:"transparent",
+          border:ac?`1px solid ${a.color}55`:"1px solid transparent",
+          color:ac?a.color:"#475569",transition:"all 0.12s"}}>{a.label}</button>;})}
+      </div>
+      <div style={{width:1,height:22,background:"#1e2d3d"}}/>
+      {/* Ref lang pills */}
+      <div style={{display:"flex",alignItems:"center",gap:5}}>
+        <span style={{color:"#334155",fontSize:10,fontFamily:"'JetBrains Mono',monospace",letterSpacing:"0.1em"}}>Ref</span>
+        {LANG_OPTS.filter(l=>l.val!=="pt").map(l=>{const ac=refLang===l.val;return <button key={l.val} onClick={()=>setRefLang(l.val)} style={{
+          padding:"3px 7px",borderRadius:5,fontSize:11,cursor:"pointer",
+          fontFamily:"'JetBrains Mono',monospace",fontWeight:ac?700:400,
+          background:ac?"#0ea5e918":"transparent",
+          border:ac?"1px solid #0ea5e955":"1px solid transparent",
+          color:ac?"#0ea5e9":"#475569",transition:"all 0.12s"}}>{l.label}</button>;})}
+      </div>
+      <div style={{width:1,height:22,background:"#1e2d3d"}}/>
+      {/* Indicador servidor */}
+      <div style={{display:"flex",alignItems:"center",gap:5}}>
+        <span style={{width:7,height:7,borderRadius:"50%",display:"block",
+          background:srvOnline?"#22c55e":"#ef4444",
+          boxShadow:srvOnline?"0 0 6px #22c55e":"none",
+          animation:pipeRunning?"pulse 1s infinite":undefined}}/>
+        <span style={{color:srvOnline?"#334155":"#7f1d1d",fontSize:10,
+          fontFamily:"'JetBrains Mono',monospace"}}>
+          {pipeRunning?"executando...":srvOnline?"servidor":"offline"}
+        </span>
+      </div>
+    </div>
+
+    {/* BODY */}
+    <div style={{flex:1,display:"flex",overflow:"hidden"}}>
+      {/* SIDEBAR */}
+      <div style={{width:54,background:"#04080f",borderRight:"1px solid #1e2d3d",
+        display:"flex",flexDirection:"column",alignItems:"center",padding:"10px 0",gap:3,flexShrink:0}}>
+        {nav.map(item=><button key={item.id} onClick={()=>setScreen(item.id)} title={item.label}
+          style={{width:38,height:38,borderRadius:9,border:"none",
+            background:screen===item.id?"#0f1923":"transparent",
+            color:screen===item.id?"#0ea5e9":"#334155",cursor:"pointer",position:"relative",
+            display:"flex",alignItems:"center",justifyContent:"center"}}>
+          <Icon name={item.icon} size={16}/>
+          {item.badge==="erros"&&errCount>0&&<span style={{position:"absolute",top:6,right:6,
+            width:7,height:7,borderRadius:"50%",background:"#ef4444",border:"1.5px solid #04080f"}}/>}
+          {item.badge==="revisao"&&revCount>0&&<span style={{position:"absolute",top:6,right:6,
+            width:7,height:7,borderRadius:"50%",background:"#f97316",border:"1.5px solid #04080f"}}/>}
+          {screen===item.id&&<span style={{position:"absolute",left:0,top:"22%",bottom:"22%",
+            width:2,borderRadius:"0 2px 2px 0",background:"#0ea5e9"}}/>}
+          {pipeRunning&&item.id==="pipeline"&&<span style={{position:"absolute",top:6,right:6,
+            width:7,height:7,borderRadius:"50%",background:"#f59e0b",border:"1.5px solid #04080f",
+            animation:"pulse 1s infinite"}}/>}
+        </button>)}
+      </div>
+
+      {/* CONTEÚDO */}
+      <div style={{flex:1,display:"flex",flexDirection:"column",overflow:"hidden"}}>
+        <div style={{flex:1,overflow:"hidden"}}>
+          {screen==="pipeline"&&<PipelineScreen entries={entries} srvOnline={srvOnline} dbStatus={dbStatus} dbStats={dbStats} onPipeline={handlePipeline} pipeRunning={pipeRunning} setPipeRunning={setPipeRunning} apiModelo={apiModelo} apiOpts={API_OPTS} setDbStatus={setDbStatus} setDbStats={setDbStats} setLangsDisponiveis={setLangsDisponiveis} setEntries={setEntries} langsDisponiveis={langsDisponiveis} refLang={refLang} tagsSaida={tagsSaida} setTagsSaida={setTagsSaida} onNavProblems={()=>setScreen("problems")}/>}
+          {screen==="viewer"&&<ViewerScreen onEdit={setEditEntry} entries={entries} setEntries={setEntries} onPipeline={handlePipeline} langs={langsDisponiveis} srvOnline={srvOnline} dbStatus={dbStatus} setDbStatus={setDbStatus} setDbStats={setDbStats} setLangsDisponiveis={setLangsDisponiveis} apiModelo={apiModelo} apiOpts={API_OPTS} refLang={refLang}/>}
+          {screen==="problems"&&<ProblemsScreen onEdit={setEditEntry} entries={entries} langs={langsDisponiveis} onPipeline={handlePipeline} apiModelo={apiModelo} apiOpts={API_OPTS} srvOnline={srvOnline} pipeRunning={pipeRunning} setEntries={setEntries} setDbStats={setDbStats} setDbStatus={setDbStatus} setLangsDisponiveis={setLangsDisponiveis} tagsSaida={tagsSaida} setTagsSaida={setTagsSaida}/>}
+          {screen==="menus"&&<MenuScreen onEdit={setEditEntry} entries={entries}/>}
+          {screen==="export"&&<ExportScreen entries={entries} srvOnline={srvOnline} onPipeline={handlePipeline} pipeRunning={pipeRunning}/>}
+          {screen==="settings"&&<SettingsScreen apiModelo={apiModelo} onApiModelo={setApiModelo} srvOnline={srvOnline} onSaveConfig={handleSaveConfig}/>}
+        </div>
+        <LogPanel collapsed={logCol} onToggle={()=>setLogCol(p=>!p)} logLines={logLines}/>
+      </div>
+    </div>
+
+    {editEntry&&<EditorModal key={editEntry.id} entry={editEntry} refLang={refLang} onClose={()=>setEditEntry(null)} onSave={handleSave} onRevisao={handleRevisao} onPipeline={handlePipeline} apiModelo={apiModelo} apiOpts={API_OPTS}/>}
+
+    {savedToast&&<div style={{position:"fixed",bottom:48,left:"50%",transform:"translateX(-50%)",
+      background:"#0d2d1a",border:"1px solid #166534",borderRadius:8,
+      padding:"9px 20px",color:"#4ade80",fontSize:12,fontFamily:"'JetBrains Mono',monospace",
+      zIndex:300,boxShadow:"0 4px 20px rgba(0,0,0,0.5)",display:"flex",gap:7,alignItems:"center"}}>
+      <Icon name="check" size={13}/>
+      {savedToast==="reload"?"✓ Entries atualizados":srvOnline?"✓ Salvo":"Salvo offline"}
+    </div>}
+  </div>;
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>

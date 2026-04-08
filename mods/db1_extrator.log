@@ -1,0 +1,1784 @@
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\ENG\Translate Lona\ramificação\CHT
+  Arquivos  : 140
+  DB        : F:\ENG\Translate Lona\ramificação\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\ENG\Translate Lona\ramificação\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\ENG\Translate Lona\ramificação\CHT
+  Arquivos  : 140
+  DB        : F:\ENG\Translate Lona\ramificação\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\ENG\Translate Lona\ramificação\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+
+  BossRushPicker.txt                             cod:   0  dlg:   5
+  common.txt                                     cod:   8  dlg: 314
+  commonCommands.txt                             cod:   2  dlg: 113
+  commonComp.txt                                 cod:   1  dlg: 166
+  commonEnding.txt                               cod:   4  dlg:  75
+  commonH.txt                                    cod:  14  dlg: 920
+  commonNPC.txt                                  cod:   4  dlg: 251
+  CompAdam.txt                                   cod:   0  dlg:  17
+  CompCecily.txt                                 cod:   3  dlg: 118
+  CompCocona.txt                                 cod:   3  dlg: 352
+  CompDavidBorn.txt                              cod:   0  dlg:  28
+  CompDedOne.txt                                 cod:   0  dlg:  21
+  CompElise.txt                                  cod:   0  dlg: 124
+  CompGrayRat.txt                                cod:   2  dlg:  22
+  CompLisa.txt                                   cod:   1  dlg: 166
+  CompMilo.txt                                   cod:   0  dlg:  32
+  CompPigBobo.txt                                cod:   0  dlg:  31
+  CompSeaWitch.txt                               cod:   0  dlg:  67
+  CompTeller.txt                                 cod:   0  dlg:  68
+  DataACH.txt                                    cod:   0  dlg: 148
+  DataEquip.txt                                  cod:   3  dlg: 185
+  DataInput.txt                                  cod:   0  dlg:  37
+  DataItem.txt                                   cod:   4  dlg: 430
+  DataNpcName.txt                                cod:   6  dlg: 102
+  DataRelay.txt                                  cod:   0  dlg:   9
+  DataSkill.txt                                  cod:   6  dlg: 166
+  DataState.txt                                  cod:   2  dlg: 254
+  DataTitle.txt                                  cod:   0  dlg:  33
+  debug.txt                                      cod:   7  dlg:   1
+  mail/DarkPot.txt                               cod:   0  dlg:   9
+  mail/DedSolderLog.txt                          cod:   0  dlg:  15
+  mail/DesertIsland1.txt                         cod:   0  dlg:   3
+  mail/DoomFarmA.txt                             cod:   0  dlg:   6
+  mail/DoomFortress.txt                          cod:   0  dlg:   6
+  mail/EliseResearch.txt                         cod:   0  dlg:   9
+  mail/FeiraSewerLog.txt                         cod:   0  dlg:   3
+  mail/GoblinCave.txt                            cod:   0  dlg:  21
+  mail/GodInfo.txt                               cod:   0  dlg:   3
+  mail/MiloInvite.txt                            cod:   0  dlg:   6
+  mail/NoerCatacombB1.txt                        cod:   0  dlg:  18
+  mail/NotrhFL.txt                               cod:   0  dlg:   3
+  mail/PenisTribe.txt                            cod:   0  dlg:   3
+  mail/PirateBaneMails.txt                       cod:   0  dlg:   3
+  mail/QuestMercenary.txt                        cod:   0  dlg:   9
+  mail/SMCloudVillage.txt                        cod:   0  dlg:   3
+  mail/SybMails.txt                              cod:   0  dlg:   6
+  mail/TextLog.txt                               cod:   9  dlg:   0
+  mail/Tutorial.txt                              cod:   0  dlg:  15
+  MainTownSewer.txt                              cod:   1  dlg:  35
+  menu.txt                                       cod:   1  dlg: 276
+  menuMod.txt                                    cod:  10  dlg:   7
+  NFL_BridgeBunker.txt                           cod:   5  dlg:  31
+  OvermapEvents.txt                              cod:   1  dlg: 223
+  OvermapNoer.txt                                cod:   1  dlg:  37
+  QuickMsg.txt                                   cod:   5  dlg: 165
+  TagMapAbanHouse1.txt                           cod:   0  dlg:  22
+  TagMapAbanHouse2.txt                           cod:   0  dlg:  24
+  TagMapAbanHouse3.txt                           cod:   0  dlg:  27
+  TagMapAriseVillage.txt                         cod:   0  dlg:  57
+  TagMapB4CampOrkind.txt                         cod:   0  dlg:  10
+  TagMapBanditCamp1.txt                          cod:   0  dlg:  79
+  TagMapBanditCamp2.txt                          cod:   0  dlg:  56
+  TagMapBank.txt                                 cod:   0  dlg:  20
+  TagMapBC2_SideQu.txt                           cod:   0  dlg:  39
+  TagMapBoardSwordCave.txt                       cod:   0  dlg:  12
+  TagMapCargoSaveCecily.txt                      cod:   1  dlg:  47
+  TagMapCecilyHijack.txt                         cod:   0  dlg:  85
+  TagMapDesertIsland1.txt                        cod:   0  dlg:  38
+  TagMapDfRefugeeCamp.txt                        cod:   0  dlg:  47
+  TagMapDfWaterCave.txt                          cod:   0  dlg: 119
+  TagMapDoomArmory.txt                           cod:   0  dlg:  20
+  TagMapDoomFarmA.txt                            cod:   4  dlg: 103
+  TagMapDoomFortEastCP.txt                       cod:   0  dlg:  18
+  TagMapDoomFortress.txt                         cod:   1  dlg: 144
+  TagMapFishBeach.txt                            cod:   0  dlg:  24
+  TagMapFishCeramic.txt                          cod:   0  dlg:  19
+  TagMapFishEscPT.txt                            cod:   0  dlg:   4
+  TagMapFishEscSlave.txt                         cod:   0  dlg:  28
+  TagMapFishkindCave1B2.txt                      cod:   0  dlg:   8
+  TagMapFishTempleOut.txt                        cod:   0  dlg:   3
+  TagMapFishTown.txt                             cod:   1  dlg: 104
+  TagMapFishTownInn.txt                          cod:   0  dlg:  46
+  TagMapFishTownLeather.txt                      cod:   0  dlg:   8
+  TagMapFishTownT.txt                            cod:   0  dlg:   4
+  TagMapHumanPrisonCave.txt                      cod:   2  dlg: 113
+  TagMapMT_crunch.txt                            cod:   0  dlg:  37
+  TagMapNFL_BatHive.txt                          cod:   0  dlg:  26
+  TagMapNFL_MerCamp.txt                          cod:   0  dlg:  41
+  TagMapNFL_OrkCamp2.txt                         cod:   0  dlg:  41
+  TagMapNoerArena.txt                            cod:   0  dlg: 148
+  TagMapNoerArenaB1.txt                          cod:   2  dlg:  34
+  TagMapNoerBackStreet.txt                       cod:   2  dlg: 124
+  TagMapNoerBSS.txt                              cod:   0  dlg:  10
+  TagMapNoerCatacomb.txt                         cod:   0  dlg:  23
+  TagMapNoerCatacombB1.txt                       cod:   0  dlg:  53
+  TagMapNoerDock.txt                             cod:   0  dlg:  77
+  TagMapNoerDockC1.txt                           cod:   0  dlg:   2
+  TagMapNoerEastCp.txt                           cod:   0  dlg:  55
+  TagMapNoerEliseGynecology.txt                  cod:   3  dlg:  62
+  TagMapNoerGangBase.txt                         cod:   0  dlg:   4
+  TagMapNoerGarrisonIn.txt                       cod:   0  dlg:   1
+  TagMapNoerGoldenBar.txt                        cod:   1  dlg:  42
+  TagMapNoerMarket.txt                           cod:   0  dlg:  25
+  TagMapNoerMobHouse.txt                         cod:   0  dlg:  34
+  TagMapNoerPrison.txt                           cod:   0  dlg:  43
+  TagMapNoerRecRoom.txt                          cod:   0  dlg:  15
+  TagMapNoerRelay.txt                            cod:   0  dlg:  13
+  TagMapNoerRelayOut.txt                         cod:   0  dlg:  59
+  TagMapNoerRing.txt                             cod:   0  dlg:  15
+  TagMapNoerTavern.txt                           cod:   0  dlg:  69
+  TagMapNoerTavernQuest.txt                      cod:   0  dlg:  61
+  TagMapNoerTransHouse.txt                       cod:   1  dlg:  41
+  TagMapNorthFL.txt                              cod:   0  dlg:  43
+  TagMapNorthFL_Dock.txt                         cod:   0  dlg:  20
+  TagMapNorthFL_INN.txt                          cod:   1  dlg:  75
+  TagMapPB_FishCampA.txt                         cod:   0  dlg:  69
+  TagMapPB_GobForest.txt                         cod:   0  dlg:  13
+  TagMapPB_MassGrave.txt                         cod:   0  dlg:   5
+  TagMapPB_NorthCP.txt                           cod:   1  dlg:  17
+  TagMapPenisTribe.txt                           cod:   0  dlg:  36
+  TagMapPirateBane.txt                           cod:   0  dlg:  29
+  TagMapRabbitCave.txt                           cod:   0  dlg:  22
+  TagMapRandAbomHive.txt                         cod:   0  dlg:   8
+  TagMapRandFishkindCave.txt                     cod:   0  dlg:  13
+  TagMapRandOrkindCave.txt                       cod:   0  dlg:  22
+  TagMapSaintMonastery.txt                       cod:   1  dlg: 130
+  TagMapSaintMonasteryB1.txt                     cod:   0  dlg:  31
+  TagMapScoutCampOrkind.txt                      cod:   0  dlg:  15
+  TagMapSMCloudVillage.txt                       cod:   0  dlg:  67
+  TagMapSMRefugeeCamp.txt                        cod:   0  dlg:  65
+  TagMapSouthFL.txt                              cod:   1  dlg: 120
+  TagMapSouthFL_Warfare.txt                      cod:   0  dlg:  12
+  TagMapSpawnPoolE.txt                           cod:   0  dlg:  23
+  TagMapSpawnPoolR.txt                           cod:   0  dlg:  16
+  TagMapSwampRDK1.txt                            cod:   0  dlg:  16
+  TagMapSyb_WarBossRoom.txt                      cod:   1  dlg:  63
+  TagMapSybBarn.txt                              cod:   0  dlg:  23
+  TagMapSybFDgate.txt                            cod:   0  dlg:  15
+  TagMapTribeForest.txt                          cod:   1  dlg:  18
+  TagMapTutorialOP.txt                           cod:   1  dlg:  47
+
+==============================================================
+  CONCLUIDO
+  Arquivos             : 140
+  tipo=codigo          : 128  <- codigo do motor (texto copiado)
+  tipo=dialogo         : 8686  <- marcadores para o DB2
+  DB salvo             : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+==============================================================
+
+
+==============================================================
+  DB1 - EXTRACAO DE ESTRUTURA
+  Fonte: CHT -> F:\LonaRPG\Text\CHT
+  Arquivos  : 140
+  DB        : F:\LonaRPG\Text\mods\database\db1_estrutura.sqlite
+
+  Regra aplicada:
+    texto CHT sem chines  ->  tipo='codigo'   (copia texto)
+    texto CHT com chines  ->  tipo='dialogo'  (texto=NULL)
+==============================================================
+

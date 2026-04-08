@@ -1,0 +1,11 @@
+{
+  "api_key": "",
+  "api_key_openai": "",
+  "api_key_deepseek": "",
+  "modelo": "gpt-4o-mini",
+  "base_url": "https://api.openai.com/v1/chat/completions",
+  "lote_size": 20,
+  "temperatura": 0.3,
+  "timeout": 60,
+  "max_retries": 3
+}
